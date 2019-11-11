@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 20px;
+}
+.home p 
+{
+  margin-top: 5%;
+  font-size: 30px;
+  width: 80%;
+  text-align: justify;
+  margin-left: 5%;
+}
+
+.home p span
+{
+  color: rgb(123, 230, 114);
+  font-size: 34px;
+  font-weight: bold;
+}
