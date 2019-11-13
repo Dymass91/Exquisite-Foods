@@ -1,10 +1,26 @@
 import React from 'react';
 import Article from '../components/Article';
+import imgtown from '../images/town.jpg';
+import olives2 from '../images/olives2.jpg';
 
 const HomePage = () => {
     return (
         <div className="home">
-            <p><span>Exquisite Foods</span> proudly presents our ORGANIC Olive Oil, handpicked from andalucia region in Spain, grown using only natural fertilezer and without using chemicals or herbicides, extracted only by mechanical procedures. Our olive oil is made from two varieties which experts consider to be the best in the world, 'Lechin' from Sevilla and 'Manzanilla' from Cadiz. Our trees have bathed under the andalucian sun over centuries and their olives are harvested as our grandparents traditionally did by HANDPICKING, helping to maintain their fragance and flacour. With its delicious CREAMY TASTE and versality is perfect to combined with salads, fish, meat and any hot/cold meal. it is important to store it away from direct source of heat and light.</p>
+            <p><span>Exquisite Foods</span> Our company
+Algodonales, a village belonging to the route of the "white villages", is located in the Sierra de Cadiz and more specifically the edge of the Sierra de Lijar,<img className="townimg" src={imgtown} alt="miasto" /> known for its suitability for air sports such as hang gliding and paragliding.
+                
+                The lands of the village are primarily engaged in agriculture and the most important is the olive crop. The most common variety is the "Lechin of Seville."
+                
+                
+                                The olive growers in the nearby town of Zahara de la Sierra,  provide us with the bulk of olives, being the predominant variety "Manzanillo".
+                
+                                And from the nearby town of the Gastor, we also incorporate most of its olive production from partners we have in this town, being the most important variety also "Lechin".
+                                <img className="olives2" src={olives2} />
+                                We count with an area of almost 6,000 hectares belonging to the villages mentioned above, also most farmers in the town of Grazalema deliver their production to the oil mill.
+
+                Experts say that mixing olives of the Lechín and Manzanilla variety, we can produce one of the best oils in the world.
+
+Knowing this, in S.C.A. Nuestra Señora del Rosario, we made a great economic effort to have the latest technology, so we can produce and package our quality oils for our customers all around the world.</p>
         </div>
     );
 }
