@@ -1,0 +1,16 @@
+.Benefits__article p
+{
+    margin-top: 5%;
+  font-size: 30px;
+  width: calc(95% - 240px);
+  margin-left: 5%;
+  text-align: justify;
+}
+
+h1
+{
+    margin-top: 4%;
+    font-size: 40px;
+    margin-left: 50%;
+    transform: translateX(-35%);
+}
