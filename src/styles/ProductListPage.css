@@ -1,14 +1,18 @@
 .products h2 {
-    margin-bottom: 20px;
+    margin-top: 4%;
+    margin-bottom: 6%;
+    font-size: 40px;
+    margin-left: 50%;
+    transform: translateX(-35%);
 }
 
 .products ul {
     list-style: square;
-    padding-left: 30px;
+    padding-left: 60px;
 }
 
 .products li {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .products a {
     text-decoration: none;

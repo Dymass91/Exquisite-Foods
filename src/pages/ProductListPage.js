@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import "../styles/ProductListPage.css";
 
-const products = ["car", "bike", "motocylce"]
+const products = ["Ecological olives oil", "Extra virgin olives oil", "Pistacious"]
 
 const ProductListPage = () => {
 
