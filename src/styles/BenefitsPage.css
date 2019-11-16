@@ -1,6 +1,7 @@
 .Benefits__article p
 {
     margin-top: 5%;
+    margin-bottom: 10%;
   font-size: 30px;
   width: calc(95% - 240px);
   margin-left: 5%;
@@ -11,6 +12,17 @@ h1
 {
     margin-top: 4%;
     font-size: 40px;
-    margin-left: 50%;
-    transform: translateX(-35%);
+    margin-left: 5%;
+   
+}
+.benefitsimg
+{
+position: relative;
+width: 450px;
+height: 300px;
+float: right;
+shape-outside: margin-box;
+margin: 30px 0px 30px 90px;
+shape-outside: circle(50%);
+border-radius: 20%;
 }

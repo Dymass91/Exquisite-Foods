@@ -36,10 +36,10 @@ class ContactPage extends React.Component {
 
             <div className="contact">
                 <form onSubmit={this.handleSubmit}>
-                    <h3>Napisz do nas</h3>
-                    <textarea value={this.state.value} onChange={this.handleChange} placeholder="Wpisz wiadomosc...">
+                    <h3>Contact us</h3>
+                    <textarea value={this.state.value} onChange={this.handleChange} placeholder="You can place your order here...">
                     </textarea>
-                    <button>Wyślij</button>
+                    <button>Send</button>
                 </form>
                 <Prompt
                     when={!this.state.isEmpty}

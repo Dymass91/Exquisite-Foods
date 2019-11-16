@@ -1,9 +1,12 @@
+.products
+{
+    min-height: 50vh;
+}
 .products h2 {
     margin-top: 4%;
     margin-bottom: 6%;
     font-size: 40px;
-    margin-left: 50%;
-    transform: translateX(-35%);
+    margin-left: 5%;
 }
 
 .products ul {
