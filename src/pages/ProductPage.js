@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Product from '../components/Product'
+import EcoOliveOil from '../pages/EcoOliveOil'
+import ExtVirOliveOil from '../pages/ExtVirOliveOil'
 
 const ProductPage = ({ match }) => {
 

@@ -1,0 +1,67 @@
+.Oil__Eco__five
+{
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  font-size: 30px;
+  width: calc(95% - 240px);
+  margin-left: 5%;
+  text-align: justify;
+  box-sizing: border-box;
+}
+div .Oil__Eco__four
+{
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  font-size: 30px;
+  width: calc(95% - 240px);
+  margin-left: 5%;
+  text-align: justify;
+  box-sizing: border-box;
+}
+.Oil__Eco__five h1 
+{
+    margin-bottom: 5%;
+    margin-left: 0;
+}
+.Oil__Eco__four h1 
+{
+    margin-bottom: 5%;
+    margin-left: 0;
+}
+.Oil__Eco__five h1 p
+{
+    margin-bottom: 5%;
+    margin-left: 0;
+}
+.Oil__Eco__five div { 
+    
+    margin-top: 30px;
+}
+
+.Oil__Eco__five div h3{ 
+
+    margin-bottom: 12px;
+}
+div .Oil__Eco__four h3{ 
+
+    margin-bottom: 12px;
+}
+div .Oil__Eco__four div 
+{
+    margin-top: 6.5%;
+    margin-bottom: 0px;
+}
+
+
+.Oil__Five__img
+{
+    position: relative;
+height: 230px;
+float: left;
+shape-outside: margin-box;
+margin-right: 5%;
+shape-outside: content-box();
+box-shadow: 0px 0px 10px 2px rgb(43, 43, 43);
+}

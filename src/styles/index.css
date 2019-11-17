@@ -11,6 +11,7 @@ html {
 .home p 
 {
   margin-top: 5%;
+  margin-bottom: 5%;
   font-size: 30px;
   width: calc(95% - 240px);
   margin-left: 5%;

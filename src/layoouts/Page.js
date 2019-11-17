@@ -8,7 +8,8 @@ import AdminPage from '../pages/AdminPage';
 import ContactPage from '../pages/ContactPage';
 import ErrorPage from '../pages/ErrorPage';
 import LoginPage from '../pages/LoginPage';
-
+import EcoOlive from '../pages/EcoOliveOil';
+import ExtOlive from '../pages/ExtVirOliveOil';
 const Page = () => {
     return (
         <>
@@ -19,6 +20,8 @@ const Page = () => {
                 <Route path="/Admin" component={AdminPage} />
                 <Route path="/login" component={LoginPage} />
                 <Route path="/Contact" component={ContactPage} />
+                <Route path="/EcoOlive" component={EcoOlive} />
+                <Route path="/ExtOlive" component={ExtOlive} />
                 <Route path="/" component={ErrorPage} />
             </Switch>
         </>

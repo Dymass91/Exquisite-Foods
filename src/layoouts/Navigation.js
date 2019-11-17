@@ -4,7 +4,8 @@ import "../styles/Navigation.css";
 
 const list = [
     { name: "Home Page", path: "/", exact: true },
-    { name: "Products", path: "/products" },
+    { name: "Ecological olive oil", path: "/EcoOlive" },
+    { name: "Extra virgin olive oil", path: "/ExtOlive" },
     { name: "Health Benefits", path: "/admin" },
     { name: "Contact", path: "/contact" },
 
