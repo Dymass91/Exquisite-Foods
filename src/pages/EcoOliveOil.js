@@ -16,9 +16,9 @@ const BenefitsPage = () => {
     
     
     <div>
-   <h3>Format: Box of 4 bottles</h3> 
+   <h4>Format: Box of 4 bottles</h4> 
     
-    <h3>Price: Ask about</h3>
+    <h4>Price: Ask about</h4>
     </div>
     </p>
     </div>
@@ -32,9 +32,9 @@ const BenefitsPage = () => {
     
   
     <div>
-    <h3>Format: Box of 15 bottles</h3> 
+    <h4>Format: Box of 15 bottles</h4> 
     
-    <h3>Price: Ask about</h3>
+    <h4>Price: Ask about</h4>
     </div>
 </p>
         </div >

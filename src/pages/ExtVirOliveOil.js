@@ -1,41 +1,57 @@
 import React from 'react';
-import "../styles/BenefitsPage.css";
-import benefitsimg from '../images/benefitsimg.jpg';
-import olej5l from '../images/olej5l.jpg';
-import olej4l from '../images/olej4_5.jpg';
+import "../styles/ExtOliveOil.css";
+import olejcan from '../images/olejcan.jpg';
+import extravirginoil from '../images/Extravirginoil.jpg';
+import extravirginoilsmall from '../images/Extravirginoilsmall.jpg';
 
 
 const BenefitsPage = () => {
     return (
         <>
-        <div className="Oil__Eco__five">
-            <h1>Ecological olive oil - 5 litres</h1>
+        <div className="Oil__Ext__five__can">
+            <h1>Extra virgin oil - 5 litres can</h1>
            
-            <img className="Oil__Five__img" src={olej5l}  /> <p>
+            <img className="Oil__ext__img" src={olejcan}  /> <p>
             
-     This oil has been extracted from olives grown in olive trees cultivated whith  natural fertilizers, without using any chemical herbicides.
+            Can of 5 liters of oil with denomination of origin "Sierra de Cádiz". This modern format stands out for its convenience and ease of use and storage, and for the denomination of origin "Sierra de Cádiz".
     
     
     <div>
-   <h3>Format: Box of 4 bottles</h3> 
+   <h4>Format: Box of 6 cans</h4> 
     
-    <h3>Price: Ask about</h3>
+    <h4>Price: Ask about</h4>
     </div>
     </p>
     </div>
     
-    <div className="Oil__Eco__four">
-    <h1>Ecological olive oil - 3/4 litre</h1>
-    <img className="Oil__Five__img" src={olej4l}  /> 
+    <div className="Oil__Ext__five__bottle">
+    <h1>Extra virgin oil - 5 litres</h1>
+    <img className="Oil__ext__img" src={extravirginoil}  /> 
     <p>
   
-    A totally natural oil, packed in the best package of all time, the glass, to keep all its fragrance and flavor.
+    5 liter bottle of extra virgin olive oil. Probably, this is the format preferred by housewives, because it is the cheapest and also because it has more quantity.
     
   
     <div>
-    <h3>Format: Box of 15 bottles</h3> 
+    <h4>Format: Box of 4 bottles</h4> 
     
-    <h3>Price: Ask about</h3>
+    <h4>Price: Ask about</h4>
+    </div>
+</p>
+        </div >
+
+        <div className="Oil__Ext__four__bottle">
+    <h1>Extra virgin oil - 3/4 litres</h1>
+    <img className="Oil__ext__img" src={extravirginoilsmall}  /> 
+    <p>
+  
+    Our flagship product, packaged in the best package of all time, the glass, to keep all its fragrance and flavor. Specially manufactured, packaged raw (unfiltered) to satisfy the most demanding palates.
+    
+  
+    <div>
+    <h4>Format: Box of 15 bottles.</h4> 
+    
+    <h4>Price: Ask about</h4>
     </div>
 </p>
         </div >

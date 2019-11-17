@@ -1,0 +1,98 @@
+.Oil__Ext__five__can
+{
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  font-size: 30px;
+  width: calc(95% - 240px);
+  margin-left: 5%;
+  text-align: justify;
+  box-sizing: border-box;
+}
+.Oil__Ext__five__bottle
+{
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  font-size: 30px;
+  width: calc(95% - 240px);
+  margin-left: 5%;
+  text-align: justify;
+  box-sizing: border-box;
+}
+div .Oil__Ext__four__bottle
+{
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  font-size: 30px;
+  width: calc(95% - 240px);
+  margin-left: 5%;
+  text-align: justify;
+  box-sizing: border-box;
+}
+.Oil__Ext__five__bottle h1 
+{
+    margin-bottom: 5%;
+    margin-left: 0;
+}
+.Oil__Ext__four__bottle  h1 
+{
+    margin-bottom: 5%;
+    margin-left: 0;
+}
+.Oil__Ext__five__can  h1 
+{
+    margin-bottom: 5%;
+    margin-left: 0;
+}
+
+.Oil__Ext__five div { 
+    
+    margin-top: 30px;
+}
+
+.Oil__Ext__five div h4{ 
+
+    margin-bottom: 12px;
+}
+div .Oil__Ext__four h4{ 
+
+    margin-bottom: 12px;
+}
+div .Oil__Ext__four div 
+{
+    margin-top: 6.5%;
+    margin-bottom: 0px;
+}
+.Oil__Ext__four__bottle h4, 
+.Oil__Ext__five__bottle h4, 
+.Oil__Ext__five__can h4{ 
+
+    margin-bottom: 12px;
+}
+div .Oil__Ext__four__bottle div 
+{
+    margin-top: 2%;
+}
+div .Oil__Ext__five__bottle div 
+{
+    margin-top: 5.5%;
+}
+div .Oil__Ext__five__can div 
+{
+    margin-top: 2%;
+}
+
+
+.Oil__ext__img
+{
+    position: relative;
+height: 230px;
+width: 150px;
+float: left;
+shape-outside: margin-box;
+margin-right: 5%;
+shape-outside: content-box();
+box-shadow: 0px 0px 10px 2px rgb(43, 43, 43);
+}
