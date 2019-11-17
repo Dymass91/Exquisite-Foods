@@ -31,21 +31,15 @@ div .Oil__Ext__four__bottle
   text-align: justify;
   box-sizing: border-box;
 }
-.Oil__Ext__five__bottle h1 
-{
-    margin-bottom: 5%;
-    margin-left: 0;
-}
-.Oil__Ext__four__bottle  h1 
-{
-    margin-bottom: 5%;
-    margin-left: 0;
-}
+.Oil__Ext__five__bottle h1,
+.Oil__Ext__four__bottle  h1,
 .Oil__Ext__five__can  h1 
 {
+    color: rgb(73, 105, 36);
     margin-bottom: 5%;
     margin-left: 0;
 }
+
 
 .Oil__Ext__five div { 
     

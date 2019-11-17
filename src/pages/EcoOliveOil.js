@@ -4,7 +4,7 @@ import olej5l from '../images/olej5l.jpg';
 import olej4l from '../images/olej4_5.jpg';
 
 
-const BenefitsPage = () => {
+const EcoOlivePage = () => {
     return (
         <>
         <div className="Oil__Eco__five">
@@ -42,4 +42,4 @@ const BenefitsPage = () => {
     );
 }
 
-export default BenefitsPage;
+export default EcoOlivePage;

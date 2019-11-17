@@ -2,12 +2,9 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 import HomePage from '../pages/HomePage';
-import ProductPage from '../pages/ProductPage';
-import ProductListPage from '../pages/ProductListPage';
-import AdminPage from '../pages/AdminPage';
+import HealthBenefits from '../pages/HealthBenefits';
 import ContactPage from '../pages/ContactPage';
 import ErrorPage from '../pages/ErrorPage';
-import LoginPage from '../pages/LoginPage';
 import EcoOlive from '../pages/EcoOliveOil';
 import ExtOlive from '../pages/ExtVirOliveOil';
 const Page = () => {
@@ -15,10 +12,7 @@ const Page = () => {
         <>
             <Switch>
                 <Route path="/" exact component={HomePage} />
-                <Route path="/Products" component={ProductListPage} />
-                <Route path="/Product/:id" component={ProductPage} />
-                <Route path="/Admin" component={AdminPage} />
-                <Route path="/login" component={LoginPage} />
+                <Route path="/HealtBenefits" component={HealthBenefits} />
                 <Route path="/Contact" component={ContactPage} />
                 <Route path="/EcoOlive" component={EcoOlive} />
                 <Route path="/ExtOlive" component={ExtOlive} />

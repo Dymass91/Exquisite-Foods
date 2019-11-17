@@ -1,5 +1,4 @@
 import React from 'react';
-import Article from '../components/Article';
 import imgtown from '../images/town.jpg';
 import olives2 from '../images/olives2.jpg';
 

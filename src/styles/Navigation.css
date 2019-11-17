@@ -12,7 +12,7 @@ nav.main{
 nav.main a {
     display: block;
     text-decoration: none;
-    color: black;
+    color: rgb(156, 223, 80);
     text-transform: uppercase;
     font-weight: bold;
     padding: 10px;
@@ -20,11 +20,14 @@ nav.main a {
 }
 
 nav.main a:hover{
-background-color: rgb(123, 230, 114);
+background-color: rgb(189, 230, 163);
 transform: translateX(20px);
+border-radius: 20px;
+transition: .5s;
 }
 nav.main a.active {
-    color: rgb(150, 149, 149);
-    border-left: 10px gray solid;
+    color: rgb(73, 105, 36);
+    border-left: 10px rgb(73, 105, 36) solid;
     transform: translateX(0);
+    border-radius: 15px;
 }

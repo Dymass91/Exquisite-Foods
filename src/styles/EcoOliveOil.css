@@ -20,13 +20,10 @@ div .Oil__Eco__four
   text-align: justify;
   box-sizing: border-box;
 }
-.Oil__Eco__five h1 
+.Oil__Eco__five h1,
+.Oil__Eco__four h1  
 {
-    margin-bottom: 5%;
-    margin-left: 0;
-}
-.Oil__Eco__four h1 
-{
+    color: rgb(73, 105, 36);
     margin-bottom: 5%;
     margin-left: 0;
 }

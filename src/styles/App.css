@@ -22,7 +22,7 @@ main{
 aside{
   margin-left: 60px;
   min-width: 240px;
-  border-right: #979797 4px solid;
+  border-right: rgb(73, 105, 36) 3px solid;
   background-color: rgb(255, 255, 255);
 }
 section.Page{

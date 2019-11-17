@@ -5,7 +5,7 @@ import extravirginoil from '../images/Extravirginoil.jpg';
 import extravirginoilsmall from '../images/Extravirginoilsmall.jpg';
 
 
-const BenefitsPage = () => {
+const ExtOlivePage = () => {
     return (
         <>
         <div className="Oil__Ext__five__can">
@@ -59,4 +59,4 @@ const BenefitsPage = () => {
     );
 }
 
-export default BenefitsPage;
+export default ExtOlivePage;
