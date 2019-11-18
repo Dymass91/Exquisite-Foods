@@ -3,7 +3,7 @@
     position: relative;
     margin-top: 5%;
     margin-bottom: 10%;
-  font-size: 30px;
+  font-size: 26px;
   width: calc(95% - 240px);
   margin-left: 5%;
   text-align: justify;
@@ -14,7 +14,7 @@ div .Oil__Eco__four
     position: relative;
     margin-top: 5%;
     margin-bottom: 10%;
-  font-size: 30px;
+  font-size: 26px;
   width: calc(95% - 240px);
   margin-left: 5%;
   text-align: justify;
@@ -23,7 +23,7 @@ div .Oil__Eco__four
 .Oil__Eco__five h1,
 .Oil__Eco__four h1  
 {
-    color: rgb(73, 105, 36);
+    color: rgb(166, 228, 96);
     margin-bottom: 5%;
     margin-left: 0;
 }
@@ -34,11 +34,11 @@ div .Oil__Eco__four
 }
 
 .Oil__Eco__five div h4{ 
-
+    color: rgb(94, 134, 49);
     margin-bottom: 12px;
 }
 div .Oil__Eco__four h4{ 
-
+    color: rgb(94, 134, 49);
     margin-bottom: 12px;
 }
 div .Oil__Eco__four div 

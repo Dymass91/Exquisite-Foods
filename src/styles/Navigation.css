@@ -20,7 +20,8 @@ nav.main a {
 }
 
 nav.main a:hover{
-background-color: rgb(189, 230, 163);
+background-color: rgb(156, 223, 80);
+color: rgb(73, 105, 36);
 transform: translateX(20px);
 border-radius: 20px;
 transition: .5s;

@@ -13,9 +13,9 @@ html {
   margin-top: 5%;
   margin-bottom: 5%;
   font-size: 30px;
-  width: calc(95% - 240px);
+  width: calc(92% - 240px);
   margin-left: 5%;
-  text-align: justify;
+  text-align: inherit;
 }
 
 .home p span
