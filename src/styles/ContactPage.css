@@ -10,10 +10,11 @@
 .contact h3
 {
     margin-top: 4%;
-    font-size: 40px;
-    margin-left: 5%;
     margin-bottom: 5%;
+    font-size: 54px;
+    margin-left: 5%;
     color: rgb(166, 228, 96);
+    text-shadow: 2px 2px 2px rgb(94, 128, 49)
 }
 .contact textarea{
     font-size: 16px;

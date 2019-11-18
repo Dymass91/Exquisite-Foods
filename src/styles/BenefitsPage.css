@@ -11,9 +11,10 @@
 h1
 {
     margin-top: 4%;
-    font-size: 40px;
+    font-size: 54px;
     margin-left: 5%;
     color: rgb(166, 228, 96);
+    text-shadow: 2px 2px 2px rgb(94, 128, 49)
 }
 .benefitsimg
 {
