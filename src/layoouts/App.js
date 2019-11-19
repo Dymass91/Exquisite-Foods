@@ -6,12 +6,16 @@ import Page from './Page';
 import Navigation from './Navigation';
 import Footer from './Footer';
 import Logo from './Logo';
+import Navbar from './Navbar';
 
 class App extends Component {
   render() {
     return (
       <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
+          <div>
+            {<Navbar />}
+          </div>
           <div>
             {<Logo />}
           </div>

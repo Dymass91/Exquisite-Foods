@@ -1,0 +1,24 @@
+@media (min-width: 790px)
+{
+    .Navbar__menu
+    {
+        display: none;
+}
+    }
+    
+@media (max-width: 789px)
+{
+    .Navbar__menu
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        
+    }
+    .Navbar__menu__ul
+    {
+        display: block;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
