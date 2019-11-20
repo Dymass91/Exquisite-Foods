@@ -1,30 +1,43 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import "../styles/Navbar.css";
+import React, { Component } from 'react';
+import Toolbar from './NavBar/components/toolbar/Toolbar';
+import SideDrawer from './NavBar/components/SideDrawer/SideDrawer';
+import Backdrop from './NavBar/components/Backdrop/Backdrop'
+import './NavBar/App.css';
 
-const list = [
-    { name: "Home Page", path: "/", exact: true },
-    { name: "Ecological olive oil", path: "/EcoOlive" },
-    { name: "Extra virgin olive oil", path: "/ExtOlive" },
-    { name: "Health Benefits", path: "/HealtBenefits" },
-    { name: "Contact", path: "/contact" },
 
-]
+class App extends Component {
+    state = {
+        sideDrawerOpen: false
+    };
 
-const Navbar = () => {
+    drawerToggleClickHandler = () => {
+        this.setState((prevState) => {
+            return { sideDrawerOpen: !prevState.sideDrawerOpen };
+        });
+    };
 
-    const menu = list.map(item => (
-        <li key={item.name}>
-            <NavLink to={item.path} exact={item.exact ? item.exact : false}>{item.name}</NavLink>
-        </li>
-    ))
-    return (
-        <nav className="Navbar__menu">
-            <ul className="Navbar__menu__ul">
-                {menu}
-            </ul>
-        </nav>
-    );
+    backdropClickHandler = () => {
+        this.setState({ sideDrawerOpen: false })
+    }
+
+    render() {
+        let backdrop;
+
+        if (this.state.sideDrawerOpen) {
+            backdrop = <Backdrop click={this.backdropClickHandler} />
+        }
+
+        return (
+            <div style={{ height: "100 %" }}>
+                <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
+                <SideDrawer show={this.state.sideDrawerOpen} />
+                {backdrop}
+                <main >
+
+                </main>
+            </div>
+        );
+    }
 }
 
-export default Navbar;
+export default App;
