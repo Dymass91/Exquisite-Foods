@@ -1,18 +1,26 @@
 {
   "files": {
-    "main.css": "/Exquisite-Foods/static/css/main.fc1060b4.chunk.css",
-    "main.js": "/Exquisite-Foods/static/js/main.e7ffcae4.chunk.js",
-    "main.js.map": "/Exquisite-Foods/static/js/main.e7ffcae4.chunk.js.map",
+    "main.css": "/Exquisite-Foods/static/css/main.8d28222e.chunk.css",
+    "main.js": "/Exquisite-Foods/static/js/main.b6ceeb8c.chunk.js",
+    "main.js.map": "/Exquisite-Foods/static/js/main.b6ceeb8c.chunk.js.map",
     "runtime~main.js": "/Exquisite-Foods/static/js/runtime~main.6c0a4274.js",
     "runtime~main.js.map": "/Exquisite-Foods/static/js/runtime~main.6c0a4274.js.map",
-    "static/js/2.f85eef6c.chunk.js": "/Exquisite-Foods/static/js/2.f85eef6c.chunk.js",
-    "static/js/2.f85eef6c.chunk.js.map": "/Exquisite-Foods/static/js/2.f85eef6c.chunk.js.map",
+    "static/js/2.be187ce2.chunk.js": "/Exquisite-Foods/static/js/2.be187ce2.chunk.js",
+    "static/js/2.be187ce2.chunk.js.map": "/Exquisite-Foods/static/js/2.be187ce2.chunk.js.map",
     "index.html": "/Exquisite-Foods/index.html",
-    "precache-manifest.1fbbdf9ba2c710d49b45818f6b1cb1a5.js": "/Exquisite-Foods/precache-manifest.1fbbdf9ba2c710d49b45818f6b1cb1a5.js",
+    "precache-manifest.7a8b72490b5235e95eec646e6de3d369.js": "/Exquisite-Foods/precache-manifest.7a8b72490b5235e95eec646e6de3d369.js",
     "service-worker.js": "/Exquisite-Foods/service-worker.js",
-    "static/css/main.fc1060b4.chunk.css.map": "/Exquisite-Foods/static/css/main.fc1060b4.chunk.css.map",
+    "static/css/main.8d28222e.chunk.css.map": "/Exquisite-Foods/static/css/main.8d28222e.chunk.css.map",
+    "static/media/Extravirginoil.jpg": "/Exquisite-Foods/static/media/Extravirginoil.87ecaba8.jpg",
+    "static/media/Extravirginoilsmall.jpg": "/Exquisite-Foods/static/media/Extravirginoilsmall.8cc80d97.jpg",
+    "static/media/benefitsimg.jpg": "/Exquisite-Foods/static/media/benefitsimg.cebeed56.jpg",
     "static/media/header2.jpg": "/Exquisite-Foods/static/media/header2.d6cb2ece.jpg",
     "static/media/header3.jpeg": "/Exquisite-Foods/static/media/header3.8998694f.jpeg",
-    "static/media/header4.jpg": "/Exquisite-Foods/static/media/header4.9de350b3.jpg"
+    "static/media/header4.jpg": "/Exquisite-Foods/static/media/header4.9de350b3.jpg",
+    "static/media/olej4_5.jpg": "/Exquisite-Foods/static/media/olej4_5.d354758a.jpg",
+    "static/media/olej5l.jpg": "/Exquisite-Foods/static/media/olej5l.c483d1e5.jpg",
+    "static/media/olejcan.jpg": "/Exquisite-Foods/static/media/olejcan.d2992b39.jpg",
+    "static/media/olives2.jpg": "/Exquisite-Foods/static/media/olives2.b9bcb1c3.jpg",
+    "static/media/town.jpg": "/Exquisite-Foods/static/media/town.2901b077.jpg"
   }
 }
