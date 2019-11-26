@@ -22,7 +22,6 @@ main{
 aside{
   margin-left: 60px;
   min-width: 240px;
-  border-right: rgb(73, 105, 36) 3px solid;
   background-color: rgb(255, 255, 255);
 }
 section.Page{
@@ -35,4 +34,11 @@ footer{
   padding: 10px 0;
   text-align: center;
   text-transform: uppercase;
+}
+
+@media(max-width: 768px){
+   
+  aside{
+      display: none;
+  }
 }
