@@ -14,7 +14,7 @@ Algodonales, a village belonging to the route of the "white villages", is locate
                                 The olive growers in the nearby town of Zahara de la Sierra,  provide us with the bulk of olives, being the predominant variety "Manzanillo".
                 
                                 And from the nearby town of the Gastor, we also incorporate most of its olive production from partners we have in this town, being the most important variety also "Lechin".
-                                <img className="olives2" src={olives2} />
+                                <img className="olives2" src={olives2} alt="Olives"/>
                                 We count with an area of almost 6,000 hectares belonging to the villages mentioned above, also most farmers in the town of Grazalema deliver their production to the oil mill.
 
                 Experts say that mixing olives of the Lechín and Manzanilla variety, we can produce one of the best oils in the world.

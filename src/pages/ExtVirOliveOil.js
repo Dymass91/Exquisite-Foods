@@ -11,7 +11,7 @@ const ExtOlivePage = () => {
         <div className="Oil__Ext__five__can">
             <h1>Extra virgin oil - 5 litres can</h1>
            
-            <img className="Oil__ext__img" src={olejcan}  /> <p>
+            <img className="Oil__ext__img" src={olejcan}  alt="Olives"/> <p>
             
             Can of 5 liters of oil with denomination of origin "Sierra de Cádiz". This modern format stands out for its convenience and ease of use and storage, and for the denomination of origin "Sierra de Cádiz".
     
@@ -26,7 +26,7 @@ const ExtOlivePage = () => {
     
     <div className="Oil__Ext__five__bottle">
     <h1>Extra virgin oil - 5 litres</h1>
-    <img className="Oil__ext__img" src={extravirginoil}  /> 
+    <img className="Oil__ext__img" src={extravirginoil}  alt="Olives"/> 
     <p>
   
     5 liter bottle of extra virgin olive oil. Probably, this is the format preferred by housewives, because it is the cheapest and also because it has more quantity.
@@ -42,7 +42,7 @@ const ExtOlivePage = () => {
 
         <div className="Oil__Ext__four__bottle">
     <h1>Extra virgin oil - 3/4 litres</h1>
-    <img className="Oil__ext__img" src={extravirginoilsmall}  /> 
+    <img className="Oil__ext__img" src={extravirginoilsmall}  alt="Olives"/> 
     <p>
   
     Our flagship product, packaged in the best package of all time, the glass, to keep all its fragrance and flavor. Specially manufactured, packaged raw (unfiltered) to satisfy the most demanding palates.

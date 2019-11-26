@@ -10,7 +10,7 @@ const EcoOlivePage = () => {
         <div className="Oil__Eco__five">
             <h1>Ecological olive oil - 5 litres</h1>
            
-            <img className="Oil__Five__img" src={olej5l}  /> <p>
+            <img className="Oil__Five__img" src={olej5l}  alt="Olives"/> <p>
             
      This oil has been extracted from olives grown in olive trees cultivated whith  natural fertilizers, without using any chemical herbicides.
     
@@ -25,7 +25,7 @@ const EcoOlivePage = () => {
     
     <div className="Oil__Eco__four">
     <h1>Ecological olive oil - 3/4 litre</h1>
-    <img className="Oil__Five__img" src={olej4l}  /> 
+    <img className="Oil__Five__img" src={olej4l}  alt="Olives"/> 
     <p>
   
     A totally natural oil, packed in the best package of all time, the glass, to keep all its fragrance and flavor.

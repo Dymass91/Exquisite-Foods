@@ -8,7 +8,7 @@ const BenefitsPage = () => {
             <h1>Health benefits</h1>
             <p>
                 Olive oil is the key ingredient and a characteristic component of the Mediterranean diet, but is also a food that benefits the human body in many ways.
-                <img className="benefitsimg" src={benefitsimg} />
+                <img className="benefitsimg" src={benefitsimg} alt="Olives" />
                 Olive oil intake through the diet reduces the effect of blood cholesterol and provides a high vitamin content. Olive oil is composed mainly of oleic acid, which represents about 75% of the total, but also is rich in vitamin E, beta carotene and other antioxidants.
 
                 Virgin olive oil is the only oil that can be obtained by physical processes: the juice of the olive. It helps prevent, among others, diabetes, breast and colon cancer, and cardiovascular diseases.

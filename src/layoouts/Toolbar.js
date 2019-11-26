@@ -1,7 +1,7 @@
 import React from 'react';
-import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
+import DrawerToggleButton from '../layoouts/NavBar/components/SideDrawer/DrawerToggleButton';
 
-import './Toolbar.css';
+import '../styles/Toolbar.css';
 
 const toolbar = props => (
 
@@ -13,11 +13,6 @@ const toolbar = props => (
             <img alt="exousitefoods" />
             <div className="toolbar__logo"> </div>
             <div className="spacer" />
-            <div className="toolbar_navigation-item">
-                <ul>
-
-                </ul>
-            </div >
 
         </nav >
     </header >

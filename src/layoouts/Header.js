@@ -11,19 +11,19 @@ const Header = () => {
         <div>
             <Switch>
                 <Route path="/" exact render={() => (
-                    <img src={img1} />
+                    <img src={img1} alt="Header" />
                 )} />
                 <Route path="/ExtOlive" render={() => (
-                    <img src={img2} />
+                    <img src={img2} alt="Header" />
                 )} />
                 <Route path="/contact" render={() => (
-                    <img src={img3} />
+                    <img src={img3} alt="Header" />
                 )} />
                 <Route path="/HealtBenefits" render={() => (
-                    <img src={img1} />
+                    <img src={img1} alt="Header" />
                 )} />
                 <Route render={() => (
-                    <img src={img1} />
+                    <img src={img1} alt="Header" />
                 )} />
             </Switch>
         </div>
