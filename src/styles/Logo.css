@@ -3,9 +3,8 @@
     position: absolute;
     width: 100%;
     height: 80PX;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 10px 15px white;
-    z-index: 2;
+    background: linear-gradient( 45deg ,#9bff29,#c5fa93);
+    z-index: 3;
 }
 .exouisideLogo{
 position: absolute;

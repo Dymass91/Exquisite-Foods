@@ -17,10 +17,10 @@ const Header = () => {
                     <img src={img2} alt="Header" />
                 )} />
                 <Route path="/contact" render={() => (
-                    <img src={img3} alt="Header" />
+                    <img src={img2} alt="Header" />
                 )} />
                 <Route path="/HealtBenefits" render={() => (
-                    <img src={img1} alt="Header" />
+                    <img src={img3} alt="Header" />
                 )} />
                 <Route render={() => (
                     <img src={img1} alt="Header" />

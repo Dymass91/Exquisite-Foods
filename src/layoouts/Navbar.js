@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Toolbar from './Toolbar';
 import SideDrawer from './NavBar/components/SideDrawer/SideDrawer';
 import Backdrop from './NavBar/components/Backdrop/Backdrop'
-import './NavBar/App.css';
+
 
 
 class App extends Component {
