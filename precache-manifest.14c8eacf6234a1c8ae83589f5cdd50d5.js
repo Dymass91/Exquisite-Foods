@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fcb8a3e52544b68de0c651c366ba5f2f",
+    "revision": "31a79c60bfa01e98a24ca73409f2edc4",
     "url": "/Exquisite-Foods/index.html"
   },
   {
-    "revision": "931cb1b603121a07f032",
-    "url": "/Exquisite-Foods/static/css/main.0a6a7b8c.chunk.css"
+    "revision": "17840bab635b02501aca",
+    "url": "/Exquisite-Foods/static/css/main.2123fe04.chunk.css"
   },
   {
     "revision": "9000814d5d7d9315803f",
     "url": "/Exquisite-Foods/static/js/2.e3f241cf.chunk.js"
   },
   {
-    "revision": "931cb1b603121a07f032",
-    "url": "/Exquisite-Foods/static/js/main.89eed770.chunk.js"
+    "revision": "17840bab635b02501aca",
+    "url": "/Exquisite-Foods/static/js/main.5276f6f2.chunk.js"
   },
   {
     "revision": "9db18fda0b241be75ff7",
