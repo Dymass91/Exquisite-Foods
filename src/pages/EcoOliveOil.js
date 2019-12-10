@@ -7,37 +7,34 @@ import olej4l from '../images/olej4_5.jpg';
 const EcoOlivePage = () => {
     return (
         <>
-        <div className="Oil__Eco__five">
-            <h1>Ecological olive oil - 5 litres</h1>
-           
-            <img className="Oil__Five__img" src={olej5l}  alt="Olives"/> <p>
-            
-     This oil has been extracted from olives grown in olive trees cultivated whith  natural fertilizers, without using any chemical herbicides.
-    
-    
-    <div>
-   <h4>Format: Box of 4 bottles</h4> 
-    
-    <h4>Price: Ask about</h4>
-    </div>
-    </p>
-    </div>
-    
-    <div className="Oil__Eco__four">
-    <h1>Ecological olive oil - 3/4 litre</h1>
-    <img className="Oil__Five__img" src={olej4l}  alt="Olives"/> 
-    <p>
-  
-    A totally natural oil, packed in the best package of all time, the glass, to keep all its fragrance and flavor.
-    
-  
-    <div>
-    <h4>Format: Box of 15 bottles</h4> 
-    
-    <h4>Price: Ask about</h4>
-    </div>
-</p>
-        </div >
+            <div className="container">
+                <div className="box">
+                    <div className="imgbox">
+                        <img src={olej5l} alt="" />
+                    </div>
+                    <div className="content">
+                        <h2>Ecological olive oil - 5 litres</h2>
+                        <p>This oil has been extracted from olives grown in olive trees cultivated whith  natural fertilizers, without using any chemical herbicides.</p>
+                        <h4>Format: Box of 4 bottles</h4>
+                        <h4>Price: Ask about</h4>
+                    </div>
+
+                </div>
+
+
+                <div className="box">
+                    <div className="imgbox">
+                        <img src={olej4l} alt="" />
+                    </div>
+                    <div className="content">
+                        <h2>Ecological olive oil - 4 litres</h2>
+                        <p>This oil has been extracted from olives grown in olive trees cultivated whith  natural fertilizers, without using any chemical herbicides.</p>
+                        <h4>Format: Box of 4 bottles</h4>
+                        <h4>Price: Ask about</h4>
+                    </div>
+
+                </div>
+            </div>
         </>
     );
 }
