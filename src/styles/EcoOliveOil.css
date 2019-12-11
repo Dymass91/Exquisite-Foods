@@ -1,13 +1,4 @@
-.container
-{
-    min-height: 800px;
-    max-width: 900px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    flex-direction: row;
 
-}
 .box{
     z-index: 2;
     position: relative;
@@ -18,6 +9,7 @@
     border: 1.5px solid rgb(0, 0, 0);
     border-radius: 15px;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 .box .imgbox
 {
@@ -81,6 +73,7 @@
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 2px rgb(94, 128, 49);
 }
+
 .box .content p
 {
     font-size: 26px;

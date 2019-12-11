@@ -8,6 +8,7 @@ const EcoOlivePage = () => {
     return (
         <>
             <div className="container">
+                <h1>Ecological olive oil</h1>
                 <div className="box">
                     <div className="imgbox">
                         <img src={olej5l} alt="" />

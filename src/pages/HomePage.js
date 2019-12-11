@@ -4,8 +4,11 @@ import olives2 from '../images/olives2.jpg';
 
 const HomePage = () => {
     return (
-        <div className="home">
-            <p><span>Exquisite Foods</span> Our company
+        
+        <div className="homePage">
+            <h1>Exquisite Foods</h1>
+            <p>
+             Our company
 Algodonales, a village belonging to the route of the "white villages", is located in the Sierra de Cadiz and more specifically the edge of the Sierra de Lijar,<img className="townimg" src={imgtown} alt="miasto" /> known for its suitability for air sports such as hang gliding and paragliding.
                 
                 The lands of the village are primarily engaged in agriculture and the most important is the olive crop. The most common variety is the "Lechin of Seville."
@@ -21,6 +24,7 @@ Algodonales, a village belonging to the route of the "white villages", is locate
 
 Knowing this, in S.C.A. Nuestra Señora del Rosario, we made a great economic effort to have the latest technology, so we can produce and package our quality oils for our customers all around the world.</p>
         </div>
+        
     );
 }
 
