@@ -12,7 +12,7 @@ const ExtOlivePage = () => {
                 <h1>Extra virgin olive oil</h1>
                 <div className="box">
                     <div className="imgbox">
-                        <img src={olejcan} alt="" />
+                        <img className="oil-image" src={extravirginoil} alt="" />
                     </div>
                     <div className="content">
                         <h2>Extra virgin oil - 5 litres can</h2>
@@ -26,7 +26,7 @@ const ExtOlivePage = () => {
 
                 <div className="box">
                     <div className="imgbox">
-                        <img src={extravirginoil} alt="" />
+                        <img className="oil-image" src={extravirginoil} alt="" />
                     </div>
                     <div className="content">
                         <h2>Extra virgin oil - 5 litres</h2>
@@ -39,7 +39,7 @@ const ExtOlivePage = () => {
 
                 <div className="box">
                     <div className="imgbox">
-                        <img src={extravirginoilsmall} alt="" />
+                        <img className="oil-image" src={extravirginoil} alt="" />
                     </div>
                     <div className="content">
                         <h2>Extra virgin oil - 3/4 litres</h2>

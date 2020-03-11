@@ -11,7 +11,7 @@ const EcoOlivePage = () => {
                 <h1>Ecological olive oil</h1>
                 <div className="box">
                     <div className="imgbox">
-                        <img src={olej5l} alt="" />
+                        <img className="oil-image" src={olej5l} alt="" />
                     </div>
                     <div className="content">
                         <h2>Ecological olive oil - 5 litres</h2>
@@ -25,7 +25,7 @@ const EcoOlivePage = () => {
 
                 <div className="box">
                     <div className="imgbox">
-                        <img src={olej4l} alt="" />
+                        <img className="oil-image" src={olej4l} alt="" />
                     </div>
                     <div className="content">
                         <h2>Ecological olive oil - 4 litres</h2>

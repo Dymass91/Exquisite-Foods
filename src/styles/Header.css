@@ -1,7 +1,11 @@
+
+@media (min-width: 360px), (max-width: 767px){
 header{
+    
     z-index: 2;
 position: relative;
 overflow: hidden;
+width: 100vw;
 }
 header img{
     position: absolute;
@@ -9,4 +13,14 @@ header img{
     transform: translate(-50% , -40%);
     min-width: 100%;
     min-height: 100%;
+}
+}
+@media (min-width: 767px){
+    header{
+        flex-basis: 72vh;
+        z-index: 2;
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    }
 }

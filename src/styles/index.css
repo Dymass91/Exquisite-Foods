@@ -8,6 +8,43 @@ html {
   font-family: 'Libre Baskerville', serif;
   font-size: 20px;
 }
+@media (min-width: 360px), (max-width: 767px){
+  .homePage
+{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  position: relative;
+  background-color: white;
+  border: 4px solid rgb(48, 73, 20);
+  z-index: 2;
+  max-width: 1100px;
+  border-radius: 55px;
+}
+  .homePage p 
+{
+  background-color: white;
+  position: relative;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 18px;
+  width: 80%;
+  margin-left: 10%;
+  text-align: inherit;
+  color: rgb(48, 73, 20);
+  z-index: 2;
+}
+.olives2
+{
+  width: 250px;
+height: 150px;
+}
+.townimg
+{
+  width: 250px;
+height: 150px;
+}
+}
+@media (min-width: 767px){
 .homePage
 {
   margin-right: 5%;
@@ -20,6 +57,7 @@ html {
   max-width: 1100px;
   border-radius: 55px;
 }
+
 .homePage p 
 {
   background-color: white;
@@ -64,7 +102,7 @@ html {
   margin: 45px 30px 30px 0px;
  /* box-shadow: 0px 0px 10px 2px rgb(43, 43, 43); */
 }
-
+}
 
 @media(max-width: 1124px){
    
