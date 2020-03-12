@@ -8,7 +8,9 @@ import img3 from '../images/header3.jpeg';
 
 const Header = () => {
     return (
+
         <div>
+
             <Switch>
                 <Route path="/" exact render={() => (
                     <img src={img1} alt="Header" />
@@ -26,6 +28,7 @@ const Header = () => {
                     <img src={img1} alt="Header" />
                 )} />
             </Switch>
+
         </div>
 
     );

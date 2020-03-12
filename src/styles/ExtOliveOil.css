@@ -32,10 +32,12 @@
     .content h2
     {
         font-size: 20px;
+        margin-bottom: 1rem;
     }
     .content h4
     {
         font-size: 14px;
+        margin-bottom: 0.5rem;
     }
     }
     
@@ -53,6 +55,7 @@
     }
     .content
     {
+        margin-top: 1rem;
         width: 80vw;
         font-size: 18px;
         justify-content: space-around;

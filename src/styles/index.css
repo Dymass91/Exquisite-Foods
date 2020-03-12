@@ -9,6 +9,21 @@ html {
   font-size: 20px;
 }
 @media (min-width: 360px), (max-width: 767px){
+  .HeaderLogo
+{
+    display: block;
+    left: 50%;
+ transform: translateX(-50%);
+    width: 80vw;
+    z-index: 2;
+    position: relative;
+    overflow: hidden;
+  
+}
+  .home-page_h1
+  {
+    display: none;
+  }
   .homePage
 {
   margin-top: 3rem;
@@ -28,23 +43,33 @@ html {
   margin-bottom: 5%;
   font-size: 18px;
   width: 80%;
-  margin-left: 10%;
-  text-align: inherit;
+ left: 50%;
+ transform: translateX(-50%);
+  text-align: justify;
   color: rgb(48, 73, 20);
   z-index: 2;
 }
 .olives2
 {
-  width: 250px;
-height: 150px;
+  
+  width: 100%;
+shape-outside: circle(50%);
+border-radius: 31%;
 }
 .townimg
 {
-  width: 250px;
-height: 150px;
+  width: 100%;
 }
 }
 @media (min-width: 767px){
+  .HeaderLogo
+  {
+      display: none;
+  }
+  .home-page_h1
+  {
+    display: block;
+  }
 .homePage
 {
   margin-right: 5%;
@@ -66,7 +91,6 @@ height: 150px;
   margin-bottom: 5%;
   font-size: 30px;
   width: 80%;
-  margin-left: 10%;
   text-align: inherit;
   color: rgb(48, 73, 20);
   z-index: 2;
@@ -104,21 +128,3 @@ height: 150px;
 }
 }
 
-@media(max-width: 1124px){
-   
-  .home p{
-      width: 90%;
-      padding: 5px;
-  }
-
-  .olives2
-  {
-    width: 350px;
-  height: 200px;
-  }
-  .townimg
-  {
-    width: 350px;
-  height: 200px;
-  }
-}

@@ -1,12 +1,14 @@
 import React from 'react';
 import imgtown from '../images/town.jpg';
 import olives2 from '../images/olives2.jpg';
+import ImgLogo from '../images/Logo.jpg';
 
 const HomePage = () => {
     return (
         
         <div className="homePage">
-            <h1>Exquisite Foods</h1>
+            <h1 className="home-page_h1" >Exquisite Foods</h1>
+            <img className="HeaderLogo" src={ImgLogo} alt="Olives"/>
             <p>
              Our company
 Algodonales, a village belonging to the route of the "white villages", is located in the Sierra de Cadiz and more specifically the edge of the Sierra de Lijar,<img className="townimg" src={imgtown} alt="miasto" /> known for its suitability for air sports such as hang gliding and paragliding.

@@ -7,6 +7,7 @@ position: relative;
 overflow: hidden;
 width: 100vw;
 }
+
 header img{
     position: absolute;
     left: 50%;
@@ -21,6 +22,10 @@ header img{
         z-index: 2;
     position: relative;
     overflow: hidden;
-    width: 100vw;
+    width: 100%;
+    border-top: solid 4.5rem rgb(255, 255, 255);
+    border-bottom: solid 0.5rem rgb(255, 255, 255);
+  
     }
+
 }
