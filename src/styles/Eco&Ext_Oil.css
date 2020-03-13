@@ -25,17 +25,24 @@
     
     .content
     {
+        margin-top: 1rem;
         width: 80vw;
         font-size: 14px;
         align-items: center;
     }
+    .content p 
+    {
+        margin-bottom: .5rem;
+    }
     .content h2
     {
         font-size: 20px;
+        margin-bottom: 1rem;
     }
     .content h4
     {
         font-size: 14px;
+        margin-bottom: 0.5rem;
     }
     }
     
@@ -49,19 +56,25 @@
         min-height: 42vh;
         margin-bottom: 2rem;
         width: 92%;
+        justify-content: space-around;
     }
     .content
     {
+        margin-top: 1rem;
         width: 80vw;
-        font-size: 18px;
-        align-items: center;
+        font-size: 22px;
+        justify-content: space-around;
+    }
+    .content p 
+    {
+        margin-bottom: 1rem;
     }
     .content h2
     {
-        font-size: 26px;
+        font-size:30px;
     }
     .content h4
     {
-        font-size: 18px;
+        font-size: 24px;
     }
     } 

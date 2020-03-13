@@ -1,5 +1,5 @@
 import React from 'react';
-import "../styles/EcoOliveOil.css";
+import "../styles/Eco&Ext_Oil.css";
 import olej5l from '../images/olej5l.jpg';
 import olej4l from '../images/olej4_5.jpg';
 
@@ -8,7 +8,7 @@ const EcoOlivePage = () => {
     return (
         <>
             <div className="container">
-                <h1>Ecological olive oil</h1>
+                <h1 className="Products_h1">Ecological olive oil</h1>
                 <div className="box">
                     <div className="imgbox">
                         <img className="oil-image" src={olej5l} alt="" />

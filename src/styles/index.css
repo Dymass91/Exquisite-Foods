@@ -11,6 +11,7 @@ html {
 @media (min-width: 360px), (max-width: 767px){
   .HeaderLogo
 {
+  margin-top: .5rem;
     display: block;
     left: 50%;
  transform: translateX(-50%);
