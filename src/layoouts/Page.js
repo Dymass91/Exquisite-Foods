@@ -7,6 +7,8 @@ import ContactPage from '../pages/ContactPage';
 import ErrorPage from '../pages/ErrorPage';
 import EcoOlive from '../pages/EcoOliveOil';
 import ExtOlive from '../pages/ExtVirOliveOil';
+import JamsonOil from '../pages/JamsonOil';
+
 const Page = () => {
     return (
         <>
@@ -16,6 +18,7 @@ const Page = () => {
                 <Route path="/Contact" component={ContactPage} />
                 <Route path="/EcoOlive" component={EcoOlive} />
                 <Route path="/ExtOlive" component={ExtOlive} />
+                <Route path="/JamsonOil" component={JamsonOil} />
                 <Route path="/" component={ErrorPage} />
             </Switch>
         </>

@@ -5,7 +5,7 @@ import benefitsimg from '../images/benefitsimg.jpg';
 const BenefitsPage = () => {
     return (
         <div className="Benefits__article">
-            <h1>Health benefits</h1>
+            <h1 className="HealthBenefits_h1">Health benefits</h1>
             <p>
                 Olive oil is the key ingredient and a characteristic component of the Mediterranean diet, but is also a food that benefits the human body in many ways.
 

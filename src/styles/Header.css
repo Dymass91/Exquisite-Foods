@@ -27,5 +27,14 @@ header img{
     border-bottom: solid 0.5rem rgb(255, 255, 255);
   
     }
-
+    header img{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50% , -40%);
+        min-width: 100%;
+        min-height: 100%;
+        transition: 1s;
+      
+    }
+ 
 }

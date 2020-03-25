@@ -2,7 +2,7 @@
 footer{
     z-index: 2;
     line-height: 8vh;
-    background-color: yellowgreen;
+    background: linear-gradient( 180deg ,#9cfd41,#33b31a);
 }
 
 footer p {

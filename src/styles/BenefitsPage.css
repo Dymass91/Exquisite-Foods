@@ -39,6 +39,10 @@ border-radius: 20%;
 }
 
 @media (min-width: 767px){
+  .HealthBenefits_h1
+  {
+    margin-top: 3rem;
+  }
 .Benefits__article
 {
   margin-right: 5%;
