@@ -1,13 +1,10 @@
 
 footer{
     z-index: 2;
-    line-height: 10vh;
-
+    line-height: 8vh;
+    background-color: yellowgreen;
 }
-span{
-    color:red;
 
-}
 footer p {
     font-size: 14px;
 }
