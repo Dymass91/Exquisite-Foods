@@ -1,43 +1,79 @@
 import React from 'react';
+
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 import '../styles/ContactPage.css';
-import { Prompt } from 'react-router-dom';
+
+import Hero from '../layoouts/Hero';
+import Content from '../layoouts/Content';
+import Axios from 'axios';
 
 class ContactPage extends React.Component {
 
-    state = {
-        value: "",
-        isEmpty: true
+    constructor(props) {
+        super(props);
+        this.state = {
+            name: '',
+            email: '',
+            message: '',
+            disabled: false,
+            emailSent: null,
+        }
     }
-    handleSubmit = (e) => {
-        e.preventDefault()
+
+
+    handleChange = (event) => {
+        const target = event.target;
+        const value = target.type === 'checkbox' ? target.checked : target.value;
+        const name = target.name;
+
         this.setState({
-            value: "",
-            isEmpty: true
+            [name]: value
         })
     }
 
-    handleChange = (e) => {
-        if (e.target.value.length > 0) {
-            this.setState({
-                value: e.target.value,
-                isEmpty: false
+
+    handleSubmit = (event) => {
+        event.preventDefault();
+
+        console.log(event.target);
+
+        this.setState({
+            disabled: true
+        });
+
+        Axios.post('http://localhost:3030/api/email', this.state)
+            .then(res => {
+                if (res.data.success) {
+                    this.setState({
+                        disabled: false,
+                        emailSent: true
+                    });
+                } else {
+                    this.setState({
+                        disabled: false,
+                        emailSent: false
+                    });
+                }
             })
-        }
-        else {
-            this.setState({
-                value: e.target.value,
-                isEmpty: true
+            .catch(err => {
+                console.log(err);
+
+                this.setState({
+                    disabled: false,
+                    emailSent: false
+                });
             })
-        }
+
     }
+
 
     render() {
         return (
             <div className="Container_contact-form">
-                <div className="contact">
-                    <form onSubmit={this.handleSubmit}>
-                        <h1>Contact us</h1>
-                        <div className="Contact__Details">S.C.A. NTRA. SRA. DEL ROSARIO
+                <h1 className="contact h1">Contact</h1>
+                <div className="Contact__Details">
+                    S.C.A. NTRA. SRA. DEL ROSARIO
                     <br></br>
                             Avda. Manuel Pimentel, s/n
                         <br></br>
@@ -47,20 +83,41 @@ class ContactPage extends React.Component {
                         <br></br>
                             Fax: +(34) 956 13 77 01
 </div>
+                <Hero title={this.props.title} />
 
-                        <textarea value={this.state.value} onChange={this.handleChange} placeholder="You can place your order here...">
-                        </textarea>
-                        <button>Send</button>
-                    </form>
-                    <Prompt
-                        when={!this.state.isEmpty}
-                        message="Masz niewypelniony formularz. Czy na pewno chcesz opuscic strone?"
-                    />
-                </div>
+                <Content>
+                    <Form onSubmit={this.handleSubmit}>
+                        <Form.Group>
+                            <Form.Label className="Contact__Details" htmlFor="full-name">Full Name</Form.Label>
+                            <Form.Control className="input-textarea" id="full-name" name="name" type="text" value={this.state.name} onChange={this.handleChange} />
+                        </Form.Group>
+
+
+                        <Form.Group>
+                            <Form.Label className="Contact__Details" htmlFor="email">Email</Form.Label>
+                            <Form.Control className="input-textarea" id="email" name="email" type="email" value={this.state.email} onChange={this.handleChange} />
+                        </Form.Group>
+
+
+                        <Form.Group className="contact textarea">
+                            <Form.Label htmlFor="message" className="Contact__Details">Message</Form.Label>
+                            <Form.Control id="message" name="message" as="textarea" rows="3" value={this.state.message} onChange={this.handleChange} />
+                        </Form.Group>
+
+
+                        <Button className="primary-button" variant="primary" type="submit" disabled={this.state.disabled}>
+                            Send
+                        </Button>
+
+
+                        {this.state.emailSent === true && <p className="Send-message">Email Sent</p>}
+                        {this.state.emailSent === false && <p className="Send-message">Email Not Sent</p>}
+                    </Form>
+                </Content>
             </div>
-
         );
     }
+
 }
 
 export default ContactPage;
