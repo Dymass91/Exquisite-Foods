@@ -14,11 +14,11 @@ html {
 @media (min-width: 360px), (max-width: 767px){
   .HeaderLogo
 {
-  margin-top: .5rem;
+  padding-top: .9rem;
     display: block;
     left: 50%;
  transform: translateX(-50%);
-    width: 80vw;
+    width: 67vw;
     z-index: 2;
     position: relative;
     overflow: hidden;
@@ -59,10 +59,12 @@ html {
   width: 100%;
 shape-outside: circle(50%);
 border-radius: 31%;
+padding: 0.5rem;
 }
 .townimg
 {
   width: 100%;
+  padding: 0.5rem;
 }
 }
 @media (min-width: 767px){
@@ -111,6 +113,7 @@ border-radius: 31%;
 }
 .townimg
 {
+  padding: 0;
   position: relative;
   width: 450px;
   height: 300px;

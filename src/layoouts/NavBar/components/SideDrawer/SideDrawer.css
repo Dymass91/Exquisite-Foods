@@ -21,16 +21,16 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    margin-top: 1rem;
 }
 .side-drawer li {
-    margin: 1.4rem 0;
+    margin: 1rem 0;
 }
 
 .side-drawer a {
     color: #86b43c;
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 .side-drawer a:hover,
