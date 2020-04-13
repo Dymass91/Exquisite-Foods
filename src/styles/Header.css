@@ -24,8 +24,8 @@ header img{
     overflow: hidden;
     width: 100%;
     border-top: solid 4.5rem rgb(255, 255, 255);
+   
     border-bottom: solid 0.5rem rgb(255, 255, 255);
-  
     }
     header img{
         position: absolute;
@@ -34,7 +34,18 @@ header img{
         min-width: 100%;
         min-height: 100%;
         transition: 1s;
-      
+        border-bottom: solid 0.5rem rgb(255, 255, 255);
     }
  
+}
+@media (min-width: 1024px){
+    header{
+        flex-basis: 50vh;
+    }
+}
+@media (max-width: 1366px){
+    header{
+   
+    border-bottom: solid 0.0rem rgb(255, 255, 255);
+    }
 }

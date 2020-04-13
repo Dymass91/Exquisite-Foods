@@ -20,10 +20,10 @@ z-index: 4;
     position: absolute;
     margin-left: 50%;
     transform: translateX(-50%);
-    margin-top: -15%;
+    margin-top: -13rem;
     content: '';
-    width: 600px;
-    height: 350px;
+    width: 42vw;
+    height: 19.5rem;
     border-radius: 50%;
     background-color: white;
 }
