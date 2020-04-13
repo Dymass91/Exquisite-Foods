@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import './SideDrawer.css'
+import './NavBar/components/SideDrawer/SideDrawer.css';
+import SocialFollow from './SocialFollow';
+
 
 const list = [
     { name: "Home Page", path: "/", exact: true },
@@ -19,13 +21,14 @@ const sideDrawer = props => {
     const menu = list.map(item => (
         <li key={item.name}>
             <NavLink to={item.path} exact={item.exact ? item.exact : false}>{item.name}</NavLink>
+
         </li>
     ))
     return (
         <nav className={drawerClasses}>
             <ul>
                 {menu}
-
+                <SocialFollow />
             </ul>
         </nav>
     )

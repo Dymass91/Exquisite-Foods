@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import "../styles/Navigation.css";
 
+
 const list = [
     { name: "Home Page", path: "/", exact: true },
     { name: "Ecological olive oil", path: "/EcoOlive" },
@@ -23,6 +24,7 @@ const Navigation = () => {
         <nav className="main">
             <ul>
                 {menu}
+
             </ul>
         </nav>
     );
