@@ -22,7 +22,7 @@ const Header = () => {
                 <TransitionGroup>
                     <CSSTransition
                         key={(location.key)}
-                        timeout={1000}
+                        timeout={2000}
                         classNames="fade"
                     >
 

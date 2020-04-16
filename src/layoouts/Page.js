@@ -15,23 +15,25 @@ import {
 } from 'react-transition-group';
 const Page = () => {
     return (
-        <div>
+        <div className="container">
             <Route render={({ location }) => (
                 <TransitionGroup>
                     <CSSTransition
                         key={(location.key)}
-                        timeout={1000}
+                        timeout={450}
                         classNames="fade"
                     >
-                        <Switch location={location}>
-                            <Route path="/" exact component={HomePage} />
-                            <Route path="/HealtBenefits" component={HealthBenefits} />
-                            <Route path="/Contact" component={ContactPage} />
-                            <Route path="/EcoOlive" component={EcoOlive} />
-                            <Route path="/ExtOlive" component={ExtOlive} />
-                            <Route path="/JamsonOil" component={JamsonOil} />
-                            <Route path="/" component={ErrorPage} />
-                        </Switch>
+                        <div >
+                            <Switch location={location} >
+                                <Route path="/" exact component={HomePage} />
+                                <Route path="/HealtBenefits" component={HealthBenefits} />
+                                <Route path="/Contact" component={ContactPage} />
+                                <Route path="/EcoOlive" component={EcoOlive} />
+                                <Route path="/ExtOlive" component={ExtOlive} />
+                                <Route path="/JamsonOil" component={JamsonOil} />
+                                <Route path="/" component={ErrorPage} />
+                            </Switch>
+                        </div>
                     </CSSTransition>
                 </TransitionGroup>
             )} />

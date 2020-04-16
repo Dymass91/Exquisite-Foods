@@ -70,8 +70,8 @@ class ContactPage extends React.Component {
 
     render() {
         return (
-            <div className="Container_contact-form">
-                <h1 className="contact h1">Contact</h1>
+            <div className="Container">
+                <h1 className="page_h1">Contact</h1>
                 <div className="Contact__Details">
                     S.C.A. NTRA. SRA. DEL ROSARIO
                     <br></br>

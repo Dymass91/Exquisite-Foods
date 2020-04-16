@@ -23,6 +23,7 @@ header img{
     position: relative;
     overflow: hidden;
     width: 100%;
+    background-color: black;
     border-top: solid 4.5rem rgb(255, 255, 255);
    
     border-bottom: solid 0.5rem rgb(255, 255, 255);

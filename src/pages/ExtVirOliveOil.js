@@ -3,13 +3,14 @@ import "../styles/Eco&Ext_Oil.css";
 import olejcan from '../images/olejcan.jpg';
 import extravirginoil from '../images/Extravirginoil.jpg';
 import extravirginoilsmall from '../images/Extravirginoilsmall.jpg';
+import BenefitsPage from './HealthBenefits';
 
 
 const ExtOlivePage = () => {
     return (
         <>
-            <div className="container">
-                <h1 className="Products_h1">Extra virgin olive oil</h1>
+            <div className="oil_products-list">
+                <h1 className="oil_product_list-h1">Extra virgin olive oil</h1>
                 <div className="box">
                     <div className="imgbox">
                         <img className="oil-image" src={extravirginoil} alt="" />

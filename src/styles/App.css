@@ -1,3 +1,4 @@
+
 .fade-appear,
   .fade-enter {
       opacity: 0;
@@ -54,17 +55,7 @@ h1
     color: rgb(132, 223, 58);
    
 }
-.Products_h1
-{
-  position: relative;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  font-size: 2.2rem;
-  display: flex;
-  justify-content: center;
-  color: rgb(132, 223, 58);
-  
-}
+
 }
 @media (min-width: 767px){
   body
@@ -90,7 +81,7 @@ h1
     border-radius: 7rem;
 }
 
-  h1
+  .page_h1
 {
   position: relative;
   z-index: 3;
@@ -102,18 +93,7 @@ h1
     display: flex;
     justify-content: flex-start;
 }
-.Products_h1
-{
-  margin-left: 2rem;
-  position: relative;
-  z-index: 3;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    font-size: 3.3rem;
-    color: rgb(132, 223, 58);
-    display: flex;
-    justify-content: flex-start;
-}
+
 }
 div.App {
   display: flex;
@@ -135,12 +115,7 @@ main{
   z-index: 1;
 }
 
-.container h1
-{
-  display: flex;
-  flex-direction: row;
-  flex-basis: 100%;
-}
+
 aside{
   z-index: 1;
   margin-left: 40px;

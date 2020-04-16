@@ -8,8 +8,8 @@ import extravirginoilsmall from '../images/Extravirginoilsmall.jpg';
 const ExtOlivePage = () => {
     return (
         <>
-            <div className="container">
-                <h1 className="Products_h1">Oil and Jamón</h1>
+            <div className="oil_products-list">
+                <h1 className="oil_product_list-h1">Oil and Jamón</h1>
                 <div className="box">
                     <div className="imgbox">
                         <img className="oil-image" src={extravirginoil} alt="" />

@@ -7,8 +7,8 @@ import olej4l from '../images/olej4_5.jpg';
 const EcoOlivePage = () => {
     return (
         <>
-            <div className="container">
-                <h1 className="Products_h1">Ecological olive oil</h1>
+            <div className="oil_products-list">
+                <h1 className="oil_product_list-h1">Ecological olive oil</h1>
                 <div className="box">
                     <div className="imgbox">
                         <img className="oil-image" src={olej5l} alt="" />

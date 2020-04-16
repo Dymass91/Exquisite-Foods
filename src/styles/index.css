@@ -79,12 +79,12 @@ padding: 0.5rem;
   }
 .homePage
 {
-  margin-right: 5%;
+ 
   margin-top: 3rem;
   margin-bottom: 3rem;
   position: relative;
   background-color: white;
-  border: 4px solid #9bff29;
+  
   z-index: 2;
   max-width: 1100px;
   border-radius: 7rem;
