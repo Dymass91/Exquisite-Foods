@@ -5,11 +5,11 @@
  align-items: center;
  justify-content: center;
  margin-left: -1.4rem;
- margin-top: 1.6rem;
+
   }
   a.social {
       font-size: 1rem;
-    padding: 1rem;
+    padding: .8rem;
  
     transition: transform 250ms;
     display: inline-block;
