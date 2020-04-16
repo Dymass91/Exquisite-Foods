@@ -9,7 +9,7 @@ const ExtOlivePage = () => {
     return (
         <>
             <div className="container">
-                <h1 className="Products_h1">Jamson Oil</h1>
+                <h1 className="Products_h1">Oil and Jamón</h1>
                 <div className="box">
                     <div className="imgbox">
                         <img className="oil-image" src={extravirginoil} alt="" />

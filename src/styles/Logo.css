@@ -12,6 +12,8 @@ TOP: 15%;
 left: 50%;
 transform: translateX(-50%) scale(1.15);
 z-index: 4;
+height: 3.2rem;
+border-radius: 2rem;
 }
 .Logo:before
 {
@@ -22,8 +24,8 @@ z-index: 4;
     transform: translateX(-50%);
     margin-top: -13rem;
     content: '';
-    width: 42vw;
-    height: 19.5rem;
+    width: 38vw;
+    height: 18.5rem;
     border-radius: 50%;
     background-color: white;
 }
@@ -32,4 +34,5 @@ z-index: 4;
     .Logo{
         display: none;
     }
+    
   }

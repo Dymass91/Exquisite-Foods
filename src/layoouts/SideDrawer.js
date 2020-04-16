@@ -8,7 +8,7 @@ const list = [
     { name: "Home Page", path: "/", exact: true },
     { name: "Ecological olive oil", path: "/EcoOlive" },
     { name: "Extra virgin olive oil", path: "/ExtOlive" },
-    { name: "Jamson oil", path: "/JamsonOil" },
+    { name: "Oil & Jamón", path: "/JamsonOil" },
     { name: "Health Benefits", path: "/HealtBenefits" },
     { name: "Contact", path: "/contact" },
 

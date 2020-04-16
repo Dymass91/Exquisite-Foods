@@ -18,7 +18,7 @@ header img{
 }
 @media (min-width: 767px){
     header{
-        flex-basis: 72vh;
+        flex-basis: 76vh;
         z-index: 2;
     position: relative;
     overflow: hidden;
@@ -28,10 +28,11 @@ header img{
     border-bottom: solid 0.5rem rgb(255, 255, 255);
     }
     header img{
+        flex-basis: 72vh;
         position: absolute;
         left: 50%;
-        transform: translate(-50% , -40%);
-        min-width: 100%;
+        transform: translate(-50% , -48%);
+        min-width: 100vw;
         min-height: 100%;
         transition: 1s;
         border-bottom: solid 0.5rem rgb(255, 255, 255);
@@ -43,7 +44,7 @@ header img{
         flex-basis: 50vh;
     }
 }
-@media (max-width: 1170px){
+@media (max-width: 1500px){
     header{
    
     border-bottom: solid 0.0rem rgb(255, 255, 255);
