@@ -1,4 +1,13 @@
+@media (min-width: 360px), (max-width: 767px){
+    footer{
+        margin-top: -2rem;
+        z-index: 2;
+        line-height: 8vh;
+        background: linear-gradient( 180deg ,#333333,#030303);
+    }
+}
 
+@media (min-width: 767px){
 footer{
     z-index: 2;
     line-height: 8vh;
@@ -7,4 +16,5 @@ footer{
 
 footer p {
     font-size: 14px;
+}
 }

@@ -1,26 +1,10 @@
  
  @media (min-width: 360px), (max-width: 767px){
- .Container_contact-form
- {
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0px 0px 10px 10px white;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    position: relative;
-    background-color: white;
-    z-index: 2;
-    max-width: 1100px;
-    
-    z-index: 2;
-    padding-bottom: 4%;
-    color: rgb(48, 73, 20);
- }
+ 
 .input-textarea
 {
-    width: 80%;
+    width: 100%;
     display: flex;
-    margin-left: 10%;
     padding: 10px 15px;
     border: 2px solid rgb(172, 172, 172);
     border-radius: 10px;
@@ -34,21 +18,17 @@
 }
 .contact textarea{
     font-size: 16px;
-    width: 80%;
+    width: 100%;
     min-height: 150px;
-    margin: 10px 10%;
     line-height: 1.6;
     display: flex;
-    margin-left: 10%;
     padding: 10px 15px;
     border: 2px solid rgb(172, 172, 172);
     border-radius: 10px;
 }
 .primary-button{
-    
     display: block;
     float: left;
-    margin-left: 10%;
     border: 2px solid rgb(156, 223, 80);
     background-color: #fff;
     padding: 10px 20px;
@@ -64,12 +44,9 @@
     color: rgb(255, 255, 255);
     background-color: rgb(156, 223, 80);
     border: 2px solid rgb(156, 223, 80);
-    
 }
 .Contact__Details
 {
-    width: 520px;
-    margin-left: 10%;
     margin-bottom: 3%;
     line-height: 2.2;
     font-size: 22px;
@@ -82,7 +59,6 @@
     font-size: 22px;
     color: lawngreen;
     padding: 0.5rem;
-    margin-left: 2rem;
 }
  }
 
@@ -90,15 +66,14 @@
     .Container_contact-form
     {
         box-shadow: 0px 0px 0px 0px white;
-     
-       margin-top: 3rem;
+     display: flex;
        margin-bottom: 3rem;
        position: relative;
        background-color: white;
        z-index: 2;
-       max-width: 1100px;
-       min-height: 900px;
-      
+       width: 1050px;
+       min-height: 700px;
+     flex-direction: column;
        z-index: 2;
        border-radius: 7rem;
        padding-bottom: 4%;
@@ -107,8 +82,7 @@
    .input-textarea
    {
        width: 13rem;
-       display: flex;
-       margin-left: 10%;
+      margin-left: 10%;
        padding: 10px 15px;
        border: 2px solid rgb(172, 172, 172);
        border-radius: 10px;
@@ -124,9 +98,7 @@
        font-size: 16px;
        width: 80%;
        min-height: 150px;
-       margin: 10px 10%;
        line-height: 1.6;
-       display: flex;
        margin-left: 10%;
        padding: 10px 15px;
        border: 2px solid rgb(172, 172, 172);
@@ -151,13 +123,12 @@
    .primary-button:hover {
        color: rgb(255, 255, 255);
        background-color: rgb(156, 223, 80);
-       border: 2px solid rgb(156, 223, 80);
-       
+       border: 2px solid rgb(156, 223, 80);    
    }
    .Contact__Details
    {
-       width: 1052px;
-       margin-left: 10%;
+      
+    margin-left: 10%;
        margin-bottom: 3%;
        line-height: 2.2;
        font-size: 22px;
@@ -170,6 +141,5 @@
        font-size: 22px;
        color: lawngreen;
        padding: 0.5rem;
-       margin-left: 2rem;
    }
  }

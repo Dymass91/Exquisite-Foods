@@ -3,15 +3,27 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #b9f87e;
-    height: 56px;
+    background-color: #ffffff;
+    height: 60px;
   z-index: 3;
+  box-shadow: 0 0px 12px 1px black;
 }
 .toolbar__logo{
 
     margin-left: 0;
+    margin-bottom: 1rem;
 }
-
+.toolbarLogo
+{
+    
+    position: fixed;
+   left: 50%;
+   transform: translate(-50%, -0%);
+    width: 38vw;
+    height: 6.5vh;
+    border-radius: 2rem;
+    
+}
 
 .spacer{
     flex: 1;

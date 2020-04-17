@@ -6,7 +6,7 @@
   .Benefits__article
 {
  
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-bottom: 3rem;
   position: relative;
   background-color: white;
@@ -86,12 +86,6 @@ shape-outside: circle(50%);
 border-radius: 20%;
 }
 }
-@media(max-width: 1124px){
-   
-  .Benefits__article p{
-      width: 90%;
-      padding: 5px;
-  }
+
 
   
-}
