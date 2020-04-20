@@ -12,6 +12,13 @@ import Navbar from './Navbar';
 
 
 class App extends Component {
+
+  constructor() {
+    super();
+    this.state = {
+      scrolled: false,
+    };
+  }
   render() {
     return (
       <Router basename={process.env.PUBLIC_URL}>

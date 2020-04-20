@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import "../styles/Navigation.css";
-
+import StickyBox from "react-sticky-box";
 
 const list = [
     { name: "Home page", path: "/", exact: true },
@@ -21,13 +21,17 @@ const Navigation = () => {
         </li>
     ))
     return (
-        <nav className="main">
-            <ul>
-                {menu}
+        <StickyBox offsetTop={0} offsetBottom={20}>
+            <nav className="main">
+                <ul>
+                    {menu}
 
-            </ul>
-        </nav>
+                </ul>
+            </nav>
+        </StickyBox>
     );
 }
 
 export default Navigation;
+
+

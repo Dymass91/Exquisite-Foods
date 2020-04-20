@@ -146,11 +146,22 @@ main{
 
 aside{
   z-index: 1;
-  margin-left: 40px;
+ width: 350px;
  
-  background-color: transparent;
+ 
 }
-
+aside ul 
+{
+  width: 350px;
+  padding: 1.5rem  2rem  1rem 0  ;
+  padding-left: 2rem;
+  background: linear-gradient( 90deg ,#9bff29,#aafa4e);
+  border-bottom: #5ec201 solid 1.5rem;
+}
+aside li 
+{
+  background: linear-gradient( 90deg ,#9bff29,#aafa4e);
+}
 section.Page{
   
   overflow:hidden;
