@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Exquisite-Foods/precache-manifest.143fee90e0fb5547db46a9c0f3844e75.js"
+  "/Exquisite-Foods/precache-manifest.4a48ae60ee624dc37926b88d08443872.js"
 );
 
 self.addEventListener('message', (event) => {
