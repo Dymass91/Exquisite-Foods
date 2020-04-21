@@ -18,7 +18,10 @@ class App extends Component {
 
     backdropClickHandler = () => {
         this.setState({ sideDrawerOpen: false })
+    }
 
+    drawerAfterClickDrop = () => {
+        this.setState({ sideDrawerOpen: false })
     }
 
     render() {
@@ -31,10 +34,9 @@ class App extends Component {
         }
 
 
-
-
         return (
             <div style={{ height: "100 %" }}>
+
                 <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
                 <SideDrawer show={this.state.sideDrawerOpen} />
 
