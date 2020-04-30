@@ -24,7 +24,7 @@ const sideDrawer = props => {
     }
     const menu = list.map(item => (
         <li key={item.name}>
-            <NavLink onClick={!props.show} to={item.path} exact={item.exact ? item.exact : false}  >{item.name}</NavLink>
+            <NavLink to={item.path} exact={item.exact ? item.exact : false}  >{item.name}</NavLink>
 
         </li>
     ))
