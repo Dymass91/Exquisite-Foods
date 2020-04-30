@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Exquisite-Foods/static/css/main.8bb6da65.chunk.css",
-    "main.js": "/Exquisite-Foods/static/js/main.6f0ce8f2.chunk.js",
-    "main.js.map": "/Exquisite-Foods/static/js/main.6f0ce8f2.chunk.js.map",
+    "main.css": "/Exquisite-Foods/static/css/main.67edbe79.chunk.css",
+    "main.js": "/Exquisite-Foods/static/js/main.4fbfb1de.chunk.js",
+    "main.js.map": "/Exquisite-Foods/static/js/main.4fbfb1de.chunk.js.map",
     "runtime~main.js": "/Exquisite-Foods/static/js/runtime~main.6c0a4274.js",
     "runtime~main.js.map": "/Exquisite-Foods/static/js/runtime~main.6c0a4274.js.map",
     "static/js/2.a624cfec.chunk.js": "/Exquisite-Foods/static/js/2.a624cfec.chunk.js",
     "static/js/2.a624cfec.chunk.js.map": "/Exquisite-Foods/static/js/2.a624cfec.chunk.js.map",
     "index.html": "/Exquisite-Foods/index.html",
-    "precache-manifest.4a48ae60ee624dc37926b88d08443872.js": "/Exquisite-Foods/precache-manifest.4a48ae60ee624dc37926b88d08443872.js",
+    "precache-manifest.40820f9fe279bbf0c588f060aca28c89.js": "/Exquisite-Foods/precache-manifest.40820f9fe279bbf0c588f060aca28c89.js",
     "service-worker.js": "/Exquisite-Foods/service-worker.js",
-    "static/css/main.8bb6da65.chunk.css.map": "/Exquisite-Foods/static/css/main.8bb6da65.chunk.css.map",
+    "static/css/main.67edbe79.chunk.css.map": "/Exquisite-Foods/static/css/main.67edbe79.chunk.css.map",
     "static/media/Extravirginoil.jpg": "/Exquisite-Foods/static/media/Extravirginoil.87ecaba8.jpg",
     "static/media/Extravirginoilsmall.jpg": "/Exquisite-Foods/static/media/Extravirginoilsmall.8cc80d97.jpg",
     "static/media/MainImg4.jpg": "/Exquisite-Foods/static/media/MainImg4.3c6b361c.jpg",
@@ -24,6 +24,7 @@
     "static/media/olejcan.jpg": "/Exquisite-Foods/static/media/olejcan.d2992b39.jpg",
     "static/media/olive-oil-head.jpg": "/Exquisite-Foods/static/media/olive-oil-head.d0b1a0f8.jpg",
     "static/media/olives2.jpg": "/Exquisite-Foods/static/media/olives2.b9bcb1c3.jpg",
-    "static/media/town.jpg": "/Exquisite-Foods/static/media/town.2901b077.jpg"
+    "static/media/town.jpg": "/Exquisite-Foods/static/media/town.2901b077.jpg",
+    "static/media/footer.css": "/Exquisite-Foods/static/media/zwartevilt.aa61a0cf.png"
   }
 }
