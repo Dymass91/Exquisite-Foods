@@ -5,10 +5,11 @@
     height: 80PX;
     background: linear-gradient( 45deg ,#9bff29,#c5fa93);
     z-index: 3;
+    margin-top: -2rem;
 }
 .exouisideLogo{
 position: absolute;
-TOP: 15%;
+TOP: 45%;
 left: 50%;
 transform: translateX(-50%) scale(1.15);
 z-index: 4;
@@ -22,7 +23,7 @@ border-radius: 2rem;
     position: absolute;
     margin-left: 50%;
     transform: translateX(-50%);
-    margin-top: -13rem;
+    margin-top: -12rem;
     content: '';
     width: 38vw;
     height: 18.5rem;

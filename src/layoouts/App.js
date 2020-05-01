@@ -8,7 +8,7 @@ import Navigation from './Navigation';
 import Footer from './Footer';
 import Logo from './Logo';
 import Navbar from './Navbar';
-
+import Title from './Title';
 
 
 class App extends Component {
@@ -22,7 +22,7 @@ class App extends Component {
   render() {
     return (
       <Router basename={process.env.PUBLIC_URL}>
-
+        <Title />
         <div className="App">
           <div>
             {<Navbar />}
@@ -45,7 +45,9 @@ class App extends Component {
             {<Footer />}
           </footer>
         </div>
+
       </Router >
+
     );
   }
 }

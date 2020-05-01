@@ -1,3 +1,5 @@
+@import url( "https://fonts.googleapis.com/css2?family=Anton&family=Cabin&family=Ubuntu+Condensed&family=Yanone+Kaffeesatz:wght@700&display=swap"  );
+
 @media (min-width: 360px), (max-width: 767px){
     footer{
       
@@ -24,16 +26,17 @@ footer{
 {
     width: 50.5vw;
     height: 51vh;
-    margin-top: 2.3rem;
+    margin-top: 2.5rem;
  
    margin-right: -2rem;
    border-radius: 1.5rem;
 }
 .Contact__Details-footer
 {
-
+    font-weight: bold;
+    font-family: 'Ubuntu Condensed', sans-serif;
     width: 40vw;
-    margin-top: 3rem;
+    margin-top: 3.5rem;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -42,11 +45,12 @@ footer{
 }
 .footer_rights 
 {
+    font-family: 'Ubuntu Condensed', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 30vw;
-    margin-top: 4rem;
+    margin-top: 3.5rem;
     font-size: 24px;
 }
 }
