@@ -83,7 +83,7 @@ width: 100%;
 height: 4%;
 border-radius: 0 0 100% 20%/0 0 40% 0%;
  
-  background: linear-gradient( 45deg ,#9bff29,#c5fa93);
+  background: linear-gradient( 45deg ,#9bff29,rgb(208, 252, 137));
 
 }
 }
@@ -121,7 +121,7 @@ border-radius: 0 0 100% 20%/0 0 40% 0%;
     margin-bottom: 2rem;
     font-size: 3.3rem;
     margin-left: 5rem;
-    color: rgb(132, 223, 58);
+    color: rgb(198, 253, 109);
     display: flex;
     justify-content: flex-start;
 }
@@ -159,14 +159,11 @@ aside ul
   width: 350px;
   padding: 1.5rem  2rem  1rem 0  ;
   padding-left: 2rem;
-  background: linear-gradient( 90deg ,#9bff29,#aafa4e);
+  background: linear-gradient( 90deg ,#82ce2c,#9de24e);
   border-bottom: #5ec201 solid 1.5rem;
   
 }
-aside li 
-{
-  background: linear-gradient( 90deg ,#9bff29,#aafa4e);
-}
+
 section.Page{
   
   overflow:hidden;
@@ -194,7 +191,7 @@ width: 100%;
 height: 126%;
 border-radius: 0 0 100% 20%/0 0 40% 0%;
  
-  background: linear-gradient( 45deg ,#9bff29,#c5fa93);
+  background: linear-gradient( 45deg ,#90d640,rgb(197, 253, 107));
 
 }
 
