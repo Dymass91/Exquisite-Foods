@@ -40,6 +40,12 @@ html {
   max-width: 1100px;
  box-shadow: 0px 0px 10px 10px white;
 }
+.bold-text
+{
+  color: rgb(205, 252, 129);
+  text-shadow: 1px 1px rgb(103, 182, 51);
+  font-weight: bold;
+}
   .homePage p 
 {
   

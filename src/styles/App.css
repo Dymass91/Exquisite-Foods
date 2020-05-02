@@ -49,13 +49,13 @@ h1
 {
   font-family: 'Satisfy', cursive;
   position: relative;
-  text-shadow: 1px 1px rgb(43, 107, 0);
+  text-shadow: 1px 1px rgb(103, 182, 51);
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     font-size: 2.2rem;
     display: flex;
     justify-content: center;
-    color: rgb(198, 253, 109);
+    color: rgb(205, 252, 129);
    
 }
 .h1-mobile
