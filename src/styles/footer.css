@@ -5,7 +5,7 @@
       
         z-index: 2;
         color: white;
-        background: linear-gradient( 180deg ,#333333,#030303);
+        background: url(../images/zwartevilt.png);
     }
     .googleMaps
 {
