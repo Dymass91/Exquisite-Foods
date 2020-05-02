@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Just+Another+Hand&family=Lobster&family=Patrick+Hand&family=Satisfy&display=swap');
 
 .fade-appear,
   .fade-enter {
@@ -46,8 +47,9 @@
 }
 h1
 {
+  font-family: 'Satisfy', cursive;
   position: relative;
- 
+  text-shadow: 1px 1px rgb(43, 107, 0);
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     font-size: 2.2rem;
@@ -112,6 +114,7 @@ border-radius: 0 0 100% 20%/0 0 40% 0%;
 
   .page_h1
 {
+  text-shadow: 1px 1px rgb(43, 107, 0);
   position: relative;
   z-index: 3;
     margin-top: 2rem;

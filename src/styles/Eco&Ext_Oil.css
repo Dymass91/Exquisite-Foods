@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Just+Another+Hand&family=Lobster&family=Patrick+Hand&family=Satisfy&display=swap');
 @media (min-width: 360px), (max-width: 767px){
     
     .box
@@ -49,6 +49,7 @@
     @media (min-width: 767px){
         .oil_product_list-h1
         {
+            font-family: 'Satisfy', cursive;
             display: flex;
     justify-content: flex-start;
            width: 100%;

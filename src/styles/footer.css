@@ -4,9 +4,37 @@
     footer{
       
         z-index: 2;
-        
+        color: white;
         background: linear-gradient( 180deg ,#333333,#030303);
     }
+    .googleMaps
+{
+    width: 95vw;
+    height: 51vh;
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+   margin-left: 50%;
+   transform: translateX(-50%);
+   margin-right: -2rem;
+   border-radius: 1.5rem;
+}
+.Contact__Details-footer
+{
+    font-weight: bold;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    width: 100vw;
+    margin-top: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-size: 22px;
+    line-height: 7vh;
+}
+.footer_rights 
+{
+   display: none;
+}
 }
 
 @media (min-width: 767px){
@@ -28,11 +56,12 @@ footer{
     height: 51vh;
     margin-top: 2.5rem;
  
-   margin-right: -2rem;
+   margin-left: 24rem;
    border-radius: 1.5rem;
 }
 .Contact__Details-footer
 {
+    text-align: justify;
     font-weight: bold;
     font-family: 'Ubuntu Condensed', sans-serif;
     width: 40vw;
@@ -45,6 +74,7 @@ footer{
 }
 .footer_rights 
 {
+    text-align: justify;
     font-family: 'Ubuntu Condensed', sans-serif;
     display: flex;
     align-items: center;

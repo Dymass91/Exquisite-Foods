@@ -10,10 +10,9 @@ const HomePage = () => {
             <h1 className="page_h1 h1-mobile">Exquisite Foods</h1>
 
             <p>
-                Our company
-Algodonales, a village belonging to the route of the "white villages", is located in the Sierra de Cadiz and more specifically the edge of the Sierra de Lijar,<img className="townimg" src={imgtown} alt="miasto" /> known for its suitability for air sports such as hang gliding and paragliding.
+                Our oils in produce in a village belonging to the route of the <strong className='bold-text'>“white villages”</strong>, located at the edge of Sierra de lijar ,<img className="townimg" src={imgtown} alt="miasto" /> known for its suitability for air sports such as hang gliding and paragliding.
 
-                The lands of the village are primarily engaged in agriculture and the most important is the olive crop. The most common variety is the "Lechin of Seville."
+                The lands of the village are primarily engaged in agriculture and the most important is the olive crop. The most common variety is the <strong className='bold-text'>"Lechin of Seville."</strong>
 
 
                                 The olive growers in the nearby town of Zahara de la Sierra,  provide us with the bulk of olives, being the predominant variety "Manzanillo".
@@ -24,7 +23,7 @@ Algodonales, a village belonging to the route of the "white villages", is locate
 
                 Experts say that mixing olives of the Lechín and Manzanilla variety, we can produce one of the best oils in the world.
 
-Knowing this, in S.C.A. Nuestra Señora del Rosario, we made a great economic effort to have the latest technology, so we can produce and package our quality oils for our customers all around the world.</p>
+Knowing this, in <strong className='bold-text'>S.C.A. Nuestra Señora del Rosario</strong>, we made a great economic effort to have the latest technology, so we can produce and package our quality oils for our customers all around the world.</p>
         </div>
 
     );

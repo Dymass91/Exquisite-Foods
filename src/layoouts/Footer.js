@@ -21,7 +21,7 @@ const Footer = () => {
 
             </div>
             <div className="googleMaps">
-                <iframe frameBorder="0" style={{ width: "50vw", height: "50vh", borderRadius: '1.5rem', lineHeight: "50vh" }}
+                <iframe frameBorder="0" style={{ width: "100%", height: "50vh", borderRadius: '1.5rem', lineHeight: "100%" }}
                     src="https://www.google.com/maps/embed/v1/place?q=36.880606, -5.408098&amp;key=AIzaSyBj7ZA7DO2_mnpYz3SYZEeqAC56E9b7uyk">
                 </iframe>
 
