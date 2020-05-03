@@ -16,6 +16,8 @@ const list = [
 
 const sideDrawer = props => {
     let drawerClasses = 'side-drawer';
+
+
     if (props.show) {
         drawerClasses = 'side-drawer open';
     }
@@ -29,8 +31,9 @@ const sideDrawer = props => {
         </li>
     ))
     return (
-        <nav className={drawerClasses}>
-            <ul>
+        <nav className={drawerClasses} >
+            <ul >
+
                 {menu}
                 <SocialFollow />
             </ul>

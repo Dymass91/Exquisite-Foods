@@ -20,13 +20,12 @@ class App extends Component {
         this.setState({ sideDrawerOpen: false })
     }
 
-    drawerAfterClickDrop = () => {
-        this.setState({ sideDrawerOpen: false })
-    }
+
+
 
     render() {
         let backdrop;
-        let sidedrop;
+
 
         if (this.state.sideDrawerOpen) {
             backdrop = <Backdrop click={this.backdropClickHandler} />
@@ -41,7 +40,7 @@ class App extends Component {
                 <SideDrawer show={this.state.sideDrawerOpen} />
 
                 {backdrop}
-                {sidedrop}
+
             </div>
         );
     }
