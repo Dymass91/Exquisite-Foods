@@ -94,7 +94,7 @@ border-radius: 0 0 100% 20%/0 0 40% 0%;
   }
   .container
 {
-    min-height: 1050px;
+    min-height: 850px;
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;

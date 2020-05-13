@@ -1,7 +1,7 @@
 import React from 'react';
 import imgtown from '../images/town.jpg';
 import olives2 from '../images/olives2.jpg';
-import ImgLogo from '../images/Logo.jpg';
+
 
 const HomePage = () => {
     return (
@@ -10,7 +10,7 @@ const HomePage = () => {
             <h1 className="page_h1 h1-mobile">Exquisite Foods</h1>
 
             <p>
-                Our oils in produce in a village belonging to the route of the <strong className='bold-text'>“white villages”</strong>, located at the edge of Sierra de lijar ,<img className="townimg" src={imgtown} alt="miasto" /> known for its suitability for air sports such as hang gliding and paragliding.
+                Our oils are produced in a village belonging to the route of the <strong className='bold-text'>“white villages”</strong>, located at the edge of Sierra de lijar ,<img className="townimg" src={imgtown} alt="miasto" /> known for its suitability for air sports such as hang gliding and paragliding.
 
                 The lands of the village are primarily engaged in agriculture and the most important is the olive crop. The most common variety is the <strong className='bold-text'>"Lechin of Seville."</strong>
 

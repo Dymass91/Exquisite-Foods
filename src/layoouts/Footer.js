@@ -7,16 +7,17 @@ const Footer = () => {
         <>
             <div className="footer" >
                 <div className="Contact__Details-footer">
-                    S.C.A. NTRA. SRA. DEL ROSARIO
+                    Exquisite foods distributor limited
                     <br></br>
-                            Avda. Manuel Pimentel, s/n
+
+                    Company reg.12143850
+                    <br></br>
+
+
+                    Mobile contact: 07375081408
                         <br></br>
-                            11.680 Algodonales (Cádiz)
-<br></br>
-                            Phone: +(34) 956 13 71 56
-                        <br></br>
-                            Fax: +(34) 956 13 77 01
-</div>
+
+                </div>
                 <p className="footer_rights">All rights reserved 2020</p>
 
             </div>

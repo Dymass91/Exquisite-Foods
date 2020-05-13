@@ -73,16 +73,14 @@ class ContactPage extends React.Component {
             <div className="Container_contact-form">
                 <h1 className="page_h1">Contact</h1>
                 <div className="Contact__Details">
-                    S.C.A. NTRA. SRA. DEL ROSARIO
+                    Exquisite foods distributor limited
                     <br></br>
-                            Avda. Manuel Pimentel, s/n
+                    Company reg.12143850
+                    <br></br>
+                    Mobile contact: 07375081408
                         <br></br>
-                            11.680 Algodonales (Cádiz)
-<br></br>
-                            Phone: +(34) 956 13 71 56
-                        <br></br>
-                            Fax: +(34) 956 13 77 01
-</div>
+
+                </div>
                 <Hero title={this.props.title} />
 
                 <Content>

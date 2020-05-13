@@ -65,7 +65,7 @@ footer{
     font-weight: bold;
     font-family: 'Ubuntu Condensed', sans-serif;
     width: 40vw;
-    margin-top: 3.5rem;
+    margin-top: 5.5rem;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -79,8 +79,8 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30vw;
-    margin-top: 3.5rem;
+    width: 37vw;
+    margin-top: 7.5rem;
     font-size: 24px;
 }
 }
