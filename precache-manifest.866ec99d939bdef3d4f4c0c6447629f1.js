@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6fbaa5ae73125a9d5487c909488b0c9b",
+    "revision": "af06736ff5471bab551757b8e21aecc5",
     "url": "/Exquisite-Foods/index.html"
   },
   {
-    "revision": "665629db9a0401872003",
-    "url": "/Exquisite-Foods/static/css/main.bed61907.chunk.css"
+    "revision": "9994e534bcc8508e8e9a",
+    "url": "/Exquisite-Foods/static/css/main.9b550b25.chunk.css"
   },
   {
-    "revision": "606f823aa051ceec4a1e",
-    "url": "/Exquisite-Foods/static/js/2.48004da5.chunk.js"
+    "revision": "deefabde8102e9b4af84",
+    "url": "/Exquisite-Foods/static/js/2.ebf9a512.chunk.js"
   },
   {
-    "revision": "665629db9a0401872003",
-    "url": "/Exquisite-Foods/static/js/main.91f2d0c2.chunk.js"
+    "revision": "9994e534bcc8508e8e9a",
+    "url": "/Exquisite-Foods/static/js/main.db6bd144.chunk.js"
   },
   {
     "revision": "9db18fda0b241be75ff7",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8cc80d97ddb56ef0eea253f16d080892",
     "url": "/Exquisite-Foods/static/media/Extravirginoilsmall.8cc80d97.jpg"
+  },
+  {
+    "revision": "de2ec23e2b3f6634f825a06d1221aa71",
+    "url": "/Exquisite-Foods/static/media/LOGO OIL JAMON - TRANS.de2ec23e.png"
   },
   {
     "revision": "3c6b361caed77b2ff1f49af79fe64e20",
