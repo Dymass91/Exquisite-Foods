@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "af06736ff5471bab551757b8e21aecc5",
+    "revision": "199649171e2dd0e7d57c5bbe097e222f",
     "url": "/Exquisite-Foods/index.html"
   },
   {
-    "revision": "9994e534bcc8508e8e9a",
-    "url": "/Exquisite-Foods/static/css/main.9b550b25.chunk.css"
+    "revision": "01d9ee705589f57b0d8b",
+    "url": "/Exquisite-Foods/static/css/main.a8462a18.chunk.css"
   },
   {
-    "revision": "deefabde8102e9b4af84",
-    "url": "/Exquisite-Foods/static/js/2.ebf9a512.chunk.js"
+    "revision": "b8213023f8a59cf71912",
+    "url": "/Exquisite-Foods/static/js/2.38ef4b21.chunk.js"
   },
   {
-    "revision": "9994e534bcc8508e8e9a",
-    "url": "/Exquisite-Foods/static/js/main.db6bd144.chunk.js"
+    "revision": "01d9ee705589f57b0d8b",
+    "url": "/Exquisite-Foods/static/js/main.3ecc9dbe.chunk.js"
   },
   {
     "revision": "9db18fda0b241be75ff7",
     "url": "/Exquisite-Foods/static/js/runtime~main.6c0a4274.js"
+  },
+  {
+    "revision": "75d642e866d6d53276096e9d222b8284",
+    "url": "/Exquisite-Foods/static/media/Botella 250 ml. condimento oiljamon.75d642e8.jpg"
   },
   {
     "revision": "87ecaba89eb46b86038b927fc8c95f1f",
@@ -26,6 +30,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8cc80d97ddb56ef0eea253f16d080892",
     "url": "/Exquisite-Foods/static/media/Extravirginoilsmall.8cc80d97.jpg"
+  },
+  {
+    "revision": "559fe0a2ee2c81141dc46ef9363f4149",
+    "url": "/Exquisite-Foods/static/media/Imagen Crema Dulce  Mermelada 100 gr.559fe0a2.jpg"
+  },
+  {
+    "revision": "6b4d2dd952fa9df27f0f41b8d71b40d6",
+    "url": "/Exquisite-Foods/static/media/Imagen botella 99 ml.6b4d2dd9.jpg"
   },
   {
     "revision": "de2ec23e2b3f6634f825a06d1221aa71",
