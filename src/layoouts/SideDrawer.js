@@ -29,7 +29,9 @@ const sideDrawer = props => {
             <NavLink to={item.path} exact={item.exact ? item.exact : false}  >{item.name}</NavLink>
 
         </li>
+
     ))
+
     return (
         <nav className={drawerClasses} >
             <ul >

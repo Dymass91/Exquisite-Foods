@@ -7,14 +7,13 @@
     left: 0;
     width: 78%;
     max-width: 400px;
-    z-index: 101;
+    z-index: 5;
     transform: translateX(-100%);
     transition: transform 0.3s ease-out;
 }
 .side-drawer.open{
     transform: translateX(0);
     box-shadow: 1px 0px 7px rgb(63, 63, 63);
-   
 }
 
 .side-drawer ul{
@@ -24,6 +23,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 1rem;
+    
 }
 .side-drawer li {
     margin: .8rem 0;
@@ -34,6 +34,7 @@
     text-decoration: none;
     font-size: 1.4rem;
     font-weight: bold;
+    
 }
 
 .side-drawer a:hover,
