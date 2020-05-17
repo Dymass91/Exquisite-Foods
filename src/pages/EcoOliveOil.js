@@ -9,7 +9,7 @@ const EcoOlivePage = () => {
         <>
 
             <div className="oil_products-list">
-                <h1 className="oil_product_list-h1">Ecological olive oil</h1>
+                <h1 className="oil_product_list-h1"> Organic olive oil</h1>
                 <div className='OilIntroduce_text'>
 
                     Organic Extra virgin olive oil is fairly nutritious.
@@ -18,14 +18,14 @@ It contains modest amounts of vitamins E and K and plenty of beneficial fatty ac
 <br></br>
 One tablespoon (13.5 grams) of olive oil contains the following:
 <br></br><br></br>
-                    <strong>Saturated fat: 14%
+                    <strong>Saturated fat:</strong> 14%
 <br></br>
-Monounsaturated fat: 73% (mostly oleic acid)
+                    <strong>Monounsaturated fat:</strong> 73% (mostly oleic acid)
 <br></br>
-Vitamin E: 13% of the Daily Value (DV)
+                    <strong>Vitamin E:</strong> 13% of the Daily Value (DV)
 <br></br>
-Vitamin K: 7% of the DV
-<br></br></strong>
+                    <strong>Vitamin K:</strong> 7% of the DV
+<br></br>
                     <br></br>
 Notably, extra virgin olive oil shines in its antioxidant content.
 <br></br><br></br>
@@ -58,7 +58,8 @@ Using extra virgin olive oil may help prevent this from happening, leading to a 
                         <h2>FORMAT 250 ml.</h2>
 
                         <h4>
-
+                            Price:
+                            <br></br>
                             1 + x £ 4.00
                         <br></br>
 15+ x £ 3.70
@@ -82,6 +83,8 @@ Using extra virgin olive oil may help prevent this from happening, leading to a 
                         <h2>FORMAT 500 ml.</h2>
 
                         <h4>
+                            Price:
+                            <br></br>
                             1+ x £ 6.00
                         <br></br>
 15+ x £ 5.50
@@ -107,6 +110,8 @@ Using extra virgin olive oil may help prevent this from happening, leading to a 
                         <h2>FORMAT 750 ml.</h2>
 
                         <h4>
+                            Price:
+                            <br></br>
                             1+ x £ 7.00
                         <br></br>
 15+ x £ 6.50
@@ -133,6 +138,8 @@ Using extra virgin olive oil may help prevent this from happening, leading to a 
 </h2>
 
                         <h4>
+                            Price:
+                            <br></br>
                             1+ x £ 35
                             <br></br>
                             4+ x £ 33
@@ -149,6 +156,7 @@ Using extra virgin olive oil may help prevent this from happening, leading to a 
                     </div>
 
                 </div>
+                <h3> *ALL PRICES ARE INCLUSIVE OF VAT</h3>
             </div>
         </>
     );

@@ -20,7 +20,7 @@
       transition: opacity 150ms linear;
   }
 
-@media (min-width: 360px), (max-width: 767px){
+@media (min-width: 360px), (max-width: 769px){
   body
   {
       margin: 0;
@@ -43,7 +43,7 @@
     background-color: white;
   
     z-index: 2;
-    box-shadow: 0px 0px 10px 10px white;
+   
 }
 h1
 {
@@ -62,32 +62,10 @@ h1
 {
   display: none;
 }
-section.Page:before{
-  content: '';
-  position: absolute;
-  top: 0;
-left: 0;
-width: 100%;
-height: 130%;
-border-radius: 0 0 100% 20%/0 0 40% 0%;
 
-  background: linear-gradient( 45deg ,#5ec201,#95ff80);
-}
-section.Page:after{
-  
-  content: '';
-  position: absolute;
-  top: 0;
-left: 0;
-width: 100%;
-height: 4%;
-border-radius: 0 0 100% 20%/0 0 40% 0%;
- 
-  background: linear-gradient( 45deg ,#9bff29,rgb(208, 252, 137));
 
 }
-}
-@media (min-width: 767px){
+@media (min-width: 769px){
   body
   {
     display: block;
@@ -101,12 +79,12 @@ border-radius: 0 0 100% 20%/0 0 40% 0%;
     justify-content: space-around;
     padding: 15px;
     flex-direction: row;
-    box-shadow: 0px 0px 0px 0px;
+    
     margin-top: 3rem;
     position: relative;
     background-color: white;
-    border: 5px solid #9bff29;
-    border-bottom: 5px solid #9bff29;
+    border: 5px solid #9f232a;
+    border-bottom: 5px solid #9f232a;
     border-right: 0;
     z-index: 2;
     border-radius: 7rem 0rem 0rem 0rem;
@@ -114,14 +92,14 @@ border-radius: 0 0 100% 20%/0 0 40% 0%;
 
   .page_h1
 {
-  text-shadow: 1px 1px rgb(43, 107, 0);
+  text-shadow: 3px 2px #797805;
   position: relative;
   z-index: 3;
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-size: 3.3rem;
     margin-left: 5rem;
-    color: rgb(198, 253, 109);
+    color: #98b80a;
     display: flex;
     justify-content: flex-start;
 }
@@ -141,7 +119,7 @@ main{
   display: flex;
   flex-grow: 1;
  
-  box-shadow: 0 0 5px 8px white;
+  
   background-color: rgb(255, 255, 255);
   
   z-index: 1;
@@ -159,8 +137,9 @@ aside ul
   width: 350px;
   padding: 1.5rem  2rem  1rem 0  ;
   padding-left: 2rem;
-  background: linear-gradient( 90deg ,#82ce2c,#9de24e);
-  border-bottom: #5ec201 solid 1.5rem;
+  background-color: #98b80a;
+  /* background: linear-gradient( 90deg ,#82ce2c,#9de24e); */
+  border-bottom: #9f232a solid 0.8rem;
   
 }
 
@@ -176,24 +155,12 @@ section.Page:before{
   top: 0;
 left: 0;
 width: 100%;
-height: 130%;
-border-radius: 0 0 100% 20%/0 0 40% 0%;
+height: 100%;
 
-  background: linear-gradient( 45deg ,#5ec201,#95ff80);
+background-color: #98b80a;
+  /* background: linear-gradient( 45deg ,#5ec201,#95ff80); */
 }
-section.Page:after{
-  
-  content: '';
-  position: absolute;
-  top: 0;
-left: 0;
-width: 100%;
-height: 126%;
-border-radius: 0 0 100% 20%/0 0 40% 0%;
- 
-  background: linear-gradient( 45deg ,#90d640,rgb(197, 253, 107));
 
-}
 
 @media(max-width: 768px){
    

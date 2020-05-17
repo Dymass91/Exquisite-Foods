@@ -11,7 +11,7 @@ html {
  
   font-size: 20px;
 }
-@media (min-width: 360px), (max-width: 767px){
+@media (min-width: 360px), (max-width: 769px){
   .HeaderLogo
 {
   padding-top: .9rem;
@@ -38,14 +38,9 @@ html {
   
   z-index: 2;
   max-width: 1100px;
- box-shadow: 0px 0px 10px 10px white;
+
 }
-.bold-text
-{
-  color: rgb(205, 252, 129);
-  text-shadow: 1px 1px rgb(103, 182, 51);
-  font-weight: bold;
-}
+
   .homePage p 
 {
   
@@ -61,12 +56,7 @@ html {
   color: rgb(48, 73, 20);
   z-index: 2;
 }
-.bold-text
-{
-  color: rgb(198, 253, 109);
-  text-shadow: 1px 1px rgb(43, 107, 0);
-  font-weight: bold;
-}
+
 .olives2
 {
   
@@ -81,7 +71,7 @@ padding: 0.5rem;
   padding: 0.5rem;
 }
 }
-@media (min-width: 767px){
+@media (min-width: 769px){
   .HeaderLogo
   {
       display: none;

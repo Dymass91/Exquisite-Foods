@@ -23,7 +23,7 @@ header img{
 }
 @media (min-width: 767px){
     header{
-        flex-basis: 74vh;
+        flex-basis: 68vh;
         z-index: 2;
     position: relative;
     overflow: hidden;
@@ -57,3 +57,5 @@ header img{
     border-bottom: solid 0.0rem rgb(255, 255, 255);
     }
 }
+@media (min-width: 860px), (max-width: 1024px)
+{}

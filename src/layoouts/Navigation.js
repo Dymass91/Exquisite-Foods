@@ -5,7 +5,7 @@ import StickyBox from "react-sticky-box";
 
 const list = [
     { name: "Home page", path: "/", exact: true },
-    { name: "Ecological olive oil", path: "/EcoOlive" },
+    { name: "Organic olive oil", path: "/EcoOlive" },
     { name: "Extra virgin olive oil", path: "/ExtOlive" },
     { name: "Oil & Jamón", path: "/JamsonOil" },
     { name: "Health benefits", path: "/HealtBenefits" },

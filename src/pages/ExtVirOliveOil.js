@@ -46,6 +46,8 @@ const ExtOlivePage = () => {
                         <h2>FORMAT 500 ml </h2>
 
                         <h4>
+                            Price:
+                            <br></br>
                             1+ x £ 5.00
                         <br></br>
 15+ x £ 4.50
@@ -71,6 +73,8 @@ const ExtOlivePage = () => {
                         <h2>FORMAT 750 ml. </h2>
 
                         <h4>
+                            Price:
+                            <br></br>
                             1+ x £ 6.00
                             <br></br>
 15+ x £ 5.50
@@ -95,6 +99,8 @@ const ExtOlivePage = () => {
                         <h2>FORMAT 5 litres. </h2>
 
                         <h4>
+                            Price:
+                            <br></br>
                             1+ x £ 30.00
                             <br></br>
                             4+ x £ 28.00
@@ -111,6 +117,7 @@ const ExtOlivePage = () => {
                     </div>
 
                 </div>
+                <h3> *ALL PRICES ARE INCLUSIVE OF VAT</h3>
             </div>
 
         </>
