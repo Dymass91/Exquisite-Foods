@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6d5b1cfb8ef9a3e6178e3fbe80913467",
+    "revision": "d5d6ea4c86232bf993a2afc3b8dabfdf",
     "url": "/Exquisite-Foods/index.html"
   },
   {
-    "revision": "0cd75b890c487edf0481",
-    "url": "/Exquisite-Foods/static/css/main.bb93373e.chunk.css"
+    "revision": "dbb724f8c77f89322cdd",
+    "url": "/Exquisite-Foods/static/css/main.985e71f5.chunk.css"
   },
   {
-    "revision": "b8213023f8a59cf71912",
-    "url": "/Exquisite-Foods/static/js/2.38ef4b21.chunk.js"
+    "revision": "eb9ea6c6af3020f0ba15",
+    "url": "/Exquisite-Foods/static/js/2.da975c7b.chunk.js"
   },
   {
-    "revision": "0cd75b890c487edf0481",
-    "url": "/Exquisite-Foods/static/js/main.e08a075a.chunk.js"
+    "revision": "dbb724f8c77f89322cdd",
+    "url": "/Exquisite-Foods/static/js/main.2fe1ade8.chunk.js"
   },
   {
     "revision": "9db18fda0b241be75ff7",
@@ -24,12 +24,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Exquisite-Foods/static/media/Botella 250 ml. condimento oiljamon.75d642e8.jpg"
   },
   {
+    "revision": "d354758ad85515f36fa1720e0e2739ba",
+    "url": "/Exquisite-Foods/static/media/Extravirginoil 500ml.d354758a.jpg"
+  },
+  {
     "revision": "87ecaba89eb46b86038b927fc8c95f1f",
     "url": "/Exquisite-Foods/static/media/Extravirginoil.87ecaba8.jpg"
   },
   {
-    "revision": "8cc80d97ddb56ef0eea253f16d080892",
-    "url": "/Exquisite-Foods/static/media/Extravirginoilsmall.8cc80d97.jpg"
+    "revision": "d03d23d1a3b35a8e801bed5c1553c947",
+    "url": "/Exquisite-Foods/static/media/Extravirginoilsmall.d03d23d1.jpg"
   },
   {
     "revision": "559fe0a2ee2c81141dc46ef9363f4149",
@@ -60,6 +64,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Exquisite-Foods/static/media/MainImg8.e5a3af4d.jpg"
   },
   {
+    "revision": "f00559ec4f411cc367b7650e08eb7af4",
+    "url": "/Exquisite-Foods/static/media/Organic250ml.f00559ec.jpeg"
+  },
+  {
+    "revision": "5350b85cb250dd8ad06b487c910aa565",
+    "url": "/Exquisite-Foods/static/media/Organic500ml.5350b85c.jpeg"
+  },
+  {
+    "revision": "485bb751d22c28a3d06e15675ae1b814",
+    "url": "/Exquisite-Foods/static/media/Organic750ml.485bb751.jpeg"
+  },
+  {
     "revision": "cebeed562b34f12c5435fc6bcc2f7750",
     "url": "/Exquisite-Foods/static/media/benefitsimg.cebeed56.jpg"
   },
@@ -68,16 +84,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Exquisite-Foods/static/media/header3.8998694f.jpeg"
   },
   {
-    "revision": "d354758ad85515f36fa1720e0e2739ba",
-    "url": "/Exquisite-Foods/static/media/olej4_5.d354758a.jpg"
-  },
-  {
     "revision": "c483d1e576f83917687667fb2e05b000",
     "url": "/Exquisite-Foods/static/media/olej5l.c483d1e5.jpg"
-  },
-  {
-    "revision": "d2992b39e27ab9bcab2474af28fe25dc",
-    "url": "/Exquisite-Foods/static/media/olejcan.d2992b39.jpg"
   },
   {
     "revision": "d0b1a0f8cddbbbd82d93c9e40a3f6d3c",
