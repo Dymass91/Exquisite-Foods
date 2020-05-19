@@ -14,16 +14,14 @@ export default function SocialFollow() {
 
 
             <a
-                href="https://www.facebook.com/learnbuildteach/"
+                href="https://www.facebook.com/Exquisite-Foods-Distributor-108503874114634/"
                 className="facebook social"
             >
                 <FontAwesomeIcon icon={faFacebook} size="2x" />
             </a>
-            <a href="https://www.twitter.com/jamesqquick" className="twitter social">
-                <FontAwesomeIcon icon={faTwitter} size="2x" />
-            </a>
+
             <a
-                href="https://www.instagram.com/learnbuildteach"
+                href="https://www.instagram.com/exquisitefoodsdist/"
                 className="instagram social"
             >
                 <FontAwesomeIcon icon={faInstagram} size="2x" />

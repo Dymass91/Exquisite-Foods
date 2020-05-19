@@ -17,7 +17,7 @@
 }
 
 .side-drawer ul{
-    margin-left: 10%;
+   
     height: 100%;
     list-style: none;
     display: flex;
@@ -26,7 +26,8 @@
     
 }
 .side-drawer li {
-    margin: .8rem 0;
+    list-style: none;
+    margin: 1.8rem 1.4rem;
 }
 
 .side-drawer a {
@@ -41,7 +42,32 @@
 .side-drawer a:active{
     color: orange;
 }
+.toggle-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 26px;
+    line-height: 60px;
+    width: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.toggle-button :focus{
+    outline: none;
+}
+
+.toggle-button__line{
+    
+    width: 35px;
+    height: 10px;
+    margin-bottom: 5px;
+    border-radius: 30%;
+    background-color: rgb(205, 252, 129);
+}
 @media (min-width: 769px){
     .side-drawer{
         display: none;

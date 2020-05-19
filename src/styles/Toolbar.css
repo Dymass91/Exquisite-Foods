@@ -1,5 +1,6 @@
 .toolbar{
     position: fixed;
+    padding-left: 1rem;
     top: 0;
     left: 0;
     width: 100%;
@@ -18,8 +19,7 @@
     
     position: fixed;
    left: 50%;
-   transform: translate(-50%, -0%);
-    width: 38vw;
+   transform: translate(-50%, 18%);
     height: 6.5vh;
     border-radius: 2rem;
     

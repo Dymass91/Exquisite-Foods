@@ -1,46 +1,56 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import './NavBar/components/SideDrawer/SideDrawer.css';
+import { Component } from 'react';
+import { Link } from 'react-router-dom';
+import '../styles/SideDrawer.css';
 import SocialFollow from './SocialFollow';
+import ImgLogo from '../images/Logo.jpg';
 
 
-const list = [
-    { name: "Home Page", path: "/", exact: true },
-    { name: "Ecological olive oil", path: "/EcoOlive" },
-    { name: "Extra virgin olive oil", path: "/ExtOlive" },
-    { name: "Oil & Jamón", path: "/JamsonOil" },
-    { name: "Health Benefits", path: "/HealtBenefits" },
-    { name: "Contact", path: "/contact" },
 
-]
-
-const sideDrawer = props => {
-    let drawerClasses = 'side-drawer';
+class SideDrawer extends Component {
 
 
-    if (props.show) {
-        drawerClasses = 'side-drawer open';
+    state = {
+        isOpen: false
     }
-    else if (!props.show) {
-        drawerClasses = 'side-drawer';
+
+    handleClick = () => {
+        this.setState({
+            isOpen: !this.state.isOpen
+        })
     }
-    const menu = list.map(item => (
-        <li key={item.name}>
-            <NavLink to={item.path} exact={item.exact ? item.exact : false}  >{item.name}</NavLink>
+    closeNavbar = () => {
+        this.setState({
+            isOpen: false
+        })
+    }
+    render() {
+        return (
+            <nav className='toolbar__navigation'>
 
-        </li>
+                <div className="toolbar">
+                    <img className="toolbarLogo" src={ImgLogo} alt="Logo" />
+                    <div className="toolbar__logo"> </div>
+                    <div className="toggle-button" onClick={this.handleClick}>
+                        <div className="toggle-button__line"></div>
+                        <div className="toggle-button__line"></div>
+                        <div className="toggle-button__line"></div>
+                    </div>
+                </div>
+                <ul className={this.state.isOpen ? 'side-drawer open' : 'side-drawer'}>
+                    <li><Link onClick={this.closeNavbar} to={"/"}>Home Page</Link></li>
+                    <li><Link onClick={this.closeNavbar} to={"/EcoOlive"}>Organic olive oil</Link></li>
+                    <li><Link onClick={this.closeNavbar} to={"/ExtOlive"}>Extra virgin olive oil</Link></li>
+                    <li><Link onClick={this.closeNavbar} to={"/JamsonOil"}>Oil & Jamón</Link></li>
+                    <li><Link onClick={this.closeNavbar} to={"/HealtBenefits"}>Health Benefits</Link></li>
+                    <li><Link onClick={this.closeNavbar} to={"/contact"}>Contact</Link></li>
 
-    ))
 
-    return (
-        <nav className={drawerClasses} >
-            <ul >
-
-                {menu}
-                <SocialFollow />
-            </ul>
-        </nav>
-    )
+                    <SocialFollow />
+                </ul>
+            </nav>
+        );
+    }
 }
 
-export default sideDrawer;
+export default SideDrawer;

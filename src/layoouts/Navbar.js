@@ -7,8 +7,8 @@ import Backdrop from './NavBar/components/Backdrop/Backdrop'
 
 class App extends Component {
     state = {
-        sideDrawerOpen: false
-
+        sideDrawerOpen: false,
+        activeId: null
     };
 
     drawerToggleClickHandler = () => {
@@ -20,9 +20,6 @@ class App extends Component {
     backdropClickHandler = () => {
         this.setState({ sideDrawerOpen: false })
     }
-
-
-
 
     render() {
         let backdrop;
@@ -37,8 +34,8 @@ class App extends Component {
         return (
             <div style={{ height: "100 %" }}>
 
-                <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
-                <SideDrawer show={this.state.sideDrawerOpen} onClick={this.handleClick} />
+
+                <SideDrawer />
 
                 {backdrop}
 

@@ -1,9 +1,8 @@
 import React from 'react';
 import "../styles/Eco&Ext_Oil.css";
-import olejcan from '../images/olejcan.jpg';
-import extravirginoil from '../images/Extravirginoil.jpg';
-import extravirginoilsmall from '../images/Extravirginoilsmall.jpg';
-import BenefitsPage from './HealthBenefits';
+import extravirgin500ml from '../images/Extravirginoil 500ml.jpg';
+import extravirgin750ml from '../images/Extravirginoilsmall.jpg';
+import olej5l from '../images/olej5l.jpg';
 
 
 const ExtOlivePage = () => {
@@ -40,7 +39,7 @@ const ExtOlivePage = () => {
 
                 <div className="box">
                     <div className="imgbox">
-                        <img className="oil-image" src={extravirginoil} alt="" />
+                        <img className="oil-image" src={extravirgin500ml} alt="" />
                     </div>
                     <div className="content">
                         <h2>FORMAT 500 ml </h2>
@@ -67,7 +66,7 @@ const ExtOlivePage = () => {
 
                 <div className="box">
                     <div className="imgbox">
-                        <img className="oil-image" src={extravirginoil} alt="" />
+                        <img className="oil-image" src={extravirgin750ml} alt="" />
                     </div>
                     <div className="content">
                         <h2>FORMAT 750 ml. </h2>
@@ -93,7 +92,7 @@ const ExtOlivePage = () => {
 
                 <div className="box">
                     <div className="imgbox">
-                        <img className="oil-image" src={extravirginoil} alt="" />
+                        <img className="oil-image" src={olej5l} alt="" />
                     </div>
                     <div className="content">
                         <h2>FORMAT 5 litres. </h2>

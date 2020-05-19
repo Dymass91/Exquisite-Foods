@@ -1,7 +1,9 @@
 import React from 'react';
 import "../styles/Eco&Ext_Oil.css";
 import olej5l from '../images/olej5l.jpg';
-import olej4l from '../images/olej4_5.jpg';
+import Organic250ml from '../images/Organic250ml.jpeg';
+import Organic500ml from '../images/Organic500ml.jpeg';
+import Organic750ml from '../images/Organic750ml.jpeg';
 
 
 const EcoOlivePage = () => {
@@ -52,7 +54,7 @@ Using extra virgin olive oil may help prevent this from happening, leading to a 
 
                 <div className="box">
                     <div className="imgbox">
-                        <img className="oil-image" src={olej5l} alt="" />
+                        <img className="oil-image" src={Organic250ml} alt="" />
                     </div>
                     <div className="content">
                         <h2>FORMAT 250 ml.</h2>
@@ -77,7 +79,7 @@ Using extra virgin olive oil may help prevent this from happening, leading to a 
 
                 <div className="box">
                     <div className="imgbox">
-                        <img className="oil-image" src={olej4l} alt="" />
+                        <img className="oil-image" src={Organic500ml} alt="" />
                     </div>
                     <div className="content">
                         <h2>FORMAT 500 ml.</h2>
@@ -104,7 +106,7 @@ Using extra virgin olive oil may help prevent this from happening, leading to a 
 
                 <div className="box">
                     <div className="imgbox">
-                        <img className="oil-image" src={olej4l} alt="" />
+                        <img className="oil-image" src={Organic750ml} alt="" />
                     </div>
                     <div className="content">
                         <h2>FORMAT 750 ml.</h2>
@@ -131,7 +133,7 @@ Using extra virgin olive oil may help prevent this from happening, leading to a 
 
                 <div className="box">
                     <div className="imgbox">
-                        <img className="oil-image" src={olej4l} alt="" />
+                        <img className="oil-image" src={olej5l} alt="" />
                     </div>
                     <div className="content">
                         <h2>FORMAT 5 litres.

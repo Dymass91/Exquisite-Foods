@@ -18,13 +18,7 @@ const ExtOlivePage = () => {
 
                 <div className="OilIntroduce_text">
                     <img className="oil_Jamon-Logo"
-                        style={{
-                            height: "400px",
-                            shapeOutside: "1rem",
-                            padding: "2rem",
-                            position: 'relative',
-                            float: "left",
-                        }}
+
                         src={JamonLogo} alt="" />
                     <strong>Oil&Jamón</strong>  is a new brand, created in January 2017 in Sevilla, Spain. After months of trial, we succeeded to blend, through a traditional process, Iberian ham and extra virgin olive oil, to produce a unique condiment that brings flavor and aroma to our home-made dishes.
 
