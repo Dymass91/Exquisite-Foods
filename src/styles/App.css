@@ -23,6 +23,7 @@
 @media (min-width: 360px), (max-width: 769px){
   body
   {
+    
       margin: 0;
       padding: 0;
       box-sizing: border-box;
@@ -49,14 +50,15 @@ h1
 {
   font-family: 'Satisfy', cursive;
   position: relative;
-  text-shadow: 1px 1px rgb(103, 182, 51);
+  
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     font-size: 1.9rem;
     display: flex;
     justify-content: center;
-    color: rgb(205, 252, 129);
    
+    text-shadow: 3px 2px #797805;
+    color: #98b80a;
 }
 .h1-mobile
 {
@@ -72,6 +74,7 @@ h1
   }
   .container
 {
+  
     min-height: 850px;
     max-width: 100%;
     display: flex;

@@ -1,7 +1,9 @@
 .side-drawer{
     height: 100%;
-    background: white;
+    background-color: rgb(255, 255, 255);
   
+  display: flex;
+  flex-direction: column;
     position: fixed;
     top: 0;
     left: 0;
@@ -12,6 +14,8 @@
     transition: transform 0.3s ease-out;
 }
 .side-drawer.open{
+    
+    
     transform: translateX(0);
     box-shadow: 1px 0px 7px rgb(63, 63, 63);
 }
@@ -27,20 +31,56 @@
 }
 .side-drawer li {
     list-style: none;
-    margin: 1.8rem 1.4rem;
+    margin: 1rem 1.4rem;
+    text-align: center;
 }
 
-.side-drawer a {
+.side-drawer li a {
     color: #86b43c;
     text-decoration: none;
     font-size: 1.4rem;
     font-weight: bold;
-    
+    text-transform: uppercase;
+    position: relative;
 }
+.side-drawer li a:hover{
+    transition: .5s;
+    color: #86b43c;
+    text-shadow: 1px 0px rgb(29, 73, 0);
+}
+.side-drawer li a:before
+{
+    content: '';
+    width: 0px;
+    height: 3px;
+    background-color: maroon;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: .5s;
+    mix-blend-mode: multiply;
+}
+.side-drawer li a:after
+{
+    content: '';
+    width: 0px;
+    height: 3px;
+    background-color: #86b43c;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    transition: .5s;
+    mix-blend-mode: multiply;
+}
+.side-drawer li:hover a:before
+{
+width: 50%;
+transform: translateX(100%);
 
-.side-drawer a:hover,
-.side-drawer a:active{
-    color: orange;
+}
+.side-drawer li:hover a:after{
+  width: 50%;
+transform: translateX(-100%);
 }
 .toggle-button {
     display: flex;
@@ -66,7 +106,7 @@
     height: 10px;
     margin-bottom: 5px;
     border-radius: 30%;
-    background-color: rgb(205, 252, 129);
+    background-color: rgb(180, 212, 2);
 }
 @media (min-width: 769px){
     .side-drawer{

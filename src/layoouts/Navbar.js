@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import Toolbar from './Toolbar';
 import SideDrawer from './SideDrawer';
-import Backdrop from './NavBar/components/Backdrop/Backdrop'
+import Backdrop from './Backdrop';
 
 
 
 class App extends Component {
     state = {
         sideDrawerOpen: false,
-        activeId: null
     };
 
     drawerToggleClickHandler = () => {

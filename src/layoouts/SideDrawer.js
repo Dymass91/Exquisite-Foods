@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 import '../styles/SideDrawer.css';
 import SocialFollow from './SocialFollow';
 import ImgLogo from '../images/Logo.jpg';
-
+import Backdrop from './Backdrop'
 
 
 class SideDrawer extends Component {
 
 
     state = {
-        isOpen: false
+        isOpen: false,
     }
 
     handleClick = () => {
@@ -24,7 +24,20 @@ class SideDrawer extends Component {
             isOpen: false
         })
     }
+
+    backdropClickHandler = () => {
+        this.setState({ isOpen: false })
+
+    }
     render() {
+        let backdrop;
+
+
+        if (this.state.isOpen) {
+            backdrop = <Backdrop click={this.backdropClickHandler} />
+        }
+
+
         return (
             <nav className='toolbar__navigation'>
 
@@ -45,10 +58,11 @@ class SideDrawer extends Component {
                     <li><Link onClick={this.closeNavbar} to={"/HealtBenefits"}>Health Benefits</Link></li>
                     <li><Link onClick={this.closeNavbar} to={"/contact"}>Contact</Link></li>
 
-
                     <SocialFollow />
                 </ul>
+                {backdrop}
             </nav>
+
         );
     }
 }
