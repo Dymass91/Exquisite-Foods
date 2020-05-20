@@ -48,7 +48,7 @@ const ExtOlivePage = () => {
                             <br></br>
                             1x £ 5.50
                             <br></br>
-                            15 £ 73.50 ( £ 4.90 e/o)
+                            15x £ 73.50 ( £ 4.90 e/o)
                         </h4>
 
                     </div>
