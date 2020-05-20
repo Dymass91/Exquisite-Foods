@@ -57,7 +57,7 @@ h1
     display: flex;
     justify-content: center;
    
-    text-shadow: 3px 2px #797805;
+    text-shadow: 2px 0px #797805;
     color: #98b80a;
 }
 .h1-mobile
