@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Just+Another+Hand&family=Lobster&family=Patrick+Hand&family=Satisfy&display=swap');
-@media (min-width: 360px), (max-width: 769px){
+@media (min-width: 300px) and (max-width: 395px){
     .oil_Jamon-Logo
     {
         margin-top: -1rem;
         height: 40vh;
-left: 50%;
-transform: translateX(-50%);
-shape-outside: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+shape-outside: circle(100%);
 padding: 0.5rem;
 position: relative;
 float: left;
+
     }
     .box
     {
@@ -85,7 +86,102 @@ float: left;
         width: 90%;
        left: 50%;
        transform: translateX(-50%);
-        text-align: justify;
+       text-align: inherit;
+        color: rgb(48, 73, 20);
+        z-index: 2;
+        padding-bottom: 1.5rem;
+  border-bottom: 2px solid #d1faa3;
+    }
+    
+    
+}
+@media (min-width: 360px) and (max-width: 769px){
+    .oil_Jamon-Logo
+    {
+        margin-top: -1rem;
+        height: 40vh;
+
+shape-outside: circle(100%);
+padding: 0.5rem;
+position: relative;
+float: left;
+
+    }
+    .box
+    {
+        min-height: 230px;
+        max-height: 420px;
+        padding-bottom: 2rem ;
+        width: 100%;
+        display: flex;
+        margin-bottom: 1rem;
+        border-bottom: 2px  solid #d1faa3;
+      
+    }
+    .imgbox
+    {
+        display: flex;
+        justify-content: space-around;
+        margin-right: 1rem;
+        
+        padding-top: 20px;
+    }
+ .oil-image
+    {
+        height: 200px;
+        box-shadow: 0px 0px 10px 2px rgb(43, 43, 43);
+    }
+    
+    .content
+    {
+        margin-top: 1rem;
+        width: 80%;
+        font-size: 14px;
+        align-items: center;
+    }
+    .content p 
+    {
+        margin-bottom: .5rem;
+    }
+    .content h2
+    {
+        font-size: 18px;
+        margin-bottom: 1rem;
+    }
+    .oil_products-list h3
+    {
+        text-align: center;
+    }
+    .content h4
+    {
+        font-size: 17px;
+        margin-bottom: 0.5rem;
+    }
+    .oil_products-list
+    {
+        
+        margin-top: 3rem;
+  margin-bottom: 3rem;
+  position: relative;
+  background-color: white;
+  
+  z-index: 2;
+  max-width: 1100px;
+
+        
+    }
+    .OilIntroduce_text
+    {
+        font-family: 'Caveat', cursive;
+        background-color: white;
+        position: relative;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: 18px;
+        width: 90%;
+       left: 50%;
+       transform: translateX(-50%);
+       text-align: inherit;
         color: rgb(48, 73, 20);
         z-index: 2;
         padding-bottom: 1.5rem;
@@ -98,10 +194,16 @@ float: left;
 
         .oil_Jamon-Logo
         {
+            height: 38vh;
             padding-right: 1.5rem;
+            padding-bottom: .5rem;
             margin-top: 0rem;
     left: 17%;
     transform: translateX(-50%);
+    shape-outside: circle(100%);
+
+position: relative;
+float: left;
         }
         .oil_product_list-h1
         {
@@ -137,6 +239,7 @@ float: left;
         }
         .oil-image
         {
+            margin-right: 2rem;
             height: 240px;
             box-shadow: 0px 0px 10px 2px rgb(43, 43, 43);
         }
@@ -146,10 +249,13 @@ float: left;
         margin-bottom: 2rem;
         width: 80%;
         justify-content: space-around;
+        padding-bottom: 2rem ;
+        display: flex;
+        border-bottom: 2px  solid #d1faa3;
     }
     .content
     {
-        margin-top: 1rem;
+       
         width: 80%;
         font-size: 22px;
         justify-content: space-around;
@@ -171,7 +277,7 @@ float: left;
     {
         background-color: white;
   position: relative;
-  left: 40%;
+
   margin-top: 5%;
   margin-bottom: 5%;
   font-size: 30px;

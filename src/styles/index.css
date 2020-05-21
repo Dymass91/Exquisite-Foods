@@ -52,7 +52,7 @@ html {
   width: 100%;
  left: 50%;
  transform: translateX(-50%);
-  text-align: justify;
+ text-align: inherit;
   color: rgb(48, 73, 20);
   z-index: 2;
 }
