@@ -77,7 +77,7 @@ float: left;
     }
     .OilIntroduce_text
     {
-        font-family: 'Caveat', cursive;
+        font-family: 'Raleway', sans-serif;
         background-color: white;
         position: relative;
         margin-top: 5%;
@@ -172,7 +172,7 @@ float: left;
     }
     .OilIntroduce_text
     {
-        font-family: 'Caveat', cursive;
+        font-family: 'Raleway', sans-serif;
         background-color: white;
         position: relative;
         margin-top: 5%;
@@ -181,7 +181,7 @@ float: left;
         width: 90%;
        left: 50%;
        transform: translateX(-50%);
-       text-align: inherit;
+       text-align: justify;
         color: rgb(48, 73, 20);
         z-index: 2;
         padding-bottom: 1.5rem;

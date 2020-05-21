@@ -43,7 +43,7 @@ html {
 
   .homePage p 
 {
-  
+  font-family: 'Raleway', sans-serif;
   background-color: white;
   position: relative;
   margin-top: 5%;
@@ -52,7 +52,7 @@ html {
   width: 100%;
  left: 50%;
  transform: translateX(-50%);
- text-align: inherit;
+ text-align: justify;
   color: rgb(48, 73, 20);
   z-index: 2;
 }
