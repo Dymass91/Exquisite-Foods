@@ -67,3 +67,16 @@ padding: 0 1rem;
         margin-left: 0;
     }
 }
+@media  (max-width: 900px) and (orientation: landscape) 
+{
+    .toolbarLogo
+{
+    
+    position: fixed;
+   left: 50%;
+   transform: translate(-50%, 25%);
+    height: 11.5vh;
+    border-radius: 2rem;
+    
+}
+}
