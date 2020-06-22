@@ -53,9 +53,11 @@
 .toggle-button {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    height: 26px;
-    line-height: 60px;
+  position: absolute;
+  left: 4vw;
+  top: 3.5vh;
+    height: 24px;
+    line-height: 10vh;
     width: 30px;
     background: transparent;
     border: none;
@@ -70,14 +72,33 @@
 
 .toggle-button__line{
     
-    width: 35px;
-    height: 10px;
+    width: 36px;
+    height: 20px;
     margin-bottom: 5px;
-    border-radius: 30%;
+    border-radius: 5px;
     background-color: rgb(180, 212, 2);
 }
 @media (min-width: 769px){
     .side-drawer{
         display: none;
+    }
+}
+
+@media  (max-width: 800px) and (orientation: landscape) 
+{
+    .toggle-button {
+        display: flex;
+        flex-direction: column;
+      position: absolute;
+      left: 4vw;
+      top: 6.5vh;
+        height: 24px;
+        line-height: 16vh;
+        width: 30px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        box-sizing: border-box;
     }
 }
