@@ -74,3 +74,12 @@ nav.main a {
     border-radius: 20px;
 }
 }
+
+@media  (max-width: 830px) and (orientation: landscape) 
+{
+    .JamonLogo
+    {
+        height: 5.5vh;
+        margin-right: 0.1rem;
+    }
+}

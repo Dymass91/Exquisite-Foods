@@ -1,6 +1,13 @@
  
- @media (min-width: 360px), (max-width: 767px){
- 
+ @media (min-width: 360px) and (max-width: 767px){
+    .input-email, .input-name
+    {
+        width: 15rem;
+       margin-left: 2vw;
+        padding: 10px 15px;
+        border: 2px solid rgb(172, 172, 172);
+        border-radius: 10px;
+    }
 .input-textarea
 {
     width: 100%;
@@ -69,9 +76,9 @@
      display: flex;
        margin-bottom: 3rem;
        position: relative;
-       background-color: white;
+       background-color: transparent;
        z-index: 2;
-       width: 1100px;
+       width: 68.8vw;
        min-height: 700px;
      flex-direction: column;
        z-index: 2;
@@ -79,14 +86,15 @@
        padding-bottom: 4%;
        color: rgb(48, 73, 20);
     }
-   .input-textarea
+    .input-email, .input-name
    {
        width: 13rem;
-      margin-left: 10%;
+      margin-left: 7vw;
        padding: 10px 15px;
        border: 2px solid rgb(172, 172, 172);
        border-radius: 10px;
    }
+   
    .contact{
        margin-bottom: 5%;
    }
@@ -99,7 +107,7 @@
        width: 80%;
        min-height: 150px;
        line-height: 1.6;
-       margin-left: 10%;
+       margin-left: 7vw;
        padding: 10px 15px;
        border: 2px solid rgb(172, 172, 172);
        border-radius: 10px;

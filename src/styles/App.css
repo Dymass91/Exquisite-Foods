@@ -29,6 +29,7 @@
       box-sizing: border-box;
   }
   .container {
+    margin-top: 3vh;
     width: 100vw;
     min-height: 800px;
     max-width: 1100px;
@@ -36,9 +37,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 30px;
-    
     flex-direction: row;
-    margin-top: 3rem;
     margin-bottom: 0rem;
     position: relative;
     background-color: white;
@@ -51,7 +50,7 @@ h1
   font-family: 'Satisfy', cursive;
   position: relative;
   
-    margin-top: 1.5rem;
+    margin-top: 4rem;
     margin-bottom: 1.5rem;
     font-size: 1.9rem;
     display: flex;
@@ -82,7 +81,6 @@ h1
     justify-content: space-around;
     padding: 15px;
     flex-direction: row;
-    
     margin-top: 3rem;
     position: relative;
     background-color: white;
@@ -180,7 +178,7 @@ section.Page:before{
   top: 0;
 left: 0;
 width: 100%;
-height: 70%;
+height: 60%;
 
 background-color: #98b80a;
   /* background: linear-gradient( 45deg ,#5ec201,#95ff80); */
@@ -201,4 +199,35 @@ aside ul
   border-bottom: #9f232a solid 0.8rem;
   
 }
+}
+@media  (max-width: 830px) and (orientation: landscape) 
+{
+  
+  section.Page:before{
+    content: '';
+    position: absolute;
+    top: 0;
+  left: 0;
+  width: 100%;
+  height: 140%;
+  
+  background-color: #98b80a;
+    /* background: linear-gradient( 45deg ,#5ec201,#95ff80); */
+  }
+  aside{
+    z-index: 1;
+   width: 300px;
+   
+   
+  }
+  aside ul 
+  {
+    width: 300px;
+    padding: 1.5rem  2rem  1rem 0  ;
+    padding-left: 2rem;
+    background-color: #98b80a;
+    /* background: linear-gradient( 90deg ,#82ce2c,#9de24e); */
+    border-bottom: #9f232a solid 0.8rem;
+    
+  }
 }

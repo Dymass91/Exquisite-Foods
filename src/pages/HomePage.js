@@ -7,7 +7,7 @@ const HomePage = () => {
     return (
 
         <div className="homePage">
-            <h1 className="page_h1 h1-mobile">Exquisite Foods</h1>
+            <h1 className="page_h1">Exquisite Foods</h1>
 
             <p>
                 Our oils are produced in a village belonging to the route of the <strong className='bold-text'>“white villages”</strong>, located at the edge of Sierra de lijar, known for its suitability for air sports such as hang gliding and paragliding.<img className="townimg" src={imgtown} alt="miasto" />

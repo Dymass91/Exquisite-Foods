@@ -5,7 +5,7 @@ header{
     z-index: 2;
 position: relative;
 overflow: hidden;
-width: 100;
+width: 100vw;
 margin-bottom: -14vh;
 background-color: black;
 box-shadow: 0 0px 20px 5px black;
@@ -17,19 +17,20 @@ header img{
     left: 50%;
     
     transform: translate(-50% );
-    width: 100%;
+    width: 100vw;
     height: 100%;
 }
 }
 @media (min-width: 767px){
     header{
+        margin-top: 6vh;
         flex-basis: 68vh;
         z-index: 2;
     position: relative;
     overflow: hidden;
     width: 100%;
     background-color: black;
-    border-top: solid 2.5rem rgb(255, 255, 255);
+   
     margin-bottom: 0vh;
     border-bottom: solid 0.5rem rgb(255, 255, 255);
     box-shadow: 0 0px 0px 0px black;
@@ -48,17 +49,19 @@ header img{
 }
 @media (min-width: 768px) and (max-width: 1024px){
     header{
-        flex-basis: 40vh;
-        
+        margin-top: 3vh;
+        flex-basis: 35vh;
+       
     }
     header img{
-        z-index: 20;
+       
+        z-index: 2;
         position: absolute;
         left: 50%;
-        transform: translate(-50% , -36.5%);
+        transform: translate(-50% , -2.5%);
         min-width: 100vw;
         min-height: 100%;
-        height: 67.5vh;
+        height: 37.5vh;
         
     }
 }
@@ -68,27 +71,28 @@ header img{
     border-bottom: solid 0.0rem rgb(255, 255, 255);
     }
 } */
-@media  (max-width: 730px) and (orientation: landscape) 
+@media  (max-width: 830px) and (orientation: landscape) 
 {
     header{
-        margin-top: -3vh;
-        flex-basis: 78vh;
-        z-index: 2;
+    
+        margin-top: 5vh;
+        flex-basis: 64vh;
+        z-index: 3;
     position: relative;
     overflow: hidden;
     width: 100%;
     background-color: black;
-    margin-bottom: -25vh;
-    box-shadow: 0 0px 20px 8px black;
+    border-top: solid 0.5rem rgb(255, 255, 255);
+  
     }
     header img{
-        
+        border-top: solid 0.5rem rgb(255, 255, 255);
         position: absolute;
         left: 50%;
-        transform: translate(-50% , -36.5%);
+        transform: translate(-50% , -22%);
         min-width: 100vw;
-        min-height: 100%;
-        height: 126vh;
+        min-height: 100vh;
+        height: 46vh;
         
     }
 }
