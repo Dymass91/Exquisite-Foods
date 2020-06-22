@@ -1,5 +1,5 @@
 
-@media (min-width: 360px), (max-width: 767px){
+@media (min-width: 360px) and (max-width: 768px){
 header{
     height: 40vh;
     z-index: 2;
@@ -30,8 +30,8 @@ header img{
     overflow: hidden;
     width: 100%;
     background-color: black;
+    margin-bottom: -0;
    
-    margin-bottom: 0vh;
     border-bottom: solid 0.5rem rgb(255, 255, 255);
     box-shadow: 0 0px 0px 0px black;
     }
@@ -77,16 +77,16 @@ header img{
     
         margin-top: 5vh;
         flex-basis: 64vh;
-        z-index: 3;
+        z-index: 2 ;
     position: relative;
     overflow: hidden;
     width: 100%;
     background-color: black;
-    border-top: solid 0.5rem rgb(255, 255, 255);
-  
+   
+
     }
     header img{
-        border-top: solid 0.5rem rgb(255, 255, 255);
+       
         position: absolute;
         left: 50%;
         transform: translate(-50% , -22%);

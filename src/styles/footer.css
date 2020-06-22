@@ -73,7 +73,7 @@ padding: 1rem;
 .Contact__Details-footer
 {
     padding: 2rem;
-    text-align: justify;
+    text-align: left;
     font-weight: bold;
     font-family: 'Ubuntu Condensed', sans-serif;
     width: 45vw;
