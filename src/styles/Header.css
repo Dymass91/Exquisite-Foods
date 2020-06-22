@@ -48,7 +48,7 @@ header img{
 }
 @media (min-width: 768px) and (max-width: 1024px){
     header{
-        flex-basis: 46vh;
+        flex-basis: 40vh;
         
     }
     header img{
@@ -68,7 +68,7 @@ header img{
     border-bottom: solid 0.0rem rgb(255, 255, 255);
     }
 } */
-@media  (max-width: 800px) and (orientation: landscape) 
+@media  (max-width: 730px) and (orientation: landscape) 
 {
     header{
         margin-top: -3vh;

@@ -99,12 +99,13 @@ float: left;
     .oil_Jamon-Logo
     {
         margin-top: -1rem;
-        height: 40vh;
+        height: 30vh;
 
 shape-outside: circle(100%);
 padding: 0.5rem;
 position: relative;
-float: left;
+left: 50%;
+transform: translateX(-50%);
 
     }
     .box
@@ -251,7 +252,7 @@ float: left;
         justify-content: space-around;
         padding-bottom: 2rem ;
         display: flex;
-        border-bottom: 2px  solid #d1faa3;
+        border-bottom: 2px  solid rgb(48, 73, 20);
     }
     .content
     {
@@ -286,16 +287,40 @@ float: left;
   color: rgb(48, 73, 20);
   z-index: 2;
   padding-bottom: 3rem;
-  border-bottom: 2px solid #d1faa3;
+  border-bottom: 2px solid rgb(48, 73, 20);
     }
     
     } 
     
-    @media (min-width: 768px)and  (max-width: 824px){
+   
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .box
+    {
+        min-height: 16vh;
+        margin-bottom: 2.8rem;
+        width: 80%;
+        justify-content: space-around;
+        padding-bottom: 2.8rem ;
+        display: flex;
+        border-bottom: 2px  solid rgb(48, 73, 20);
+    }
     .oil_Jamon-Logo
     {
+        font-size: 2.5vh;
         margin-top: -2rem;
-left: 30%;
+        left: 15vw;
+        transform: translateX(-50%);
+
+        height: 22vh;
+        padding-right: 1.5rem;
+        padding-bottom: .5rem;
+        margin-top: 0rem;
+
 transform: translateX(-50%);
+shape-outside: circle(100%);
+
+position: relative;
+float: left;
     }
 }
