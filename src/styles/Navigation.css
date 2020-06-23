@@ -82,4 +82,7 @@ nav.main a {
         height: 5.5vh;
         margin-right: 0.1rem;
     }
+    nav.main a {
+        font-size: 1.2rem;
+    }
 }

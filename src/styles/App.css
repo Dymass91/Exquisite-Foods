@@ -207,7 +207,12 @@ aside ul
 }
 @media  (max-width: 830px) and (orientation: landscape) 
 {
+  .page_h1
+  {
   
+      font-size: 2.5rem;
+     
+  }
   section.Page:before{
     content: '';
     position: absolute;
@@ -221,13 +226,13 @@ aside ul
   }
   aside{
     z-index: 1;
-   width: 300px;
+   width: 280px;
    
    
   }
   aside ul 
   {
-    width: 300px;
+    width: 280px;
     padding: 1.5rem  2rem  1rem 0  ;
     padding-left: 2rem;
     background-color: #98b80a;

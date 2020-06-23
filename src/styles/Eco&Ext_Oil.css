@@ -314,6 +314,10 @@ float: left;
     }
     @media  (max-width: 830px) and (orientation: landscape) 
     {
+        .oil_product_list-h1
+        {
+            font-size: 2.5rem;
+        }
         .oil_Jamon-Logo
         {
             font-size: 2.5vh;
@@ -336,9 +340,10 @@ float: left;
 @media (min-width: 768px) and (max-width: 1024px){
     .box
     {
+        margin-left: 5vw;
         min-height: 16vh;
         margin-bottom: 2.8rem;
-        width: 80%;
+        width: 90%;
         justify-content: space-around;
         padding-bottom: 2.8rem ;
         display: flex;
@@ -368,7 +373,7 @@ float: left;
         padding-right: 1.5rem;
         padding-bottom: .5rem;
         margin-top: 0rem;
-left:15vw;
+left:9vw;
 transform: translateX(-50%);
 shape-outside: circle(100%);
 
@@ -397,11 +402,11 @@ float: left;
 @media (max-width: 1280px) and (orientation: landscape){
     .oil_Jamon-Logo
     {
-       
+       height: 42vh;
         padding-right: 1.5rem;
         padding-bottom: .5rem;
         margin-top: 0rem;
-left:8vw;
+left:12vw;
 transform: translateX(-50%);
 shape-outside: circle(100%);
 
