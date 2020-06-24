@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9a26b863b3b610eb61de24ca76611c88",
+    "revision": "868565c0f2782fcced31598a153a5c57",
     "url": "/Exquisite-Foods/index.html"
   },
   {
-    "revision": "c81f3b8a9e488a008e34",
+    "revision": "a5113d1e81cfd1a1c17f",
     "url": "/Exquisite-Foods/static/css/main.f002452e.chunk.css"
   },
   {
-    "revision": "34ada459f59f715827de",
-    "url": "/Exquisite-Foods/static/js/2.3382ccef.chunk.js"
+    "revision": "da1a848b5c128189b7c8",
+    "url": "/Exquisite-Foods/static/js/2.d566a5d7.chunk.js"
   },
   {
-    "revision": "c81f3b8a9e488a008e34",
-    "url": "/Exquisite-Foods/static/js/main.12c64633.chunk.js"
+    "revision": "a5113d1e81cfd1a1c17f",
+    "url": "/Exquisite-Foods/static/js/main.e02cdecb.chunk.js"
   },
   {
     "revision": "9db18fda0b241be75ff7",
@@ -24,8 +24,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Exquisite-Foods/static/media/Botella 250 ml. condimento oiljamon.75d642e8.jpg"
   },
   {
+    "revision": "43679b4778b29df9c8c9faf17ef1d9a8",
+    "url": "/Exquisite-Foods/static/media/Extravirgin500ml.43679b47.jpg"
+  },
+  {
     "revision": "d354758ad85515f36fa1720e0e2739ba",
-    "url": "/Exquisite-Foods/static/media/Extravirginoil 500ml.d354758a.jpg"
+    "url": "/Exquisite-Foods/static/media/Extravirginoil 250ml.d354758a.jpg"
   },
   {
     "revision": "87ecaba89eb46b86038b927fc8c95f1f",
@@ -64,16 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Exquisite-Foods/static/media/MainImg8.e5a3af4d.jpg"
   },
   {
-    "revision": "f00559ec4f411cc367b7650e08eb7af4",
-    "url": "/Exquisite-Foods/static/media/Organic250ml.f00559ec.jpeg"
-  },
-  {
     "revision": "5350b85cb250dd8ad06b487c910aa565",
     "url": "/Exquisite-Foods/static/media/Organic500ml.5350b85c.jpeg"
-  },
-  {
-    "revision": "485bb751d22c28a3d06e15675ae1b814",
-    "url": "/Exquisite-Foods/static/media/Organic750ml.485bb751.jpeg"
   },
   {
     "revision": "cebeed562b34f12c5435fc6bcc2f7750",
