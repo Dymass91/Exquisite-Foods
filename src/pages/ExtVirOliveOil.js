@@ -1,6 +1,6 @@
 import React from 'react';
 import "../styles/Eco&Ext_Oil.css";
-import extravirgin500ml from '../images/Extravirgin500ml.jpg';
+import extravirgin500ml from '../images/Extravirginoilsmall.jpg';
 import extravirgin750ml from '../images/Organic500ml.jpeg';
 import olej5l from '../images/olej5l.jpg';
 
