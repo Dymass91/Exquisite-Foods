@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "868565c0f2782fcced31598a153a5c57",
+    "revision": "4838fe2bc48d936f659fdc3298434b50",
     "url": "/Exquisite-Foods/index.html"
   },
   {
-    "revision": "a5113d1e81cfd1a1c17f",
+    "revision": "db918fc4ed4677423c7b",
     "url": "/Exquisite-Foods/static/css/main.f002452e.chunk.css"
   },
   {
-    "revision": "da1a848b5c128189b7c8",
-    "url": "/Exquisite-Foods/static/js/2.d566a5d7.chunk.js"
+    "revision": "17fb58ed10eb02e9ecc5",
+    "url": "/Exquisite-Foods/static/js/2.15d5b68a.chunk.js"
   },
   {
-    "revision": "a5113d1e81cfd1a1c17f",
-    "url": "/Exquisite-Foods/static/js/main.e02cdecb.chunk.js"
+    "revision": "db918fc4ed4677423c7b",
+    "url": "/Exquisite-Foods/static/js/main.f0eba397.chunk.js"
   },
   {
     "revision": "9db18fda0b241be75ff7",
@@ -22,10 +22,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "75d642e866d6d53276096e9d222b8284",
     "url": "/Exquisite-Foods/static/media/Botella 250 ml. condimento oiljamon.75d642e8.jpg"
-  },
-  {
-    "revision": "43679b4778b29df9c8c9faf17ef1d9a8",
-    "url": "/Exquisite-Foods/static/media/Extravirgin500ml.43679b47.jpg"
   },
   {
     "revision": "d354758ad85515f36fa1720e0e2739ba",
