@@ -20,18 +20,39 @@ const ExtOlivePage = () => {
                     <img className="oil_Jamon-Logo"
 
                         src={JamonLogo} alt="" />
-                    <strong>Oil&Jamón</strong>  is a new brand, created in January 2017 in Sevilla, Spain. After months of trial, we succeeded to blend, through a traditional process, Iberian ham and extra virgin olive oil, to produce a unique condiment that brings flavor and aroma to our home-made dishes.
+                    <strong>Oil&Jamón</strong> is a newly created brand, January 2017, in Seville, Andalusia (Spain)
 
-                    Our company, <strong>Alimentación</strong> e  <strong>Innovación Jama S.L.</strong> , was born out of our love for traditional cuisine and prime quality raw materials, the basis of our corporate philosophy.
+                    <br></br><br></br>
+After months of testing, and with a natural process ,we merge Iberian Ham and Extra Virgin Olive Oil, originating a unique seasoning that brings flavour and aroma to the dishes made in our kitchen.
+<br></br><br></br>
+The Entity: Food and Innovation Jama S.L. (Oil & Ham)
+<br></br><br></br>
+Our company is born from the love we feel for traditional food, and for the quality of the raw matrials, the main focus of our business philosophy.
 
-                    Our manufacturing process is entirely traditional and respectful of all quality standards applicable. We use exclusively Andalusian goods: Iberian ham from the Sierra de Aracena, in the province of Huelva, and extra virgin olive oil. A month of maceration allows the perfect blend of flavors from these two distinctive products of the Spanish gastronomy.
-                    With our products <strong>Oil&Jamón</strong> come to fruition the two defining concepts of our brand: <strong>Innovation</strong> and <strong>tradition</strong>.
-                    <br></br><br></br>
-                    Our oil <strong>Oil&Jamón</strong> amply deserves its name of condiment, as it blends harmoniously with all sorts of dishes: white and red meats, salted cod and tuna, omelets, vegetables, mushrooms, pasta, lentils, mashed potatoes, etc. Nothing like it to bring out the flavors of canned food or any other dish of our choice.
-                    <br></br><br></br>
-                    With a bottle of 25 cl, we can season more than 100 dishes. Remember that Oil&Jamón isn’t made for cooking, it is added to our dishes to give them a unique flavor.
-                    <br></br><br></br>
-                    Thank you for betting on a healthy and innovative product.
+<br></br><br></br>
+The values of Mediterranean cuisine , and Iberian ham as the main attraction, leads us to feature this in all our products.
+
+<br></br><br></br>
+We want to promote this delicacy ,and reach out to all parts of the world, incorporating it in a varied and creative range of products "Oil & Ham"
+
+
+<br></br><br></br>
+THE CREATION OF OIL & JAMÓN
+The manufacturing process is absolutely traditional, complying with all the quality regulations in its production, using as raw material, Iberian ham from the Sierra de Aracena (Huelva, Andalusia, Spain) and extra virgin olive oil from Andalusia Working for more than 25 days , we managed to unite ,in a natural way , the flavours of these two exceptional products of Iberian gastronomy.
+We can say that without doubt, the Oil & Ham products, embrace the two concepts that define our brand : Innovation and Tradition.
+
+<br></br><br></br>
+OIL & JAMON. THE PRODUCT.
+
+<br></br><br></br>
+Our Extra Virgin Olive Oil confit, with Iberian Ham , we call it a CONDIMENT, because it is so versatile , it can pair with all kinds of product: Poultry, Pork, Beef, Tortillas and scrambled eggs .(add it to the beaten egg mixture ) . Grilled or sautéed vegetables, mushrooms and pasta, lentils to all types of legumes. (adding just a teaspoon to each dish ) Cod or Tuna, all types of seafood. Canned vegetables can be a suprise, as it enriches the flavor. To sum up, everything we eat is enriched by adding OIL & JAMÓN.
+<br></br><br></br>
+With a 250 ml bottle of Oil & Ham. we can flavour up to 112 dishes, just by adding one teaspoon per plate, with a cost per portion of 0.10 € cents.
+
+<br></br><br></br>
+Remember, Oil & Ham is not created for cooking. It is used to flavour previously cooked dishes ,to give a unique flavour.
+<br></br><br></br>
+Thank you for betting on a healthy and innovative product
 
 
                 </div>
