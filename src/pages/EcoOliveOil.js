@@ -1,9 +1,9 @@
 import React from 'react';
 import "../styles/Eco&Ext_Oil.css";
 import olej5l from '../images/olej5l.jpg';
-import Organic250ml from '../images/Organic250ml.jpeg';
-import Organic500ml from '../images/Organic500ml.jpeg';
-import Organic750ml from '../images/Organic750ml.jpeg';
+import Organic250ml from '../images/Extravirginoil 250ml.jpg';
+import Organic500ml from '../images/Extravirginoilsmall.jpg';
+import Organic750ml from '../images/Organic500ml.jpeg';
 
 
 const EcoOlivePage = () => {
