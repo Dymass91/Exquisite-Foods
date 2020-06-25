@@ -29,9 +29,9 @@ app.post('/api/email', (req, res, next) => {
 
     console.log(req.body);
 
-    sendGrid.setApiKey('');
+    sendGrid.setApiKey('sendgrid api key');
     const msg = {
-        to: '',
+        to: 'email here',
         from: req.body.email,
         subject: 'Website Contact',
         text: req.body.message

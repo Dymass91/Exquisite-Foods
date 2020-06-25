@@ -98,7 +98,7 @@ float: left;
 @media (min-width: 390px) and (max-width: 800px){
     .oil_Jamon-Logo
     {
-        margin-top: -1rem;
+        margin-top: 5rem;
         height: 30vh;
 
 
@@ -214,10 +214,10 @@ float: left;
            width: 100%;
            position: relative;
   z-index: 3;
-    margin-top: 2rem;
+    margin-top: -2rem;
     margin-bottom: 2rem;
     font-size: 3.3rem;
-    margin-left: 10rem;
+    margin-left: 6rem;
     color: #98b80a;
     text-shadow: 3px 2px #797805;
   
@@ -248,7 +248,7 @@ float: left;
     {
         min-height: 42vh;
         margin-bottom: 2rem;
-        width: 80%;
+        width: 100%;
         justify-content: space-around;
         padding-bottom: 2rem ;
         display: flex;
@@ -279,10 +279,10 @@ float: left;
         background-color: white;
   position: relative;
 
-  margin-top: 5%;
+
   margin-bottom: 5%;
   font-size: 26px;
-  width: 80%;
+
   text-align:justify;
   color: rgb(48, 73, 20);
   z-index: 2;
@@ -355,7 +355,7 @@ float: left;
         margin-top: -2rem;
       
         transform: translateX(-50%);
-
+      margin-left: 6vw;
         height: 32vh;
         padding-right: 1.5rem;
         padding-bottom: .5rem;

@@ -22,7 +22,9 @@
 .contact h1
 {
     margin-bottom: 4%;
+   
 }
+
 .contact textarea{
     font-size: 16px;
     width: 100%;
@@ -78,7 +80,7 @@
        position: relative;
        background-color: transparent;
        z-index: 2;
-       width: 68.8vw;
+       width: 64vw;
        min-height: 700px;
      flex-direction: column;
        z-index: 2;
@@ -101,6 +103,12 @@
    .contact h1
    {
        margin-bottom: 4%;
+
+   }
+   .contact_h1
+   {
+    margin-left: 6rem;
+    margin-top: 1rem;
    }
    .contact textarea{
        font-size: 16px;
