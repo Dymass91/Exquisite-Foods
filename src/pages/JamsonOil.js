@@ -37,14 +37,15 @@ We want to promote this delicacy ,and reach out to all parts of the world, incor
 
 
 <br></br><br></br>
-THE CREATION OF OIL & JAMÓN
+                    <strong>THE CREATION OF OIL & JAMÓN</strong>
+                    <br></br><br></br>
 The manufacturing process is absolutely traditional, complying with all the quality regulations in its production, using as raw material, Iberian ham from the Sierra de Aracena (Huelva, Andalusia, Spain) and extra virgin olive oil from Andalusia Working for more than 25 days , we managed to unite ,in a natural way , the flavours of these two exceptional products of Iberian gastronomy.
 We can say that without doubt, the Oil & Ham products, embrace the two concepts that define our brand : Innovation and Tradition.
 
 <br></br><br></br>
-OIL & JAMON. THE PRODUCT.
 
-<br></br><br></br>
+                    <strong>OIL & JAMON. THE PRODUCT.</strong>
+                    <br></br><br></br>
 Our Extra Virgin Olive Oil confit, with Iberian Ham , we call it a CONDIMENT, because it is so versatile , it can pair with all kinds of product: Poultry, Pork, Beef, Tortillas and scrambled eggs .(add it to the beaten egg mixture ) . Grilled or sautéed vegetables, mushrooms and pasta, lentils to all types of legumes. (adding just a teaspoon to each dish ) Cod or Tuna, all types of seafood. Canned vegetables can be a suprise, as it enriches the flavor. To sum up, everything we eat is enriched by adding OIL & JAMÓN.
 <br></br><br></br>
 With a 250 ml bottle of Oil & Ham. we can flavour up to 112 dishes, just by adding one teaspoon per plate, with a cost per portion of 0.10 € cents.
