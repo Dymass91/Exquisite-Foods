@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "450970f635cf7f03f847d9681940c788",
+    "revision": "8b3eb42c9bbf7fc77c71513f2b8775e5",
     "url": "/Exquisite-Foods/index.html"
   },
   {
-    "revision": "80e4640f109e844abbfe",
-    "url": "/Exquisite-Foods/static/css/main.f002452e.chunk.css"
+    "revision": "becf7b8dc2b2d3837684",
+    "url": "/Exquisite-Foods/static/css/main.56cac417.chunk.css"
   },
   {
     "revision": "17fb58ed10eb02e9ecc5",
     "url": "/Exquisite-Foods/static/js/2.15d5b68a.chunk.js"
   },
   {
-    "revision": "80e4640f109e844abbfe",
-    "url": "/Exquisite-Foods/static/js/main.14cab8b5.chunk.js"
+    "revision": "becf7b8dc2b2d3837684",
+    "url": "/Exquisite-Foods/static/js/main.ac99cfa9.chunk.js"
   },
   {
     "revision": "9db18fda0b241be75ff7",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Exquisite-Foods/static/media/MainImg8.e5a3af4d.jpg"
   },
   {
-    "revision": "5350b85cb250dd8ad06b487c910aa565",
-    "url": "/Exquisite-Foods/static/media/Organic500ml.5350b85c.jpeg"
+    "revision": "3077a1ab7b6d74f0b8341d6364b7511c",
+    "url": "/Exquisite-Foods/static/media/Organic500ml.3077a1ab.jpeg"
   },
   {
     "revision": "cebeed562b34f12c5435fc6bcc2f7750",
