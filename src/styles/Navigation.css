@@ -1,3 +1,4 @@
+@media (min-width: 768px) {
 nav.main{
     background-color: transparent;
     padding: 0 30px 0px 0;
@@ -55,8 +56,9 @@ nav.main a.active {
     transition: 1.5s;
     
 }
+}
 @media (min-width: 768px) and (max-width: 1024px){
-    /* .JamonLogo
+    .JamonLogo
 {
     height: 2.5vh;
     margin-right: 0.1rem;
@@ -72,7 +74,7 @@ nav.main a {
     margin-bottom: 6px;
     transition: .2s;
     border-radius: 20px;
-}*/
+}
 } 
 
 @media  (max-width: 830px) and (orientation: landscape) 

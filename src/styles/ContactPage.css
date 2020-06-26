@@ -76,17 +76,18 @@
     {
         box-shadow: 0px 0px 0px 0px white;
      display: flex;
-       margin-bottom: 3rem;
+       
        position: relative;
        background-color: transparent;
        z-index: 2;
-       width: 64vw;
+       width: 61.8vw;
        min-height: 700px;
      flex-direction: column;
        z-index: 2;
        border-radius: 7rem;
-       padding-bottom: 4%;
+       
        color: rgb(48, 73, 20);
+       
     }
     .input-email, .input-name
    {
@@ -125,21 +126,21 @@
        display: block;
        float: left;
        margin-left: 10%;
-       border: 2px solid rgb(156, 223, 80);
+       border: 2px solid rgb(93, 139, 40);
        background-color: #fff;
        padding: 10px 20px;
        cursor: pointer;
        font-size: 20px;
        transition: .4s;
        border-radius: 10px;
-       color: rgb(156, 223, 80);
+       color: rgb(93, 139, 40);
        font-weight: bold;
    }
    
    .primary-button:hover {
        color: rgb(255, 255, 255);
-       background-color: rgb(156, 223, 80);
-       border: 2px solid rgb(156, 223, 80);    
+       background-color: rgb(93, 139, 40);
+       border: 2px solid rgb(93, 139, 40);    
    }
    .Contact__Details
    {
@@ -155,7 +156,7 @@
    {
       display: flex;
        font-size: 22px;
-       color: lawngreen;
+       color: rgb(57, 114, 0);
        padding: 0.5rem;
    }
  }

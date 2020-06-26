@@ -65,12 +65,7 @@ header img{
         
     }
 }
-/* @media (max-width: 1500px){
-    header{
-   
-    border-bottom: solid 0.0rem rgb(255, 255, 255);
-    }
-} */
+
 @media  (max-width: 830px) and (orientation: landscape) 
 {
     header{
@@ -97,30 +92,3 @@ header img{
     }
 }
 
-/* @media  (max-width: 1024px) {
-header{
-        margin-top: -3vh;
-        height: 20vh;
-        z-index: 2;
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    background-color: black;
-  
-    ;
-    margin-bottom: -25vh;
-  
-    ;
-    box-shadow: 0 0px 20px 8px black;
-    }
-    header img{
-        
-        position: absolute;
-        left: 50%;
-        transform: translate(-50% , -36.5%);
-        min-width: 100vw;
-        min-height: 100%;
-        height: 46vh;
-        
-    }
-}  */
