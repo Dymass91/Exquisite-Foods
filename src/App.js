@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import '../styles/App.css';
+import './styles/App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 
-import Header from './Header';
-import Page from './Page';
-import Navigation from './Navigation';
-import Footer from './Footer';
-import Logo from './Logo';
-import Navbar from './Navbar';
-import Title from './Title';
+import Header from './layoouts/Header';
+import Page from './layoouts/Page';
+import Navigation from './layoouts/Navigation';
+import Footer from './layoouts/Footer';
+import Logo from './layoouts/Logo';
+import Navbar from './layoouts/Navbar';
+import Title from './layoouts/Title';
 
 
 class App extends Component {
