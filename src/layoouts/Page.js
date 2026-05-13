@@ -22,14 +22,14 @@ const Page = () => {
                 <TransitionGroup>
                     <CSSTransition
                         key={(location.key)}
-                        timeout={450}
+                        timeout={900}
                         classNames="fade"
                     >
                         <div >
                             <Switch location={location} >
                                 <Route path="/" exact component={HomePage} />
                                 <Route path="/HealtBenefits" component={HealthBenefits} />
-                                <Route path="/Contact" component={ContactPage} />
+                                <Route path="/contact" component={ContactPage} />
                                 <Route path="/EcoOlive" component={EcoOlive} />
                                 <Route path="/ExtOlive" component={ExtOlive} />
                                 <Route path="/JamsonOil" component={JamsonOil} />

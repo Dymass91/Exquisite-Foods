@@ -1,135 +1,136 @@
-@import url( "https://fonts.googleapis.com/css2?family=Anton&family=Cabin&family=Ubuntu+Condensed&family=Yanone+Kaffeesatz:wght@700&display=swap"  );
+.footer {
+  background: #111;
+  color: rgba(255, 255, 255, 0.75);
+  margin-top: auto;
+}
 
-@media (min-width: 360px), (max-width: 769px){
-    .footer{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-        z-index: 2;
-        color: white;
-        background: url(../images/zwartevilt.png);
-    }
-    .googleMaps
-{
-    width: 95vw;
-    height: 46vh;
-    margin-top: 1.5rem;
-    
-   border-radius: 1.5rem;
-}
-.Contact__Details-footer
-{
-    font-weight: bold;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    width: 100vw;
-    margin-top: 1.5rem;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    display: flex;
-    font-size: 22px;
-    line-height: 7vh;
-}
-.footer_rights 
-{
-  width: 100%;
-  font-family: 'Ubuntu Condensed', sans-serif;
+.footer__inner {
   display: flex;
-justify-content: center;
-padding: 1rem;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px 30px 40px;
+}
+
+.footer__col {
+  flex: 1 1 200px;
+}
+
+.footer__heading {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+  color: #c8d840;
+  margin-bottom: 18px;
+}
+
+.footer__about p {
+  font-size: 0.88rem;
+  line-height: 1.75;
+  margin-bottom: 12px;
+}
+
+.footer__contact {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.82rem !important;
+  line-height: 1.7 !important;
+}
+
+.footer__links nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__links nav a {
+  font-size: 0.86rem;
+  color: rgba(255, 255, 255, 0.65);
+  text-decoration: none;
+  transition: color 0.2s;
+  letter-spacing: 0.5px;
+}
+
+.footer__links nav a:hover,
+.footer__links nav a.active {
+  color: #c8d840;
+}
+
+.footer__social {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.footer__social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.footer__social a:hover {
+  background: #c8d840;
+  color: #111;
+  border-color: #c8d840;
+}
+
+.footer__search input {
   width: 100%;
+  padding: 10px 16px;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 3px;
+  color: #fff;
+  font-size: 0.82rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
 
-  font-size: 24px;
-}
+.footer__search input::placeholder {
+  color: rgba(255, 255, 255, 0.35);
 }
 
-@media (min-width: 769px){
-.footer{
-  
-    color: rgb(255, 255, 255);
-    width: 100%;
-    
-   
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    z-index: 2;
-    background: url(../images/zwartevilt.png);
+.footer__search input:focus {
+  border-color: #c8d840;
 }
-.googleMaps
-{
-  
-   justify-content: flex-end;
-   align-items: flex-end;
-    width: 45vw;
-   
- position: relative;
- top: 0.8rem;
-   border-radius: 1.5rem;
+
+.footer__map {
+  width: 100%;
 }
-.Contact__Details-footer
-{
-    padding: 2rem;
-    text-align: left;
-    font-weight: bold;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    width: 45vw;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    display: flex;
-    font-size: 30px;
-    line-height: 7vh;
+
+.footer__map iframe {
+  width: 100%;
+  height: 260px;
+  display: block;
+  border: none;
+  opacity: 0.85;
 }
-.footer_rights 
-{
-   
-    font-family: 'Ubuntu Condensed', sans-serif;
-    display: flex;
-  justify-content: flex-start;
-padding-left: 5rem;
-    width: 100%;
-  
-    font-size: 24px;
+
+.footer__bottom {
+  background: #0a0a0a;
+  padding: 16px 30px;
+  text-align: center;
 }
+
+.footer__bottom p {
+  font-size: 0.78rem;
+  color: rgba(255, 255, 255, 0.35);
+  letter-spacing: 0.5px;
 }
-/* @media (min-width: 860px), (max-width: 1024px)
-{
-    .googleMaps
-{
-    width: 50.5vw;
-    height: 51vh;
-    margin-top: 2.5rem;
- 
-   margin-left: 15rem;
-   border-radius: 1.5rem;
+
+@media (max-width: 640px) {
+  .footer__inner {
+    padding: 40px 20px 30px;
+    gap: 30px;
+  }
+
+  .footer__col {
+    flex: 1 1 100%;
+  }
 }
-.footer_rights 
-{
-    text-align: justify;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 37vw;
-    margin-top: 17.5rem;
-    font-size: 24px;
-}
-.Contact__Details-footer
-{
-    text-align: justify;
-    font-weight: bold;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    width: 40vw;
-    margin-top: 5.5rem;
-    margin-left: 1rem;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    font-size: 30px;
-    line-height: 7vh;
-}
-} */

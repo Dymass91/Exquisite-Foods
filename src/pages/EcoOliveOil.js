@@ -1,167 +1,104 @@
 import React from 'react';
-import "../styles/Eco&Ext_Oil.css";
-import olej5l from '../images/olej5l.jpg';
-import Organic250ml from '../images/Extravirginoil 250ml.jpg';
-import Organic500ml from '../images/Extravirginoilsmall.jpg';
-import Organic750ml from '../images/Organic500ml.jpeg';
+import '../styles/SubPages.css';
 
+import img250 from '../images/Extravirginoil 250ml.jpg';
+import img500 from '../images/Extravirginoilsmall.jpg';
+import img750 from '../images/Organic500ml.jpeg';
+import img5l from '../images/olej5l.jpg';
 
-const EcoOlivePage = () => {
-    return (
-        <>
+const products = [
+  {
+    img: img250,
+    name: 'Organic Extra Virgin Olive Oil — 250 ml',
+    prices: [
+      { qty: '1+', amount: '£4.00' },
+      { qty: '15+', amount: '£3.70' },
+      { qty: '100+', amount: '£3.50' },
+      { qty: '200+', amount: '£3.00' },
+      { qty: '500+', amount: '£2.50', best: true },
+    ],
+  },
+  {
+    img: img500,
+    name: 'Organic Extra Virgin Olive Oil — 500 ml',
+    prices: [
+      { qty: '1+', amount: '£6.00' },
+      { qty: '15+', amount: '£5.50' },
+      { qty: '100+', amount: '£5.00' },
+      { qty: '200+', amount: '£4.50' },
+      { qty: '350+', amount: '£4.00' },
+      { qty: '500+', amount: '£3.50', best: true },
+    ],
+  },
+  {
+    img: img750,
+    name: 'Organic Extra Virgin Olive Oil — 750 ml',
+    prices: [
+      { qty: '1+', amount: '£7.00' },
+      { qty: '15+', amount: '£6.50' },
+      { qty: '100+', amount: '£6.00' },
+      { qty: '200+', amount: '£5.50' },
+      { qty: '350+', amount: '£5.00' },
+      { qty: '500+', amount: '£4.50', best: true },
+    ],
+  },
+  {
+    img: img5l,
+    name: 'Organic Extra Virgin Olive Oil — 5 Litres',
+    prices: [
+      { qty: '1+', amount: '£35.00' },
+      { qty: '4+', amount: '£33.00' },
+      { qty: '10+', amount: '£30.00' },
+      { qty: '20+', amount: '£27.00' },
+      { qty: '50+', amount: '£25.00' },
+      { qty: '100+', amount: '£23.00', best: true },
+    ],
+  },
+];
 
-            <div className="oil_products-list">
-                <h1 className="oil_product_list-h1"> Organic olive oil</h1>
-                <div className='OilIntroduce_text'>
+const EcoOlivePage = () => (
+  <div className="subpage">
+    <h1 className="subpage__title">Organic Olive Oil</h1>
+    <div className="subpage__divider"><span>✦</span></div>
 
-                    Organic Extra virgin olive oil is fairly nutritious.
-            <br></br>
-It contains modest amounts of vitamins E and K and plenty of beneficial fatty acids.
-<br></br>
-One tablespoon (13.5 grams) of olive oil contains the following:
-<br></br><br></br>
-                    <strong>Saturated fat:</strong> 14%
-<br></br>
-                    <strong>Monounsaturated fat:</strong> 73% (mostly oleic acid)
-<br></br>
-                    <strong>Vitamin E:</strong> 13% of the Daily Value (DV)
-<br></br>
-                    <strong>Vitamin K:</strong> 7% of the DV
-<br></br>
-                    <br></br>
-Notably, extra virgin olive oil shines in its antioxidant content.
-<br></br><br></br>
-Antioxidants are biologically active, and some of them can help fight serious diseases.
-<br></br>
-The oil’s main antioxidants include the anti-inflammatory oleocanthal, as well as oleuropein, a substance that protects LDL (bad) cholesterol from oxidation.
-<br></br><br></br>
-Also, Chronic inflammation is believed to be among the leading drivers of many diseases, including heart disease, cancer, metabolic syndrome, diabetes, and arthritis.
-<br></br>
-Some speculate that olive oil’s ability to fight inflammation is behind its many health benefits.
-<br></br><br></br>
-Oleic acid, the most prominent fatty acid in olive oil, has been found to reduce inflammatory markers like C-reactive protein.<br></br>
-                    <br></br>
-However, the oil’s main anti-inflammatory effects seem to be due to its antioxidants, primarily oleocanthal, which has been shown to work like ibuprofen, a popular anti-inflammatory drug.
-<br></br>
-Researchers estimate that the amount of oleocanthal in 50 ml (about 3.4 tablespoons) of extra virgin olive oil exerts effects similar to those of 10% of the adult ibuprofen dosage for pain relief.<br></br>
-                    <br></br>
-Also, one study showed that substances in olive oil can reduce the expression of genes and proteins that mediate inflammation.
-<br></br><br></br>
-Keep in mind that chronic, low-level inflammation is usually fairly mild, and it takes years or decades for it to do damage.
-<br></br>
-Using extra virgin olive oil may help prevent this from happening, leading to a reduced risk of various inflammatory diseases, especially heart disease.
+    <div className="subpage__intro">
+      <p>
+        Organic Extra Virgin Olive Oil is one of nature's most nutritious gifts. It contains vitamins E and K
+        alongside powerful antioxidants and beneficial fatty acids — with 73% monounsaturated fat (oleic acid),
+        known for its anti-inflammatory properties.
+        <br /><br />
+        The oil's antioxidants — including oleocanthal and oleuropein — actively fight inflammation and protect
+        LDL cholesterol from oxidation. Researchers have found that oleocanthal works similarly to ibuprofen,
+        making this oil far more than just a cooking ingredient.
+        <br /><br />
+        <strong>Saturated fat: 14% · Monounsaturated fat: 73% · Vitamin E: 13% DV · Vitamin K: 7% DV</strong>
+      </p>
+    </div>
+
+    <div className="subpage__products">
+      {products.map((p, i) => (
+        <div className="product-card" key={i}>
+          <div className="product-card__img-wrap">
+            <img src={p.img} alt={p.name} />
+          </div>
+          <div className="product-card__body">
+            <h2 className="product-card__name">{p.name}</h2>
+            <div className="price-table">
+              <div className="price-table__label">Price per unit</div>
+              {p.prices.map((r, j) => (
+                <div className={`price-row${r.best ? ' price-row--best' : ''}`} key={j}>
+                  <span className="price-row__qty">{r.qty} units</span>
+                  <span className="price-row__amount">{r.amount}</span>
+                </div>
+              ))}
             </div>
+          </div>
+        </div>
+      ))}
+    </div>
 
-                <div className="box">
-                    <div className="imgbox">
-                        <img className="oil-image" src={Organic250ml} alt="" />
-                    </div>
-                    <div className="content">
-                        <h2>FORMAT 250 ml.</h2>
-
-                        <h4>
-                            Price:
-                            <br></br>
-                            1 + x £ 4.00
-                        <br></br>
-15+ x £ 3.70
-<br></br>
-100+ x £ 3.50
-<br></br>
-200+ x £ 3.00
-<br></br>
-500+ x £ 2.50
-                        </h4>
-                    </div>
-
-                </div>
-
-
-                <div className="box">
-                    <div className="imgbox">
-                        <img className="oil-image" src={Organic500ml} alt="" />
-                    </div>
-                    <div className="content">
-                        <h2>FORMAT 500 ml.</h2>
-
-                        <h4>
-                            Price:
-                            <br></br>
-                            1+ x £ 6.00
-                        <br></br>
-15+ x £ 5.50
-<br></br>
-100+ x £ 5.00
-<br></br>
-200+ x £ 4.50
-<br></br>
-350+ x £ 4.00
-<br></br>
-500+ x £ 3.50
-                        </h4>
-
-                    </div>
-
-                </div>
-
-                <div className="box">
-                    <div className="imgbox">
-                        <img className="oil-image" src={Organic750ml} alt="" />
-                    </div>
-                    <div className="content">
-                        <h2>FORMAT 750 ml.</h2>
-
-                        <h4>
-                            Price:
-                            <br></br>
-                            1+ x £ 7.00
-                        <br></br>
-15+ x £ 6.50
-<br></br>
-100+ x £ 6.00
-<br></br>
-200+ x £ 5.50
-<br></br>
-350+ x £ 5.00
-<br></br>
-500+ x £ 4.50
-                        </h4>
-
-                    </div>
-
-                </div>
-
-                <div className="box">
-                    <div className="imgbox">
-                        <img className="oil-image" src={olej5l} alt="" />
-                    </div>
-                    <div className="content">
-                        <h2>FORMAT 5 litres.
-</h2>
-
-                        <h4>
-                            Price:
-                            <br></br>
-                            1+ x £ 35
-                            <br></br>
-                            4+ x £ 33
-                            <br></br>
-                            10+ x £ 30
-                            <br></br>
-                            20+ x £ 27
-                            <br></br>
-                            50+ x £ 25
-                            <br></br>
-                            100+ x £ 23
-                        </h4>
-
-                    </div>
-
-                </div>
-                <h3> *ALL PRICES ARE INCLUSIVE OF VAT</h3>
-            </div>
-        </>
-    );
-}
+    <p className="subpage__vat">* All prices are inclusive of VAT</p>
+  </div>
+);
 
 export default EcoOlivePage;

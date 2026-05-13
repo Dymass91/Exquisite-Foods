@@ -1,123 +1,149 @@
 import React from 'react';
-
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
+import Axios from 'axios';
 import '../styles/ContactPage.css';
 
-import Hero from '../layoouts/Hero';
-import Content from '../layoouts/Content';
-import Axios from 'axios';
-
 class ContactPage extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: '',
+      email: '',
+      message: '',
+      disabled: false,
+      emailSent: null,
+    };
+  }
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            name: '',
-            email: '',
-            message: '',
-            disabled: false,
-            emailSent: null,
-        }
-    }
+  handleChange = (event) => {
+    const { name, value, type, checked } = event.target;
+    this.setState({ [name]: type === 'checkbox' ? checked : value });
+  };
 
+  handleSubmit = (event) => {
+    event.preventDefault();
+    this.setState({ disabled: true });
 
-    handleChange = (event) => {
-        const target = event.target;
-        const value = target.type === 'checkbox' ? target.checked : target.value;
-        const name = target.name;
+    Axios.post('http://localhost:3030/api/email', this.state)
+      .then(res => {
+        this.setState({ disabled: false, emailSent: res.data.success ? true : false });
+      })
+      .catch(() => {
+        this.setState({ disabled: false, emailSent: false });
+      });
+  };
 
-        this.setState({
-            [name]: value
-        })
-    }
+  render() {
+    const { name, email, message, disabled, emailSent } = this.state;
+    return (
+      <div className="contact-page">
 
+        <div className="contact-page__grid">
 
-    handleSubmit = (event) => {
-        event.preventDefault();
+          <div className="contact-page__info">
+            <h1 className="contact-page__title">Get in touch</h1>
+            <div className="contact-page__divider"><span>✦</span></div>
 
-        console.log(event.target);
-
-        this.setState({
-            disabled: true
-        });
-
-        Axios.post('http://localhost:3030/api/email', this.state)
-            .then(res => {
-                if (res.data.success) {
-                    this.setState({
-                        disabled: false,
-                        emailSent: true
-                    });
-                } else {
-                    this.setState({
-                        disabled: false,
-                        emailSent: false
-                    });
-                }
-            })
-            .catch(err => {
-                console.log(err);
-
-                this.setState({
-                    disabled: false,
-                    emailSent: false
-                });
-            })
-
-    }
-
-
-    render() {
-        return (
-            <div className="Container_contact-form">
-                <h1 className="page_h1 contact_h1">Contact</h1>
-                <div className="Contact__Details">
-                    Exquisite foods distributor limited
-                    <br></br>
-                    Company reg.12143850
-                    <br></br>
-                    Mobile contact: 07375081408
-                        <br></br>
-
+            <div className="contact-page__details">
+              <div className="contact-detail">
+                <span className="contact-detail__icon" role="img" aria-label="Company">🏢</span>
+                <div>
+                  <strong>Exquisite Foods Distributor Limited</strong>
+                  <p>Company reg. 12143850</p>
                 </div>
-                <Hero title={this.props.title} />
-
-                <Content>
-                    <Form onSubmit={this.handleSubmit}>
-                        <Form.Group>
-                            <Form.Label className="Contact__Details" htmlFor="full-name">Full Name</Form.Label>
-                            <br></br>
-                            <Form.Control className="input-name" id="full-name" name="name" type="text" value={this.state.name} onChange={this.handleChange} />
-                        </Form.Group>
-
-
-                        <Form.Group>
-                            <Form.Label className="Contact__Details" htmlFor="email">Email</Form.Label>
-                            <br></br>
-                            <Form.Control className="input-email" id="email" name="email" type="email" value={this.state.email} onChange={this.handleChange} />
-                        </Form.Group>
-
-
-                        <Form.Group className="contact textarea">
-                            <Form.Label htmlFor="message" className="Contact__Details">Message</Form.Label>
-                            <Form.Control id="message" name="message" as="textarea" rows="3" value={this.state.message} onChange={this.handleChange} />
-                        </Form.Group>
-
-
-                        <Button className="primary-button" variant="primary" type="submit" disabled={this.state.disabled}>
-                            Send
-                        </Button>
-
-
-                        {this.state.emailSent === true && <p className="Send-message">Email Sent</p>}
-                        {this.state.emailSent === false && <p className="Send-message">Email Not Sent</p>}
-                    </Form>
-                </Content>
+              </div>
+              <div className="contact-detail">
+                <span className="contact-detail__icon" role="img" aria-label="Phone">📞</span>
+                <div>
+                  <strong>Mobile</strong>
+                  <p>07375081408</p>
+                </div>
+              </div>
+              <div className="contact-detail">
+                <span className="contact-detail__icon" role="img" aria-label="Location">📍</span>
+                <div>
+                  <strong>Origin</strong>
+                  <p>Andalusia, Spain</p>
+                </div>
+              </div>
             </div>
-        );
-    }
 
+            <div className="contact-page__map">
+              <iframe
+                title="Exquisite Foods location"
+                frameBorder="0"
+                src="https://www.google.com/maps/embed/v1/place?q=36.880606,-5.408098&key=AIzaSyBj7ZA7DO2_mnpYz3SYZEeqAC56E9b7uyk"
+              />
+            </div>
+          </div>
+
+          <div className="contact-page__form-wrap">
+            <h2 className="contact-page__form-title">Send a message</h2>
+            <form className="contact-form" onSubmit={this.handleSubmit}>
+
+              <div className="contact-form__field">
+                <label htmlFor="contact-name">Full Name</label>
+                <input
+                  id="contact-name"
+                  type="text"
+                  name="name"
+                  value={name}
+                  onChange={this.handleChange}
+                  placeholder="Your full name"
+                  required
+                />
+              </div>
+
+              <div className="contact-form__field">
+                <label htmlFor="contact-email">Email address</label>
+                <input
+                  id="contact-email"
+                  type="email"
+                  name="email"
+                  value={email}
+                  onChange={this.handleChange}
+                  placeholder="your@email.com"
+                  required
+                />
+              </div>
+
+              <div className="contact-form__field">
+                <label htmlFor="contact-message">Message</label>
+                <textarea
+                  id="contact-message"
+                  name="message"
+                  value={message}
+                  onChange={this.handleChange}
+                  rows="6"
+                  placeholder="How can we help you?"
+                  required
+                />
+              </div>
+
+              <button
+                type="submit"
+                disabled={disabled}
+                className={`contact-form__submit${disabled ? ' loading' : ''}`}
+              >
+                {disabled ? 'Sending…' : 'Send Message'}
+              </button>
+
+              {emailSent === true && (
+                <p className="contact-form__status contact-form__status--ok">
+                  ✓ Your message has been sent. We will be in touch shortly.
+                </p>
+              )}
+              {emailSent === false && (
+                <p className="contact-form__status contact-form__status--err">
+                  ✗ Something went wrong. Please try again or call us directly.
+                </p>
+              )}
+            </form>
+          </div>
+
+        </div>
+      </div>
+    );
+  }
 }
 
 export default ContactPage;

@@ -1,244 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Just+Another+Hand&family=Lobster&family=Patrick+Hand&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Dancing+Script:wght@600;700&family=Raleway:wght@300;400;500;600&family=Pacifico&display=swap');
 
-.fade-appear,
-  .fade-enter {
-      opacity: 0;
-      z-index: 1;
-  }
-  .fade-appear-active,
-  .fade-enter.fade-enter-active {
-      opacity: 1;
-      transition: opacity 300ms linear 150ms;
-  }
-  
-  .fade-exit {
-      opacity: 1;
-  }
-  
-  .fade-exit.fade-exit-active {
-      opacity: 0;
-      transition: opacity 150ms linear;
-  }
-
-@media (min-width: 360px), (max-width: 769px){
-  body
-  {
-    
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-  }
-  .container {
-    margin-top: 5vh;
-    width: 100vw;
-    padding: 1rem;
-    min-height: 800px;
-    max-width: 1100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    
-    flex-direction: row;
-    margin-bottom: 0rem;
-    position: relative;
-    background-color: white;
-  
-    z-index: 2;
-   
-}
-h1
-{
-  font-family: 'Satisfy', cursive;
-  position: relative;
-  
-    margin-top: 4rem;
-    margin-bottom: 1.5rem;
-    font-size: 1.9rem;
-    display: flex;
-    justify-content: center;
-   
-    text-shadow: 2px 0px #797805;
-    color: #98b80a;
-}
-.h1-mobile
-{
-  display: none;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-
-}
-@media (min-width: 769px){
-  body
-  {
-    display: block;
-  }
-  .container
-{
-  
-    min-height: 850px;
-    max-width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 6rem;
-    flex-direction: row;
-    
-    position: relative;
-    background-color: white;
-    border: 5px solid #9f232a;
-    border-bottom: 5px solid #9f232a;
-    border-right: 0;
-    z-index: 2;
-    border-radius: 7rem 0rem 0rem 0rem;
-}
-
-  .page_h1
-{
-  text-shadow: 3px 2px #797805;
-  position: relative;
-  z-index: 3;
-    margin-top: -3rem;
-    margin-bottom: 3rem;
-    font-size: 3.3rem;
-    margin-left: 3rem;
-    color: #98b80a;
-    display: flex;
-    justify-content: flex-start;
-}
-
-}
-div.App {
+.App {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background: #fafaf7;
+}
+
+.main-content {
+  flex: 1;
   width: 100%;
-  margin: 0 auto;
-  background-color: rgb(255, 255, 255);
-  color: #000000;
 }
 
-main{
-  display: flex;
-  flex-grow: 1;
- 
-  
-  background-color: rgb(255, 255, 255);
-  
-  z-index: 1;
+/* Fade transition — tylko podstrony (nie home) */
+.fade-enter .subpage,
+.fade-enter .benefits-page,
+.fade-enter .contact-page {
+  opacity: 0;
 }
 
-
-aside{
-  z-index: 1;
- width: 350px;
- 
- 
-}
-aside ul 
-{
-  width: 350px;
-  padding: 1.5rem  2rem  1rem 0  ;
-  padding-left: 2rem;
-  background-color: #98b80a;
-  /* background: linear-gradient( 90deg ,#82ce2c,#9de24e); */
-  border-bottom: #9f232a solid 0.8rem;
-  
+.fade-enter-active .subpage,
+.fade-enter-active .benefits-page,
+.fade-enter-active .contact-page {
+  opacity: 1;
+  transition: opacity 900ms ease;
 }
 
-section.Page{
-  
-  overflow:hidden;
-  flex-grow: 1;
-  background-color: rgb(255, 255, 255);
-}
-section.Page:before{
-  content: '';
-  position: absolute;
-  top: 0;
-left: 0;
-width: 100%;
-height: 110%;
-
-background-color: #98b80a;
-  /* background: linear-gradient( 45deg ,#5ec201,#95ff80); */
+.fade-exit .subpage,
+.fade-exit .benefits-page,
+.fade-exit .contact-page {
+  opacity: 1;
 }
 
-
-@media(max-width: 768px){
-   
-  aside{
-      display: none;
-  }
-}
-@media(min-width: 750px) and (max-width: 790px){
-  .container
-  {
-    margin-top: -3vh;
-  }
-}
-@media (min-width: 768px) and (max-width: 1024px){
-   
-section.Page:before{
-  content: '';
-  position: absolute;
-  top: 0;
-left: 0;
-width: 100%;
-height: 70%;
-
-background-color: #98b80a;
-  /* background: linear-gradient( 45deg ,#5ec201,#95ff80); */
-}
-aside{
-  z-index: 1;
- width: 300px;
- 
- 
-}
-aside ul 
-{
-  width: 300px;
-  padding: 1.5rem  2rem  1rem 0  ;
-  padding-left: 2rem;
-  background-color: #98b80a;
-  /* background: linear-gradient( 90deg ,#82ce2c,#9de24e); */
-  border-bottom: #9f232a solid 0.8rem;
-  
-}
-}
-@media  (max-width: 830px) and (orientation: landscape) 
-{
-  .page_h1
-  {
-  
-      font-size: 2.5rem;
-     
-  }
-  section.Page:before{
-    content: '';
-    position: absolute;
-    top: 0;
-  left: 0;
-  width: 100%;
-  height: 140%;
-  
-  background-color: #98b80a;
-    /* background: linear-gradient( 45deg ,#5ec201,#95ff80); */
-  }
-  aside{
-    z-index: 1;
-   width: 280px;
-   
-   
-  }
-  aside ul 
-  {
-    width: 280px;
-    padding: 1.5rem  2rem  1rem 0  ;
-    padding-left: 2rem;
-    background-color: #98b80a;
-    /* background: linear-gradient( 90deg ,#82ce2c,#9de24e); */
-    border-bottom: #9f232a solid 0.8rem;
-    
-  }
+.fade-exit-active .subpage,
+.fade-exit-active .benefits-page,
+.fade-exit-active .contact-page {
+  opacity: 0;
+  transition: opacity 900ms ease;
 }

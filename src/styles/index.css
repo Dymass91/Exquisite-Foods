@@ -1,165 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Gloria+Hallelujah&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Dancing+Script:wght@600;700&family=Raleway:wght@300;400;500;600&family=Pacifico&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 html {
-  font-family: 'Raleway', sans-serif;
- 
-  font-size: 20px;
-}
-@media (min-width: 360px), (max-width: 769px){
-  .HeaderLogo
-{
-  padding-top: .9rem;
-    display: block;
-    left: 50%;
- transform: translateX(-50%);
-    width: 67vw;
-    z-index: 2;
-    position: relative;
-    overflow: hidden;
-  
+  font-size: 16px;
 }
 
-  .homePage
-{
-  
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  position: relative;
-  background-color: white;
-  
-  z-index: 2;
-  max-width: 1100px;
-
+body {
+  font-family: 'Raleway', 'Segoe UI', sans-serif;
+  color: #333;
+  background: #fafaf7;
+  -webkit-font-smoothing: antialiased;
 }
 
-  .homePage p 
-{
-  font-family: 'Raleway', sans-serif;
-  background-color: white;
-  position: relative;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  font-size: 18px;
-  width: 100%;
- left: 50%;
- transform: translateX(-50%);
- text-align: justify;
-  color: rgb(48, 73, 20);
-  z-index: 2;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-.olives2
-{
-  
-  width: 100%;
-shape-outside: circle(50%);
-border-radius: 31%;
-padding: 0.5rem;
-}
-.townimg
-{ 
-  width: 100%;
-  padding: 0.5rem;
-}
-}
-@media (min-width: 769px){
-  .HeaderLogo
-  {
-      display: none;
-  }
-  .home-page_h1
-  {
-    display: block;
-    margin-top: 3rem;
-  }
-.homePage
-{
- 
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  position: relative;
-  background-color: white;
-  
-  z-index: 2;
-  max-width: 1100px;
-  border-radius: 7rem;
-  box-shadow: 0px 0px 0px 0px;
-}
-
-.homePage p 
-{
-  background-color: white;
-  position: relative;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  font-size: 26px;
- 
-  text-align: justify;
-  color: rgb(48, 73, 20);
-  z-index: 2;
-}
-
-.homePage p span
-{
-  color: rgb(0, 0, 0);
-  font-size: 36px;
-  font-weight: bold;
-  margin-left: 10px;
-}
-.townimg
-{
-  padding: 0;
-  position: relative;
-  width: 450px;
-  height: 300px;
-  float: right;
-  shape-outside: margin-box;
-  margin: 40px 0px 0px 30px;
-  box-shadow: 0px 0px 10px 2px rgb(43, 43, 43);
-  z-index: 2;
-}
-
-.olives2
-{
-  position: relative;
-  width: 450px;
-  height: 300px;
-  float: left;
-  shape-outside: circle(50%);
-  border-radius: 31%;
-  margin: 45px 30px 30px 0px;
- /* box-shadow: 0px 0px 10px 2px rgb(43, 43, 43); */
-}
-}
-
-@media (min-width: 770px) and (max-width: 1024px){
-  .townimg
-  {
-    padding: 0;
-    position: relative;
-    width: 350px;
-    height: 200px;
-    float: right;
-    shape-outside: margin-box;
-    margin: 30px 0px 0px 30px;
-    box-shadow: 0px 0px 10px 2px rgb(43, 43, 43);
-    z-index: 2;
-  }
-  .olives2
-{
-  position: relative;
-  width: 350px;
-  height: 200px;
-  float: left;
-  shape-outside: circle(50%);
-  border-radius: 31%;
-  margin: 45px 30px 30px 0px;
- /* box-shadow: 0px 0px 10px 2px rgb(43, 43, 43); */
-}
+img {
+  max-width: 100%;
 }
