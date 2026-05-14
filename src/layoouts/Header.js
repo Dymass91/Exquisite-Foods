@@ -17,6 +17,7 @@ const slides = {
   jamon:    { img: img1, title: 'Oil & Jamón',           sub: 'A true Iberian experience\nhandcrafted with passion' },
   contact:  { img: img3, title: 'Contact Us',            sub: 'We would love to hear\nfrom you' },
   benefits: { img: img4, title: 'Health Benefits',       sub: 'The gift of nature\'s finest\nfor your wellbeing' },
+  checkout: { img: img2, title: 'Checkout',              sub: 'Secure order\nsummary & payment' },
   fallback: { img: img1, title: 'Exquisite Foods',       sub: '' },
 };
 
@@ -42,6 +43,7 @@ const Header = () => (
             <Route path="/JamsonOil"        render={() => <HeroSlide {...slides.jamon} />} />
             <Route path="/contact"          render={() => <HeroSlide {...slides.contact} />} />
             <Route path="/HealtBenefits"    render={() => <HeroSlide {...slides.benefits} />} />
+            <Route path="/checkout"         render={() => <HeroSlide {...slides.checkout} />} />
             <Route                          render={() => <HeroSlide {...slides.fallback} />} />
           </Switch>
         </CSSTransition>

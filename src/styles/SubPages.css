@@ -177,6 +177,26 @@
   color: #9f232a;
 }
 
+/* ── Add to Cart button ── */
+.add-to-cart-btn {
+  align-self: flex-start;
+  margin-top: 8px;
+  padding: 10px 22px;
+  background: #c8d840;
+  color: #111;
+  border: none;
+  border-radius: 3px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+.add-to-cart-btn:hover  { background: #b5c438; }
+.add-to-cart-btn:active { transform: scale(0.98); }
+
 /* ── VAT note ── */
 .subpage__vat {
   font-family: 'Cinzel', serif;

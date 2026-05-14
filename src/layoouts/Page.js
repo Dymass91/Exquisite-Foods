@@ -8,6 +8,7 @@ import ErrorPage from '../pages/ErrorPage';
 import EcoOlive from '../pages/EcoOliveOil';
 import ExtOlive from '../pages/ExtVirOliveOil';
 import JamsonOil from '../pages/JamsonOil';
+import CheckoutPage from '../pages/CheckoutPage';
 
 import {
     CSSTransition,
@@ -33,6 +34,7 @@ const Page = () => {
                                 <Route path="/EcoOlive" component={EcoOlive} />
                                 <Route path="/ExtOlive" component={ExtOlive} />
                                 <Route path="/JamsonOil" component={JamsonOil} />
+                                <Route path="/checkout" component={CheckoutPage} />
                                 <Route path="/" component={ErrorPage} />
                             </Switch>
                         </div>
