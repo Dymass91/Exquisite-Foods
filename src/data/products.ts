@@ -2,9 +2,9 @@ import img250 from '../images/Extravirginoil 250ml.jpg';
 import imgSmall from '../images/Extravirginoilsmall.jpg';
 import img750 from '../images/Organic500ml.jpeg';
 import img5l from '../images/olej5l.jpg';
-import imgMarmelada from '../Jamon Files/Imagen Crema Dulce  Mermelada 100 gr.jpg';
-import imgBottle99 from '../Jamon Files/Imagen botella 99 ml.jpg';
-import imgBottle250 from '../Jamon Files/Botella 250 ml. condimento oiljamon.jpg';
+import imgMarmelada from '../images/jamon-jar.jpg';
+import imgBottle99 from '../images/jamon-100ml.jpg';
+import imgBottle250 from '../images/jamon-250ml.jpg';
 
 export type Category = 'eco' | 'ext' | 'jamon';
 export interface PriceTier { min: number; price: number }
@@ -43,7 +43,7 @@ export const products: Product[] = [
     priceTiers: [{ min: 1, price: 6 }, { min: 15, price: 5.5 }, { min: 100, price: 5 }, { min: 200, price: 4.5 }, { min: 350, price: 4 }, { min: 500, price: 3.7 }] },
   { id: 'extra-virgin-5l', name: E, size: '5 Litres', category: 'ext', image: img5l,
     priceTiers: [{ min: 1, price: 30 }, { min: 4, price: 28 }, { min: 10, price: 25 }, { min: 20, price: 23 }, { min: 50, price: 21 }, { min: 100, price: 19 }] },
-  { id: 'jamon-mermelada', name: 'Iberian Ham Mermelade', size: '220 g', category: 'jamon', image: imgMarmelada,
+  { id: 'jamon-mermelada', name: 'Iberian Ham Marmalade', size: '220 g', category: 'jamon', image: imgMarmelada,
     priceTiers: [{ min: 1, price: 5.5 }, { min: 15, price: 4.9 }] },
   { id: 'jamon-oil-100ml', name: 'Iberian Ham Extra Virgin Olive Oil', size: '100 ml', category: 'jamon', image: imgBottle99,
     priceTiers: [{ min: 1, price: 3.6 }, { min: 12, price: 3 }] },
@@ -52,3 +52,48 @@ export const products: Product[] = [
 ];
 
 export const productById = (id: string) => products.find((p) => p.id === id)!;
+
+export const isLarge = (p: Product) => p.size.includes('Litre');
+export const unitLabel = (p: Product) => (p.category === 'jamon' ? 'each' : isLarge(p) ? 'per container' : 'per bottle');
+
+export interface CategoryCopy {
+  label: string;
+  path: string;
+  origin: string;
+  tasting: string;
+  pairing: string;
+  blurb: string;
+  storage: string;
+}
+
+export const categoryCopy: Record<Category, CategoryCopy> = {
+  eco: {
+    label: 'Organic Olive Oil',
+    path: '/organic',
+    origin: 'Sierra de Cádiz, Andalucía',
+    tasting: 'Creamy and green, with ripe fruit, a soft bitterness and a warm, peppery finish.',
+    pairing: 'Bread and tomato, roasted vegetables, soft cheeses, grilled fish.',
+    blurb: 'Certified organic extra virgin olive oil from hand-picked Lechín and Manzanilla olives, grown without synthetic fertiliser or herbicides and extracted by mechanical means only.',
+    storage: 'Keep in a cool, dark cupboard, away from direct heat and light. Best enjoyed within a year of opening.',
+  },
+  ext: {
+    label: 'Extra Virgin Olive Oil',
+    path: '/extra-virgin',
+    origin: 'Andalucía, Spain',
+    tasting: 'Fresh-cut grass and green almond, a gentle bitterness and a clean peppery finish.',
+    pairing: 'Salads, tomato toast, slow-roasted vegetables, fish and everyday cooking.',
+    blurb: 'A generous, everyday extra virgin olive oil from Andalusian groves — cold extracted, unfiltered in character and made to be used freely in the kitchen.',
+    storage: 'Keep in a cool, dark cupboard, away from direct heat and light. Reseal after use.',
+  },
+  jamon: {
+    label: 'Oil & Jamón',
+    path: '/oil-jamon',
+    origin: 'Made in Mairena del Aljarafe, Seville',
+    tasting: 'The savoury, nutty depth of Iberian ham carried on a smooth extra virgin olive oil.',
+    pairing: 'Fried eggs, potatoes, tomato on toast, pasta, grilled vegetables and cheese.',
+    blurb: 'Extra virgin olive oil flavoured with Iberian ham — a single bottle that seasons, dresses and finishes.',
+    storage: 'Store in a cool place away from light. Refrigerate the cream after opening.',
+  },
+};
+
+export const productsIn = (c: Category) => products.filter((p) => p.category === c);

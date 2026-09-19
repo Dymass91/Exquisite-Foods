@@ -14,7 +14,7 @@ import hillsImg from '../images/header2.jpg';
 import oilBowlImg from '../images/olive-oil-head.jpg';
 import bottlesImg from '../images/MainImg6.jpg';
 import bowlOliveImg from '../images/MainImg7.jpg';
-import jamonImg from '../Jamon Files/Imagen  vertical Oil&Jamon con logo.jpg';
+import jamonImg from '../images/jamon-range.jpg';
 import bottleImg from '../images/Extravirginoilsmall.jpg';
 
 const ease = [0.22, 1, 0.36, 1] as const;

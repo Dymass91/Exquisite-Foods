@@ -26,6 +26,8 @@ export default function Header() {
   const [menu, setMenu] = useState(false);
   const { totalItems, open } = useCart();
   const { pathname } = useLocation();
+  const solid = pathname.startsWith('/checkout');
+  const shopActive = /^\/(organic|extra-virgin|product)/.test(pathname);
 
   useEffect(() => {
     const on = () => setScrolled(window.scrollY > 40);
@@ -42,7 +44,7 @@ export default function Header() {
   return (
     <>
       <header
-        className={`site-header${scrolled && !menu ? ' is-solid' : ''}`}
+        className={`site-header${(scrolled || solid) && !menu ? ' is-solid' : ''}`}
         style={{ zIndex: menu ? 70 : undefined }}
       >
         <div className="wrap">
@@ -50,11 +52,12 @@ export default function Header() {
 
           <nav className="nav-desktop" aria-label="Primary">
             <div className="nav-item">
-              <Link to="/extra-virgin" className="nav-link" aria-haspopup="true">Shop</Link>
-              <div className="dropdown">
+              <Link to="/extra-virgin" className="nav-link" aria-haspopup="true" aria-current={shopActive ? "page" : undefined}>Shop</Link>
+              <div className="dropdown"><div className="dropdown-panel">
                 {shop.map((s) => (
                   <Link key={s.to} to={s.to}>{s.label}<ArrowUpRight size={16} aria-hidden="true" /></Link>
                 ))}
+                </div>
               </div>
             </div>
             {links.map((l) => (

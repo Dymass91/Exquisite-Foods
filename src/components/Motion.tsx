@@ -1,5 +1,5 @@
 import { useRef, type ElementType, type ReactNode } from 'react';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion, useInView, useScroll, useTransform } from 'framer-motion';
 
 const ease = [0.22, 1, 0.36, 1] as const;
 
@@ -7,14 +7,16 @@ const ease = [0.22, 1, 0.36, 1] as const;
 export function Lines({
   lines, as: Tag = 'h2', className = '', delay = 0,
 }: { lines: ReactNode[]; as?: ElementType; className?: string; delay?: number }) {
+  // Observe the heading itself: the translated spans are clipped by their masks and would never intersect.
+  const ref = useRef<HTMLElement>(null);
+  const shown = useInView(ref, { once: true, margin: '-8% 0px' });
   return (
-    <Tag className={className}>
+    <Tag className={className} ref={ref}>
       {lines.map((line, i) => (
         <span className="line-mask" key={i}>
           <motion.span
             initial={{ y: '112%' }}
-            whileInView={{ y: 0 }}
-            viewport={{ once: true, margin: '-8% 0px' }}
+            animate={{ y: shown ? 0 : '112%' }}
             transition={{ duration: 1.15, ease, delay: delay + i * 0.12 }}
           >
             {line}
@@ -47,7 +49,9 @@ export function ParallaxImage({
 }: { src: string; alt: string; className?: string; strength?: number; eager?: boolean; position?: string }) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start end', 'end start'] });
-  const y = useTransform(scrollYProgress, [0, 1], [`-${strength}%`, `${strength}%`]);
+  // translate % is relative to the image's own height, so scale it to stay inside the overscan
+  const t = (strength * 100) / (100 + strength * 2);
+  const y = useTransform(scrollYProgress, [0, 1], [`-${t}%`, `${t}%`]);
   return (
     <motion.div
       ref={ref}
