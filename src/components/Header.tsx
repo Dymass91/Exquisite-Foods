@@ -33,7 +33,7 @@ export default function Header() {
     window.addEventListener('scroll', on, { passive: true });
     return () => window.removeEventListener('scroll', on);
   }, []);
-  useEffect(() => setMenu(false), [pathname]);
+  useEffect(() => { setMenu(false); }, [pathname]);
   useEffect(() => {
     document.body.classList.toggle('no-scroll', menu);
     return () => document.body.classList.remove('no-scroll');
