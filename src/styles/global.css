@@ -183,7 +183,7 @@ ul, ol { list-style: none; }
 .hero-sub { display: flex; align-items: flex-end; justify-content: space-between; gap: 40px; margin-top: clamp(28px, 5vh, 56px); flex-wrap: wrap; }
 .hero-sub .lead { max-width: 26em; opacity: .9; }
 .hero-ctas { display: flex; gap: 14px; flex-wrap: wrap; }
-.scroll-cue { position: absolute; right: var(--gutter); bottom: clamp(28px, 4vh, 48px); z-index: 3; writing-mode: vertical-rl; font-size: .66rem; letter-spacing: .3em; text-transform: uppercase; display: flex; align-items: center; gap: 14px; opacity: .8; }
+.scroll-cue { position: absolute; right: var(--gutter); bottom: clamp(150px, 22vh, 220px); z-index: 3; writing-mode: vertical-rl; font-size: .66rem; letter-spacing: .3em; text-transform: uppercase; display: flex; align-items: center; gap: 14px; opacity: .8; }
 .scroll-cue span { width: 1px; height: 64px; background: rgba(243, 239, 230, .3); position: relative; overflow: hidden; }
 .scroll-cue span::after { content: ''; position: absolute; inset: 0; background: var(--gold-soft); animation: cue 2.4s var(--ease) infinite; }
 @keyframes cue { 0% { transform: translateY(-100%); } 60%, 100% { transform: translateY(100%); } }
